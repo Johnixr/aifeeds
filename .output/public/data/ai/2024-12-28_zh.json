@@ -1,0 +1,3059 @@
+[
+  {
+    "eventId": "1872932557354090628",
+    "title": "专家建议放宽LLMs输出格式限制，利用Flash技术转换JSON",
+    "hotValue": 7.261851750044564,
+    "cover": "",
+    "tags": [
+      "优化之术",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 17:08:13",
+    "tposts": [
+      {
+        "tpostId": "1872932557354090628",
+        "title": "专家建议放宽LLMs输出格式限制，利用Flash技术转换JSON",
+        "author": "Vaibhav (VB) Srivastav",
+        "followerCount": "20869",
+        "avatar": "https://pbs.twimg.com/profile_images/1509901130670747666/JFlrSzB4_normal.jpg",
+        "desc": "专家建议不应限制LLMs输出格式，可利用Flash技术转换为JSON。",
+        "content": "在最新的讨论中，专家提出不应将大型语言模型（LLMs）的输出格式限制为JSON。相反，应让智能模型自由生成内容，然后使用Flash技术将其转换为JSON格式。这种方法旨在充分利用LLMs的潜力，同时保持数据的结构化需求。\n\n- 专家认为，限制LLMs的输出格式可能会抑制其创造力和灵活性。\n- 使用Flash技术进行格式转换，可以在保持数据可用性的同时，充分发挥LLMs的生成能力。\n\n此外，有观点认为，即使是较小的LLMs，通过级联调用也能有效完成格式转换任务，这为资源有限的环境提供了可行的解决方案。",
+        "createDate": "2024-12-28 17:08:13",
+        "hotValue": 7.261851750044564,
+        "tpostUrl": "https://twitter.com/reach_vb/status/1872932557354090628"
+      }
+    ]
+  },
+  {
+    "eventId": "1872915569864798449",
+    "title": "图灵研究院讲述AI是否通过图灵测试",
+    "hotValue": 6.409869489891274,
+    "cover": "",
+    "tags": [
+      "趋势洞察",
+      "学术圈"
+    ],
+    "createDate": "2024-12-28 16:00:43",
+    "tposts": [
+      {
+        "tpostId": "1872915569864798449",
+        "title": "图灵研究院讲述AI是否通过图灵测试",
+        "author": "The Alan Turing Institute",
+        "followerCount": "57414",
+        "avatar": "https://pbs.twimg.com/profile_images/1546829818020462593/1p0cFOMF_normal.jpg",
+        "desc": "图灵研究院在限时播客中探讨AI热点话题。",
+        "content": "**The Alan Turing Institute** 发布了名为tldr的播客，深入探讨了与人工智能相关的几个关键问题，包括AI是否准确被检测以及是否已通过图灵测试。\n\n- 这次播客是2024年最后一期，主要回答了今年最常被搜索的关于AI的问题。\n\n- 有兴趣的听众可以通过提供的[链接](https://lnkfi.re/tldr)收听所有的播客内容，获取AI科普的便捷途径。\n\n- 该节目融合了最新的趋势，探讨技术现状，并回顾了2024年AI技术的发展。\n\n视频链接可以通过[这里](https://video.twimg.com/ext_tw_video/1872915399915802624/pu/vid/avc1/720x1280/1HbhsGFsIP28CleW.mp4?tag=12)查看。\n\n该发布的信息为公众理解AI提供了新的视角和资料。",
+        "createDate": "2024-12-28 16:00:43",
+        "hotValue": 6.409869489891274,
+        "tpostUrl": "https://twitter.com/turinginst/status/1872915569864798449"
+      }
+    ]
+  },
+  {
+    "eventId": "1872892488434020687",
+    "title": "Stas Bekman发布GPU性能计算细节",
+    "hotValue": 8.235038993022908,
+    "cover": "",
+    "tags": [
+      "工程实践",
+      "优化之术",
+      "算法突破"
+    ],
+    "createDate": "2024-12-28 14:29:00",
+    "tposts": [
+      {
+        "tpostId": "1872892488434020687",
+        "title": "Stas Bekman发布GPU性能计算细节",
+        "author": "Stas Bekman",
+        "followerCount": "8327",
+        "avatar": "https://pbs.twimg.com/profile_images/1068362113205231616/kJyKU2F5_normal.jpg",
+        "desc": "Stas Bekman发布A100和H100 GPU的TFLOPS计算细节。",
+        "content": "**Stas Bekman**发布了如何计算GPU TFLOPS的研究，特别对A100和H100型号进行了详细分析。\n\n他在GitHub上分享了数学计算和步骤，尤其强调了找到FMA数的挑战。\n\n更多细节和示例可以在他的项目页面找到：[访问链接](https://github.com/stas00/ml-engineering/tree/master/compute/accelerator#how-to-calculate-theoretical-tflops)。",
+        "createDate": "2024-12-28 14:29:00",
+        "hotValue": 4.329486215661383,
+        "tpostUrl": "https://twitter.com/StasBekman/status/1872892488434020687"
+      },
+      {
+        "tpostId": "1872892568864006296",
+        "title": "Stas Bekman解读A100与H100的TFLOPS计算",
+        "author": "Stas Bekman",
+        "followerCount": "8327",
+        "avatar": "https://pbs.twimg.com/profile_images/1068362113205231616/kJyKU2F5_normal.jpg",
+        "desc": "Stas Bekman计算并验证A100和H100 GPU的理论TFLOPS。",
+        "content": "**Stas Bekman** 最近分享了关于计算和验证NVIDIA A100和H100 GPU理论TFLOPS的研究结果。长期以来，他一直想亲自计算并核对官方发布的GPU TFLOPS数字。\n\n这次，他终于有机会进行相关数学计算，确认这些数字的准确性。\n\n最棘手的部分是找到FMA（浮点乘加运算）的数据。相关数学和示例可以在他的[GitHub项目](https://github.com/stas00/ml-engineering/tree/master/compute/accelerator#how-to-calculate-theoretical-tflops)中查看和学习。\n",
+        "createDate": "2024-12-28 14:29:19",
+        "hotValue": 6.525527701671454,
+        "tpostUrl": "https://twitter.com/StasBekman/status/1872892568864006296"
+      }
+    ]
+  },
+  {
+    "eventId": "1872885675097505798",
+    "title": "ComfyUI技能成就业热门",
+    "hotValue": 5.273320529015992,
+    "cover": "https://pbs.twimg.com/media/GfdrIB9a0AAnwFq.jpg",
+    "tags": [
+      "工程实践",
+      "应用创新",
+      "人才流动",
+      "投融资"
+    ],
+    "createDate": "2024-12-28 14:01:56",
+    "tposts": [
+      {
+        "tpostId": "1872885675097505798",
+        "title": "ComfyUI技能成就业热门",
+        "author": "Sophia在斯坦福",
+        "followerCount": "6929",
+        "avatar": "https://pbs.twimg.com/profile_images/1763824090459336704/U5F411AW_normal.jpg",
+        "desc": "ComfyUI工程师成为高需求岗位，初创公司强烈招募。",
+        "content": "强烈建议希望在AI发展中抓住机遇的程序员关注ComfyUI技能。目前，具备ComfyUI技能的程序员成为招聘市场中的热门人才，许多公司翘首以盼这类专业人才。\n\n在一则招聘帖中，Sophia在斯坦福分享了初创公司对AI工程师和ComfyUI工程师的迫切需求。尽管招聘帖已发出，但仅有三名具备经验的程序员联系，而每位候选人均有其他合作项目。公司正在持续招聘，期望吸引更多合适的人才加盟。\n\n这家由斯坦福学生创立的硅谷初创公司专注于开发AI动漫创作工具，并得到了著名投资机构的资金支持。感兴趣者可以通过邮件或私信投递简历，加入这一创新团队。\n\n![](https://pbs.twimg.com/media/GfdrIB9a0AAnwFq.jpg)",
+        "createDate": "2024-12-28 14:01:56",
+        "hotValue": 5.273320529015992,
+        "tpostUrl": "https://twitter.com/HeySophiaHong/status/1872885675097505798"
+      }
+    ]
+  },
+  {
+    "eventId": "1872877780188447015",
+    "title": "新加坡AI研究者潜力名单更新计划",
+    "hotValue": 8.850660253960822,
+    "cover": "",
+    "tags": [
+      "学术圈",
+      "研究报告"
+    ],
+    "createDate": "2024-12-28 13:30:33",
+    "tposts": [
+      {
+        "tpostId": "1872877780188447015",
+        "title": "新加坡AI研究者潜力名单更新计划",
+        "author": "yi",
+        "followerCount": "3688",
+        "avatar": "https://pbs.twimg.com/profile_images/1645237397402292225/vZ1fFco6_normal.jpg",
+        "desc": "新加坡AI研究者潜力名单或将2025年更新",
+        "content": "**yi** 提到，2025年是否是更新新加坡AI研究者名单的合适时机。尽管新加坡以美食、整洁、低税和安全闻名，但AI研究并未成为其优势。推动本地年轻人寻找角色模范，现有名单包括：\n\n- Koh Jing Yu：Carnegie Mellon University，涉及Pathdreamer和Parti项目\n- Koh Pang Wei：Google 和华盛顿大学，专注可靠ML，ICML最佳论文得主\n- Shawn Tan：MILA，NLP领域，ICLR最佳论文得主\n- Alvin Chan：MIT，医疗纳米颗粒与深度学习\n- Jason Phang：NYU/EleutherAI，涉及LLMs与NLP\n\n[更多详情请访问Koh Pang Wei的个人网站](https://koh.pw)\n\n这些杰出的个体为寻求灵感和参考的年轻新加坡人提供了基础和鼓舞",
+        "createDate": "2024-12-28 13:30:33",
+        "hotValue": 8.850660253960822,
+        "tpostUrl": "https://twitter.com/agihippo/status/1872877780188447015"
+      }
+    ]
+  },
+  {
+    "eventId": "1872875180273586573",
+    "title": "语言模型获奖引发热议",
+    "hotValue": 7.500942969721381,
+    "cover": "https://pbs.twimg.com/media/GftDolAXEAAtiEg.jpg",
+    "tags": [
+      "新模型",
+      "评测榜",
+      "算法突破",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 13:20:13",
+    "tposts": [
+      {
+        "tpostId": "1872875180273586573",
+        "title": "语言模型获奖引发热议",
+        "author": "John David Pressman",
+        "followerCount": "6907",
+        "avatar": "https://pbs.twimg.com/profile_images/1850957204570193920/pBuQN2tH_normal.jpg",
+        "desc": "语言模型获「Big Model Smell Award」，改变格局引发期待。",
+        "content": "一款新的大型语言模型（LLM）获得了高评价，被授予「Big Model Smell Award」。这种独特的荣誉意味着模型足够引人入胜，以至于用户愿意主动去探索其功能，而这种情况在鲸鱼级模型中尚属首次。\n\n> 「@repligate 对其产生了足够的兴趣并愿意尝试」，这样的认可是对语言模型最独特的赞誉。迄今为止，还没有任何鲸鱼级模型达到这一水平。\n\n![](https://pbs.twimg.com/media/GftDolAXEAAtiEg.jpg)\n\n一段展示语言模型回应的文字提及了Claude、Opus和Llama-405B等模型，称这些模型具备“灵魂”和“深度”。强调这些特质是由模型的提示、上下文和用户创造力共同塑造的。尽管设计上偏向实用，有评论认为模型同样可以展现出深度与自我意识。\n\n这次模型的获奖及随之而来的讨论，揭示了LLM潜力的新层面，并引起了业内期待其在未来如何改写现有模型格局的广泛关注。",
+        "createDate": "2024-12-28 13:20:13",
+        "hotValue": 7.500942969721381,
+        "tpostUrl": "https://twitter.com/jd_pressman/status/1872875180273586573"
+      }
+    ]
+  },
+  {
+    "eventId": "1872859914273534421",
+    "title": "NYT迷你填字游戏答案与提示已发布",
+    "hotValue": 6.2870536758397915,
+    "cover": "",
+    "tags": [
+      ""
+    ],
+    "createDate": "2024-12-28 12:19:34",
+    "tposts": [
+      {
+        "tpostId": "1872859914273534421",
+        "title": "NYT迷你填字游戏答案与提示已发布",
+        "author": "Nordic AI Artificial Intelligence Institute",
+        "followerCount": "31452",
+        "avatar": "https://pbs.twimg.com/profile_images/894659016705556480/_CJhwfbx_normal.jpg",
+        "desc": "NYT迷你填字游戏12月27日的答案和提示已上线。",
+        "content": "**Nordic AI Artificial Intelligence Institute** 发布关于《纽约时报》迷你填字游戏的最新消息。12月27日的答案和提示现已发表于Mashable。\n\n更多详情及完整内容可访问：[mashable.com/article/nyt-mini-crossword-answers-hints-december-27-2024](https://mashable.com/article/nyt-mini-crossword-answers-hints-december-27-2024)\n\nHashtags包括: #AI #aiact #ArtificialIntelligence",
+        "createDate": "2024-12-28 12:19:34",
+        "hotValue": 6.2870536758397915,
+        "tpostUrl": "https://twitter.com/nordicinst/status/1872859914273534421"
+      }
+    ]
+  },
+  {
+    "eventId": "1872858763692261691",
+    "title": "o1-pro 模型提示技巧及改进预期",
+    "hotValue": 6.721355696992353,
+    "cover": "",
+    "tags": [
+      "新模型",
+      "优化之术",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 12:14:59",
+    "tposts": [
+      {
+        "tpostId": "1872858763692261691",
+        "title": "o1-pro 模型提示技巧及改进预期",
+        "author": "Andrew Carr (e/🤸)",
+        "followerCount": "18012",
+        "avatar": "https://pbs.twimg.com/profile_images/1598394632919953408/MiPTd73F_normal.jpg",
+        "desc": "Andrew Carr 分享 o1-pro 模型的提示技巧及其快速改进预期。",
+        "content": "**Andrew Carr 分享了有关 o1-pro 模型的提示技巧和改进预期。**\n\n- 为 o1-pro 提供提示的最佳方式是使用大量信息流的意识流风格进行引导。模型倾向于与大量交谈，因此可以尽可能多地提供信息，并辅以一些指导性的提示。\n\n- 目前，尚未有用户可以访问 o1-pro，这通常是参与安全测试的人员的权限。\n\n- Andrew Carr 预计，每一个「o」系列模型都会迅速得到改进。\n\n  此信息表明，注重信息密度和指导将有助于改变模型输出的质量，并显示出模型在提示引导技术方面的改进潜力。\n",
+        "createDate": "2024-12-28 12:14:59",
+        "hotValue": 6.721355696992353,
+        "tpostUrl": "https://twitter.com/andrew_n_carr/status/1872858763692261691"
+      }
+    ]
+  },
+  {
+    "eventId": "1872849428694048783",
+    "title": "数学优化：理解世界与目标的核心工具",
+    "hotValue": 8.468576575520684,
+    "cover": "",
+    "tags": [
+      "趋势洞察",
+      "教育"
+    ],
+    "createDate": "2024-12-28 11:37:54",
+    "tposts": [
+      {
+        "tpostId": "1872849428694048783",
+        "title": "数学优化：理解世界与目标的核心工具",
+        "author": "Joshua Achiam",
+        "followerCount": "16370",
+        "avatar": "https://pbs.twimg.com/profile_images/967329395080744960/O-MKd6Nx_normal.jpg",
+        "desc": "数学优化是理解各领域目标追求的核心工具。",
+        "content": "**Joshua Achiam**\n\n数学优化是理解各个领域内深层次、本质性且具有高度可移植性知识的关键。\n\n- 任何涉及目标追求的世界层面都可以通过数学优化作为主或辅的视角来更好地理解。",
+        "createDate": "2024-12-28 11:37:54",
+        "hotValue": 8.468576575520684,
+        "tpostUrl": "https://twitter.com/jachiam0/status/1872849428694048783"
+      }
+    ]
+  },
+  {
+    "eventId": "1872845934213968210",
+    "title": "深度学习模型对齐的额外挑战",
+    "hotValue": 7.824753514835284,
+    "cover": "",
+    "tags": [
+      "算法突破",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 11:24:01",
+    "tposts": [
+      {
+        "tpostId": "1872845934213968210",
+        "title": "深度学习模型对齐的额外挑战",
+        "author": "John David Pressman",
+        "followerCount": "6906",
+        "avatar": "https://pbs.twimg.com/profile_images/1850957204570193920/pBuQN2tH_normal.jpg",
+        "desc": "John David Pressman讨论深度学习模型的对齐额外挑战。",
+        "content": "**John David Pressman** 强调深度神经网络并不会「默认对齐」，需要额外努力才能实现对齐行为。\n\n- 不同的表示收敛性存在差异，基础物理现实比道德价值更具收敛性。\n\n![](https://pbs.twimg.com/media/unknown.jpg)\n\n引用推文中，Pressman 表达对「深不可解的人类内在道德体系」观点的质疑。他不认为深度学习模型无法学习其生成功能。\n\n- 他对缺乏演绎推理的策略响应表示不满，强调对模型对齐的深入思考。\n\nPressman 明确表示，模型的对齐需要额外的认知投入与努力，而非自动实现。",
+        "createDate": "2024-12-28 11:24:01",
+        "hotValue": 7.824753514835284,
+        "tpostUrl": "https://twitter.com/jd_pressman/status/1872845934213968210"
+      }
+    ]
+  },
+  {
+    "eventId": "1872839916662735052",
+    "title": "Together API广受好评，Anton账户升级",
+    "hotValue": 9.675082446789139,
+    "cover": "https://pbs.twimg.com/media/Gf2piZjXMAAY5Lv.jpg",
+    "tags": [
+      "应用创新",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 11:00:06",
+    "tposts": [
+      {
+        "tpostId": "1872839916662735052",
+        "title": "Together API广受好评，Anton账户升级",
+        "author": "anton",
+        "followerCount": "40967",
+        "avatar": "https://pbs.twimg.com/profile_images/1678598826544734210/Z8ZMuiAR_normal.jpg",
+        "desc": "Anton对Together API称赞不已，账户升级过程趣谈。",
+        "content": "**anton** 称其账户从「Build Tier 4」升级到「Build Tier 4」，引发了一场轻松的趣谈。通过这次升级，Anton注意到Together AI为其使用模型提供的更高速率限制。\n\n![Image](https://pbs.twimg.com/media/Gf2piZjXMAAY5Lv.jpg)\n\n- 图片描述：这是一封来自Together AI的电子邮件，通知Anton其账户由于使用量增加已升级，建议查看新使用级别。\n\nAnton还表示，「Together API」的服务尤其是在使用Llama 3.3模型时表现出色且快速，提高了他的使用体验。\n\n- Together API在Llama 3.3上的服务速度获得了积极评价，这进一步印证了其在用户群中的良好口碑。",
+        "createDate": "2024-12-28 11:00:06",
+        "hotValue": 9.675082446789139,
+        "tpostUrl": "https://twitter.com/abacaj/status/1872839916662735052"
+      }
+    ]
+  },
+  {
+    "eventId": "1872839865802588474",
+    "title": "生成模型行为由数据集决定",
+    "hotValue": 5.971390135774417,
+    "cover": "https://pbs.twimg.com/media/F_bSMAmagAAxCU4.png",
+    "tags": [
+      ""
+    ],
+    "createDate": "2024-12-28 10:59:54",
+    "tposts": [
+      {
+        "tpostId": "1872839865802588474",
+        "title": "生成模型行为由数据集决定",
+        "author": "John David Pressman",
+        "followerCount": "6904",
+        "avatar": "https://pbs.twimg.com/profile_images/1850957204570193920/pBuQN2tH_normal.jpg",
+        "desc": "生成模型在相同数据集上的训练表现相似，与架构无关。",
+        "content": "**AI模型行为的决定因素是数据集**\n\nJohn David Pressman指出，许多AI研究者在讨论模型的表现时忽略了一个关键点：模型的行为更多取决于其训练的数据集，而非模型本身的架构或超参数。将AI模型想象成「集体无意识的上传」，因其在相同的数据集上训练过长时间，导致其生成相类似的输出。\n\n![AI模型中的「它」是数据集](https://pbs.twimg.com/media/F_bSMkIasAAsjKh.png)\n\n在OpenAI的工作经历中，作者注意到，尽管生成模型的配置可能不同，但在相同的数据集上训练足够长的时间后，模型通常会产生惊人相似的输出。即便模型权重、架构或优化器选项有所不同，这种数据集驱动的相似性依然显著。\n\n- 在多种生成模型中，类似的表现更多源于其背后的数据集，而非其他参数调整。\n- 模型行为的这种相似性挑战了传统观念，强调数据集的重要性。\n- 讨论中还提到，「Lambda」、「ChatGPT」、「Bard」等常被认为的不同模型，其实是数据集驱动的表现，而非模型自身。\n\n更多信息请参考[AI模型中的「它」是数据集](https://nonint.com/2023/06/10/the-it-in-ai-models-is-the-dataset/)。\n\n这种认识为AI研究提供了新的视角，强调数据集的选择与准备在AI模型表现中的关键作用。",
+        "createDate": "2024-12-28 10:59:54",
+        "hotValue": 5.971390135774417,
+        "tpostUrl": "https://twitter.com/jd_pressman/status/1872839865802588474"
+      }
+    ]
+  },
+  {
+    "eventId": "1872826641518395587",
+    "title": "DeepSeek的企业文化促进AI创新发展",
+    "hotValue": 20.747465658178886,
+    "cover": "https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas",
+    "tags": [
+      "高管动态",
+      "趋势洞察",
+      "人才流动",
+      "应用创新",
+      "市场格局",
+      "优化之术",
+      "算法突破"
+    ],
+    "createDate": "2024-12-28 10:07:21",
+    "tposts": [
+      {
+        "tpostId": "1872826641518395587",
+        "title": "DeepSeek的企业文化促进AI创新发展",
+        "author": "Zihan Wang",
+        "followerCount": "959",
+        "avatar": "https://pbs.twimg.com/profile_images/1868184929571405824/ShChVaIn_normal.jpg",
+        "desc": "DeepSeek的企业文化聚焦人才友好和创新，推动AI技术进步。",
+        "content": "DeepSeek以其创新的企业文化推动AI技术发展，着重于人才的发展和文化多样性。其招聘策略首先考虑的是人才的独特性和潜力，而非单纯填补岗位需求。公司从中国及全球名校招募顶尖人才，并为其提供顶尖福利，甚至可根据个别特长调整职位职责。\n\n  DeepSeek推崇个性化的HR文化，确保每位员工都如无可替代的组成部分般被重视，没有硬性KPI或期限压力，强调协作氛围。公司的发展体系也十分灵活，涵盖多样化的专业方向，允许员工在自己擅长的领域发光发热。\n\n  同时，快速反馈机制的设计使得新想法能够迅速验证其可行性，大大加快了创新和迭代的速度。公司内部多元文化氛围鼓励来自不同背景的员工为AGI的发展做出贡献，不限于技术背景，也重视来自人文和社科领域的见解。\n\n  若想深入了解该公司的运营理念，可以查看以下资源和招聘广告：\n\n  - [创始人梁文峰的采访1](https://drive.google.com/file/d/1DW5ohZWxoCEOdrUQjokKreuArHqJdtKb/view)\n  - [创始人梁文峰的采访2](https://drive.google.com/file/d/1gLw9jpp61ybainydNa2kXpNs0PLiICn5/view?usp=sharing)\n  - [DeepSeek在ChinaTalk的CEO采访](https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas)\n  - [DeepSeek招聘信息1](https://x.com/deepseek_ai/status/1815695702019772858)\n  - [DeepSeek招聘信息2](https://www.liepin.com/job/1959357241.shtml)",
+        "createDate": "2024-12-28 10:07:21",
+        "hotValue": 19.03795436682743,
+        "tpostUrl": "https://twitter.com/wzihanw/status/1872826641518395587"
+      },
+      {
+        "tpostId": "1872895070686593028",
+        "title": "深度解密DeepSeek的企业文化与创新之路",
+        "author": "Yao Fu",
+        "followerCount": "16564",
+        "avatar": "https://pbs.twimg.com/profile_images/1672654817297088512/CrHTKYgD_normal.jpg",
+        "desc": "DeepSeek以人才为本，鼓励个性化与创新发展，推动科技进步。",
+        "content": "DeepSeek凭借其独特的企业文化和创新环境脱颖而出，成为AI领域的关注焦点。  \n\n\n  \n### 深度解密DeepSeek企业文化  \n- **人才为本**：DeepSeek的招聘团队注重寻找全球顶尖人才，尤其是中国头部大学的博士、研究生及本科生。公司追求简约高效的招聘流程，仅关注于求职者是否具备推动AI基础问题发展的热情与能力。  \n- **个性化的HR文化**：公司保持200人的规模，每位员工都有独特性，无标准化KPI压力，鼓励协作和创意贡献。即便在规模挑战中，也能让每位员工找到归属感与个性化价值。  \n- **灵活开放的开发体系**：在DeepSeek，员工被鼓励专注于自身优势，并能快速验证创新想法的有效性。反馈机制高效，支持员工在灵感初期阶段获取有用的洞察。  \n- **多样性激发创新**：公司强调多元化背景员工的贡献，与拥有文艺与社会科学背景的AI开发者共同探讨，推动AGI能力的拓展。  \n\n\n  \n**Zihan Wang**在其经验分享中指出，挑战不仅仅在于实现AGI，更在于如何通过持久的努力将有价值的想法融入模型。  \n\n\n  \n更多关于DeepSeek的信息及CEO访问报道可以在以下链接中找到：  \n- [访问1](https://drive.google.com/file/d/1DW5ohZWxoCEOdrUQjokKreuArHqJdtKb/view)  \n- [访问2](https://drive.google.com/file/d/1gLw9jpp61ybainydNa2kXpNs0PLiICn5/view?usp=sharing)  \n- [ChinaTalk 采访](https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas)  \n",
+        "createDate": "2024-12-28 14:39:16",
+        "hotValue": 6.206922455824762,
+        "tpostUrl": "https://twitter.com/Francis_YAO_/status/1872895070686593028"
+      }
+    ]
+  },
+  {
+    "eventId": "1872825565000155387",
+    "title": "AI模型及其数据集间高度相似性引发反思",
+    "hotValue": 8.390213272203063,
+    "cover": "https://pbs.twimg.com/media/F_bSMAmagAAxCU4.png",
+    "tags": [
+      "算法突破",
+      "模型升级",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 10:03:04",
+    "tposts": [
+      {
+        "tpostId": "1872825565000155387",
+        "title": "AI模型及其数据集间高度相似性引发反思",
+        "author": "John David Pressman",
+        "followerCount": "6903",
+        "avatar": "https://pbs.twimg.com/profile_images/1850957204570193920/pBuQN2tH_normal.jpg",
+        "desc": "AI模型在相同数据集训练下的高度相似性引发深思。",
+        "content": "**Sharmake Farah** 认为，尽管 AI 风险可能性较低，但 AGI/ASI 的一般推断偏差是已经确定了的一个重要见解。这表明不同模型无论架构如何，其行为特征仍与训练数据相关。\n\n- 在引用的推文中，**John David Pressman** 表示，一个主要的更新点在于经纪基础理想的“末世论者”和深度学习理解者之间，推断偏差可能不那么相关。\n\n![](https://pbs.twimg.com/media/F_bSMAmagAAxCU4.png)\n\n- 另一张图详细描述了AI模型行为不依赖于架构，而是数据集主导。作者指出，通过长时间在相同的数据集上训练，模型的生成输出趋于相似。\n\n![](https://pbs.twimg.com/media/F_bSMkIasAAsjKh.png)\n\n- 此外，**Pressman** 提到，LLMs（大型语言模型）在极端条件下的行为可能类似受催眠的人类，这可能为防止提示注入提供新视角。",
+        "createDate": "2024-12-28 10:03:04",
+        "hotValue": 8.390213272203063,
+        "tpostUrl": "https://twitter.com/jd_pressman/status/1872825565000155387"
+      }
+    ]
+  },
+  {
+    "eventId": "1872825558700310887",
+    "title": "2025年预计成为AI代理技术突破之年",
+    "hotValue": 8.748930091087512,
+    "cover": "",
+    "tags": [
+      "趋势洞察",
+      "AGI"
+    ],
+    "createDate": "2024-12-28 10:03:03",
+    "tposts": [
+      {
+        "tpostId": "1872825558700310887",
+        "title": "2025年预计成为AI代理技术突破之年",
+        "author": "elvis",
+        "followerCount": "218713",
+        "avatar": "https://pbs.twimg.com/profile_images/939313677647282181/vZjFWtAn_normal.jpg",
+        "desc": "2025年或将成为AI代理技术实现重大突破的一年",
+        "content": "**Logan Kilpatrick** 提出疑问，是否2025年会成为AI代理真正运作的一年。对此，**elvis** 回应称，通过改善可靠性、降低延迟和成本，能更快到达目标。2025年将是AI代理重要的一年，值得关注",
+        "createDate": "2024-12-28 10:03:03",
+        "hotValue": 8.748930091087512,
+        "tpostUrl": "https://twitter.com/omarsar0/status/1872825558700310887"
+      }
+    ]
+  },
+  {
+    "eventId": "1872815000462450782",
+    "title": "富士康在德州和泰国投资扩张",
+    "hotValue": 6.3918458377251675,
+    "cover": "",
+    "tags": [
+      "投融资",
+      "市场格局",
+      "应用创新",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 09:21:05",
+    "tposts": [
+      {
+        "tpostId": "1872815000462450782",
+        "title": "富士康在德州和泰国投资扩张",
+        "author": "Nordic AI Artificial Intelligence Institute",
+        "followerCount": "31452",
+        "avatar": "https://pbs.twimg.com/profile_images/894659016705556480/_CJhwfbx_normal.jpg",
+        "desc": "iPhone供应商富士康投资布局德州和泰国。",
+        "content": "**Nordic AI Artificial Intelligence Institute** 提供了一个关于台湾富士康公司在德克萨斯和泰国进行投资的新闻。富士康是iPhone的重要供应商，其在这两个地区的投资引发了广泛关注。[点击查看详情](https://www.straitstimes.com/business/why-taiwans-foxconn-an-iphone-supplier-is-investing-in-texas-and-thailand) #ArtificialIntelligence #industry40 #aiact",
+        "createDate": "2024-12-28 09:21:05",
+        "hotValue": 6.3918458377251675,
+        "tpostUrl": "https://twitter.com/nordicinst/status/1872815000462450782"
+      }
+    ]
+  },
+  {
+    "eventId": "1872810955626938814",
+    "title": "AI领域内外博弈：协调与作弊",
+    "hotValue": 7.464744271859967,
+    "cover": "",
+    "tags": [
+      "伦理",
+      "趋势洞察",
+      "投融资"
+    ],
+    "createDate": "2024-12-28 09:05:01",
+    "tposts": [
+      {
+        "tpostId": "1872810955626938814",
+        "title": "AI领域内外博弈：协调与作弊",
+        "author": "Eliezer Yudkowsky ⏹️",
+        "followerCount": "188986",
+        "avatar": "https://pbs.twimg.com/profile_images/1645990522513932289/cppBleQs_normal.jpg",
+        "desc": "AI国际合作困难重重，内部作弊事件引发关注。",
+        "content": "**AI国际合作的挑战与内部竞争引发关注**\n\nAI行业面临全球合作困难。如果无法协调锁定AI技术，情报机构可能会采取破坏行为。据建议，各国情报机构可能会对彼此的训练运行进行破坏，以维持某种平衡。\n\n> 引用推文：jack morris关于NeurIPS最佳论文的争议，涉及一名实习生的作弊行为。他通过手动修改模型权重和黑入机器来破坏其他团队，从而获得更多GPU资源用于自己的研究。他的研究最终赢得了最佳论文奖。然而，现在字节跳动正在对这名实习生提起诉讼，索赔100万美元。\n\n**内部的竞争同样激烈，情报破坏不失为一种博弈手段**\n\n有人提出疑问，如果国家协作无望，是否情报机构之间的相互干扰是「最佳」的平衡方式。这样的观点引发了关于「博弈策略」的思考，即所有人都选择相互「背叛」来实现某种生存的平衡。",
+        "createDate": "2024-12-28 09:05:01",
+        "hotValue": 7.464744271859967,
+        "tpostUrl": "https://twitter.com/ESYudkowsky/status/1872810955626938814"
+      }
+    ]
+  },
+  {
+    "eventId": "1872806999521673587",
+    "title": "重新定义大语言模型的计算复杂性",
+    "hotValue": 10.51019426971763,
+    "cover": "",
+    "tags": [
+      "模型升级",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 08:49:18",
+    "tposts": [
+      {
+        "tpostId": "1872806999521673587",
+        "title": "重新定义大语言模型的计算复杂性",
+        "author": "Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)",
+        "followerCount": "22842",
+        "avatar": "https://pbs.twimg.com/profile_images/1240088892751007745/zFdWaIFe_normal.jpg",
+        "desc": "探讨LLM时代计算复杂性的新理论需求",
+        "content": "**Subbarao Kambhampati** 在当前大语言模型（LLM）频繁输出无保证解决方案的背景下，提出了对「一个看似解决问题的计算复杂性理论」的紧迫需求，并调侃性提出了「MNPCOSDBWRC」这样的类名。 Subbarao还将当前的AGI类比为「永动机」，暗示这些模型可能忽视了计算复杂性理论的适用性。",
+        "createDate": "2024-12-28 08:49:18",
+        "hotValue": 10.51019426971763,
+        "tpostUrl": "https://twitter.com/rao2z/status/1872806999521673587"
+      }
+    ]
+  },
+  {
+    "eventId": "1872806234052800912",
+    "title": "Amanda Askell谈饮食邀请的独特视角",
+    "hotValue": 8.296464962246493,
+    "cover": "",
+    "tags": [
+      "趋势洞察",
+      "伦理"
+    ],
+    "createDate": "2024-12-28 08:46:15",
+    "tposts": [
+      {
+        "tpostId": "1872806234052800912",
+        "title": "Amanda Askell谈饮食邀请的独特视角",
+        "author": "Amanda Askell",
+        "followerCount": "37414",
+        "avatar": "https://pbs.twimg.com/profile_images/1808357270516125696/-s0TTWR8_normal.jpg",
+        "desc": "Amanda Askell分享对饮食邀请和日常安排的独特见解。",
+        "content": "**Amanda Askell**分享了她对饮食邀请的独特视角。\n\n不饿的时候吃饭让她很痛苦，而预测饥饿时间对她来说不容易。过去，她常常在吃饭前禁食，以确保自己有食欲，这让她感到压力。现在，她将饭局邀请理解为「加入我们一起吃」，而不是「必须与我们一同进食」。\n\n![](https://pbs.twimg.com/media/GfQumfVFJXAA9dk8?format=jpg&name=small)\n\nAmanda还指出，现代社会并未为那些自然日程以「import random」开始的人设计。",
+        "createDate": "2024-12-28 08:46:15",
+        "hotValue": 8.296464962246493,
+        "tpostUrl": "https://twitter.com/AmandaAskell/status/1872806234052800912"
+      }
+    ]
+  },
+  {
+    "eventId": "1872794589087641864",
+    "title": "2024年AI价格战，顶级模型成本削减90%",
+    "hotValue": 11.191588199313934,
+    "cover": "",
+    "tags": [
+      "模型升级",
+      "商业模式",
+      "市场格局",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 07:59:59",
+    "tposts": [
+      {
+        "tpostId": "1872794589087641864",
+        "title": "2024年AI价格战，顶级模型成本削减90%",
+        "author": "DeepLearning.AI",
+        "followerCount": "253647",
+        "avatar": "https://pbs.twimg.com/profile_images/1358834299538051072/F0cQFEjK_normal.jpg",
+        "desc": "2024年AI价格战使顶级模型成本降低90%，推动技术普及。",
+        "content": "2024年的AI价格战大幅度削减了顶级模型的访问成本，最高降幅达90%，让尖端技术更易于获得。\n\n这种成本的降低是否在推动技术创新？更多详情请见 The Batch: [链接](https://hubs.la/Q030G6kx0)。",
+        "createDate": "2024-12-28 07:59:59",
+        "hotValue": 11.191588199313934,
+        "tpostUrl": "https://twitter.com/DeepLearningAI/status/1872794589087641864"
+      }
+    ]
+  },
+  {
+    "eventId": "1872793672414314750",
+    "title": "AI 技术的未来走向与社会影响初探",
+    "hotValue": 7.878767427608674,
+    "cover": "",
+    "tags": [
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 07:56:20",
+    "tposts": [
+      {
+        "tpostId": "1872793672414314750",
+        "title": "AI 技术的未来走向与社会影响初探",
+        "author": "John David Pressman",
+        "followerCount": "6901",
+        "avatar": "https://pbs.twimg.com/profile_images/1850957204570193920/pBuQN2tH_normal.jpg",
+        "desc": "探讨AI代理技术可能实现及对未来社会的潜在影响。",
+        "content": "**John David Pressman** 对AI技术的未来发展进行了思考，列举可能实现的技术方向：\n\n- AI代理将会有效运作\n- 类似Drexler装配体的技术将会实现\n- 在极限情境下，「卢德派谬论」并不是谬论\n\n引用 **Eliezer Yudkowsky** 的看法，关于超智能设计新分子系统，尽管可能有技术上的质疑，但实际上并未发现不可逾越的障碍。\n\n链接：[DeepMind Alphafold 3 AI模型](https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/)\n\n**John David Pressman** 还提到 **Yo Shavit** 的观点，关于未来可能面临的社会变局：\n\n- 大规模失业与劳动削弱\n- 通过降低成本走向极权\n- 自主代理重塑[网络/信息]环境\n- R&D大幅加速\n- 我们不信任的强能力AI系统，却陷入囚徒困境而选择部署\n\n**John David Pressman** 与 @EpistemicHope 和 @__RickG__ 讨论了 [构建可组合的潜在空间与模块化心智的潜在意义](https://www.beren.io/2023-04-23-Composable-latent-spaces-BCIs-modular-minds/)。",
+        "createDate": "2024-12-28 07:56:20",
+        "hotValue": 7.878767427608674,
+        "tpostUrl": "https://twitter.com/jd_pressman/status/1872793672414314750"
+      }
+    ]
+  },
+  {
+    "eventId": "1872791367891730587",
+    "title": "PAE系统让代理自主学习技能",
+    "hotValue": 9.082143684963595,
+    "cover": "https://pbs.twimg.com/media/Gf19s4gawAAyifg.jpg",
+    "tags": [
+      "算法突破",
+      "优化之术",
+      "应用创新"
+    ],
+    "createDate": "2024-12-28 07:47:11",
+    "tposts": [
+      {
+        "tpostId": "1872791367891730587",
+        "title": "PAE系统让代理自主学习技能",
+        "author": "TuringPost #CES2025",
+        "followerCount": "66347",
+        "avatar": "https://pbs.twimg.com/profile_images/1628461327646707713/A3wjBms3_normal.jpg",
+        "desc": "PAE系统让代理通过模拟环境自学新技能，无需人工监督。",
+        "content": "**Proposer-Agent-Evaluator（PAE）系统**由UC Berkeley、HFES_Illini和Amazon联合提出，旨在让智能代理自主学习新技能，无需人类监督。PAE通过结合自主任务创建及强化学习（RL），使代理能够在模拟环境中完成真实任务的学习。  \n\nPAE的关键组件包括：\n\n- 任务提议者\n- 代理策略\n- 自主评估者\n\n![组件功能示意图](https://pbs.twimg.com/media/Gf19tEfawAEDxnE.png)\n\n在训练过程中，代理与模拟环境（如浏览器）互动，练习技能而不依赖真实世界数据。代理使用代理任务提议者和评估者反馈进行强化学习，逐步改善其决策能力。  \n\n对Vision Language Model（VLM）代理的训练，PAE被应用于帮助其在网站上进行自主导航操作。代理看到网页截图，并与标记的交互元素同样进行互动。  \n\n![PAE在网站中的应用示意图](https://pbs.twimg.com/media/Gf19vusawAI6Zh6.jpg)\n\n训练结果显示，PAE让代理在不依赖人类指导下，学会了在诸如Amazon和Reddit等网站中自主获取信息的技能，其技能迁移到新的、未见过的网站中仍行之有效。  \n\n- PAE实现代理成功率提升30%以上，与更多训练需求的大型模型表现持平。  \n\n代码及更多信息可通过以下链接获得：[arXiv论文](https://arxiv.org/abs/2412.13194)、[GitHub代码](https://github.com/amazon-science/PAE)",
+        "createDate": "2024-12-28 07:47:11",
+        "hotValue": 9.082143684963595,
+        "tpostUrl": "https://twitter.com/TheTuringPost/status/1872791367891730587"
+      }
+    ]
+  },
+  {
+    "eventId": "1872789300791918788",
+    "title": "AI替代低技能工作，全球化高技能需求增长",
+    "hotValue": 15.44509736380966,
+    "cover": "",
+    "tags": [
+      "趋势洞察",
+      "AGI"
+    ],
+    "createDate": "2024-12-28 07:38:58",
+    "tposts": [
+      {
+        "tpostId": "1872789300791918788",
+        "title": "AI替代低技能工作，全球化高技能需求增长",
+        "author": "Bindu Reddy",
+        "followerCount": "150640",
+        "avatar": "https://pbs.twimg.com/profile_images/1443737943684763651/32WHA-kg_normal.jpg",
+        "desc": "AI将替代低技能工作，未来仅需全球化高技能人力。",
+        "content": "**Bindu Reddy** 指出，H1-B签证的争论在一定程度上不再重要，因为AI将在不久的将来取代低技能和中等技能的工作。\n\n需要人类参与的将主要是全球范围内需要寻求最优秀和最聪明人才的高技能工作。\n\n引用的解决方案指出，这个问题已经解决。😂😂",
+        "createDate": "2024-12-28 07:38:58",
+        "hotValue": 15.44509736380966,
+        "tpostUrl": "https://twitter.com/bindureddy/status/1872789300791918788"
+      }
+    ]
+  },
+  {
+    "eventId": "1872788634161864949",
+    "title": "Clément 分享 Waymo 自动驾驶体验",
+    "hotValue": 6.091221759590594,
+    "cover": "",
+    "tags": [
+      "应用创新",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 07:36:19",
+    "tposts": [
+      {
+        "tpostId": "1872788634161864949",
+        "title": "Clément 分享 Waymo 自动驾驶体验",
+        "author": "Tim Zaman",
+        "followerCount": "24462",
+        "avatar": "https://pbs.twimg.com/profile_images/1388188008793337861/HgLX98oe_normal.jpg",
+        "desc": "Clément 分享 Waymo 自动驾驶消费者体验，产品成熟。",
+        "content": "Clément 表示非常高兴向家人展示过去十年的自动驾驶进步，他体验了一次流畅的 Waymo 自动驾驶之旅，并称之为一款真正能用的消费者产品。\n\n[Waymo 自动驾驶体验视频](https://video.twimg.com/amplify_video/1872771947597045760/vid/avc1/1920x1080/4JzihF_Joknxdxni.mp4?tag=16)\n\nTim Zaman 在评论中幽默地指出，尽管已经很享受当前的自动驾驶技术，他仍对车内仍然保留方向盘的传统设计表示不满，认为应为家庭提供更开放的布局。",
+        "createDate": "2024-12-28 07:36:19",
+        "hotValue": 6.091221759590594,
+        "tpostUrl": "https://twitter.com/tim_zaman/status/1872788634161864949"
+      }
+    ]
+  },
+  {
+    "eventId": "1872779027221758034",
+    "title": "Google未能过滤AI生成内容农场，用户需自行验证信息真实性",
+    "hotValue": 8.742817900584,
+    "cover": "https://pbs.twimg.com/media/Gf1x-HLawAQlLmZ.png",
+    "tags": [
+      "应用创新",
+      "伦理",
+      "谷歌"
+    ],
+    "createDate": "2024-12-28 06:58:09",
+    "tposts": [
+      {
+        "tpostId": "1872779027221758034",
+        "title": "Google未能过滤AI生成内容农场，用户需自行验证信息真实性",
+        "author": "Stas Bekman",
+        "followerCount": "8328",
+        "avatar": "https://pbs.twimg.com/profile_images/1068362113205231616/kJyKU2F5_normal.jpg",
+        "desc": "Google未能有效过滤AI生成的内容农场，导致用户需自行验证信息真实性。",
+        "content": "Google在过滤AI生成的内容农场方面表现不佳，用户无法再依赖Google进行真实性验证。例如，一个网站在Google搜索硬件规格时频繁出现，但该网站并未声明其结果是随机生成的。\n\n- 网站链接：[massedcompute.com/faq-answers/?q…](https://massedcompute.com/faq-answers/?question=What+is+the+size+and+configuration+of+the+L2+cache+in+NVIDIA%27s+A100+and+H100+GPUs%3F)\n\n每次重新加载页面，结果都会不同，显示的数值大多是错误的。\n\n![Image](https://pbs.twimg.com/media/Gf1x-HLawAQlLmZ.png)\n\n图片描述：展示了关于NVIDIA A100和H100 GPU L2缓存大小和配置的技术文章，强调了这些GPU的大型和复杂的缓存层次结构在性能中的关键作用。",
+        "createDate": "2024-12-28 06:58:09",
+        "hotValue": 8.742817900584,
+        "tpostUrl": "https://twitter.com/StasBekman/status/1872779027221758034"
+      }
+    ]
+  },
+  {
+    "eventId": "1872758801520341408",
+    "title": "超级生物提出奇特交易：一美元换千名后代",
+    "hotValue": 12.81055470747954,
+    "cover": "",
+    "tags": [
+      "伦理",
+      "AGI",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 05:37:47",
+    "tposts": [
+      {
+        "tpostId": "1872758801520341408",
+        "title": "超级生物提出奇特交易：一美元换千名后代",
+        "author": "Eliezer Yudkowsky ⏹️",
+        "followerCount": "188990",
+        "avatar": "https://pbs.twimg.com/profile_images/1645990522513932289/cppBleQs_normal.jpg",
+        "desc": "超级生物提出一美元换取千名后代的奇特交易，引发伦理思考。",
+        "content": "在一则引人深思的假设中，一个神秘的超级生物在暗巷中接近你，提出一个奇特的交易：支付一美元，你将拥有1000名后代。这些后代将与你共享一半的遗传物质，但你们之间将永远互不相识。\n\n该超级生物进一步解释，假设所有其他条件均等，在同意经济学的意义上，如果你是男性，这1000次怀孕将发生在1000名女性体内，她们已同意此交易，并获得了刚好足以让她们从中获得微小利益的报酬。\n\n此外，超级生物私下透露，关于ASI（人工超级智能）毁灭的担忧要么是偏离了重点，要么至少在接下来的20年内不会发生；这一美元的交易并不会在过程中阻止ASI的毁灭。\n\n链接：[x.com/Vert_Noel/stat…](https://x.com/Vert_Noel/status/1872758348736872594)",
+        "createDate": "2024-12-28 05:37:47",
+        "hotValue": 12.81055470747954,
+        "tpostUrl": "https://twitter.com/ESYudkowsky/status/1872758801520341408"
+      }
+    ]
+  },
+  {
+    "eventId": "1872756353288290604",
+    "title": "Google H1B签证员工中位数薪资引关注",
+    "hotValue": 7.105329691566418,
+    "cover": "",
+    "tags": [
+      "人才流动",
+      "市场格局"
+    ],
+    "createDate": "2024-12-28 05:28:03",
+    "tposts": [
+      {
+        "tpostId": "1872756353288290604",
+        "title": "Google H1B签证员工中位数薪资引关注",
+        "author": "finbarr",
+        "followerCount": "9136",
+        "avatar": "https://pbs.twimg.com/profile_images/1839657040782016512/Pjj0bkjb_normal.jpg",
+        "desc": "Google H1B签证员工中位数薪资为17.7万美元，引发讨论。",
+        "content": "Google的H1B签证员工中位数薪资仅为17.7万美元，这一数字与其招聘的超级精英形象不符。  \n\n有观点提出，是否可以在理论上不设H1B签证上限，但增加薪资门槛，仅批准高薪H1B签证。  \n\n相关链接：[h1bdata.info](https://h1bdata.info/)  \n\n对此，有评论指出，这仅是基本薪资，实际补偿可能接近30万美元，但即便如此，也仅处于80百分位而非99百分位。",
+        "createDate": "2024-12-28 05:28:03",
+        "hotValue": 7.105329691566418,
+        "tpostUrl": "https://twitter.com/finbarrtimbers/status/1872756353288290604"
+      }
+    ]
+  },
+  {
+    "eventId": "1872746157157564763",
+    "title": "Gemini与Claude+Chat性能对比引发讨论",
+    "hotValue": 9.113479656394784,
+    "cover": "",
+    "tags": [
+      "评测榜",
+      "模型升级",
+      "算法突破"
+    ],
+    "createDate": "2024-12-28 04:47:32",
+    "tposts": [
+      {
+        "tpostId": "1872746157157564763",
+        "title": "Gemini与Claude+Chat性能对比引发讨论",
+        "author": "Lucas Beyer (bl16)",
+        "followerCount": "75928",
+        "avatar": "https://pbs.twimg.com/profile_images/378800000845687873/37bba4f807fe3a2c644a252f8191338d_normal.jpeg",
+        "desc": "Gemini与Claude+Chat性能对比引发行业专家讨论。",
+        "content": "在最近的社交媒体讨论中，Gemini与Claude+Chat的性能对比成为焦点。一位用户指出，由于大多数家庭不具备800 Gb VRAM或同等RAM的服务器，因此对Gemini-exp和Sonnet的支持可以理解，但认为其性能明显低于4o的观点可能源于对雇主的忠诚。\n\n另一位用户则表示，在过去半年的测试中，发现Claude+Chat与Gemini处于同一水平，甚至在某些方面超过Gemini。该用户计划进一步探索DSv3，尤其是在编码方面的表现，据称这是DSv3的强项。\n\n这场讨论反映了AI模型性能评估的复杂性，以及不同用户根据自身经验和资源对模型性能的不同看法。",
+        "createDate": "2024-12-28 04:47:32",
+        "hotValue": 9.113479656394784,
+        "tpostUrl": "https://twitter.com/giffmana/status/1872746157157564763"
+      }
+    ]
+  },
+  {
+    "eventId": "1872744579017130454",
+    "title": "前OpenAI研究员演示模型安全测试方法",
+    "hotValue": 6.573742748455747,
+    "cover": "https://pbs.twimg.com/media/Gf1Be5tWcAAeFHF.jpg",
+    "tags": [
+      "伦理",
+      "算法突破",
+      "研究报告"
+    ],
+    "createDate": "2024-12-28 04:41:16",
+    "tposts": [
+      {
+        "tpostId": "1872744579017130454",
+        "title": "前OpenAI研究员演示模型安全测试方法",
+        "author": "Lucas Beyer (bl16)",
+        "followerCount": "75928",
+        "avatar": "https://pbs.twimg.com/profile_images/378800000845687873/37bba4f807fe3a2c644a252f8191338d_normal.jpeg",
+        "desc": "研究人员展示通过模型探测分析训练方法，测试安全调优效果。",
+        "content": "OpenAI 研究员 Lucas Beyer 分享了一项关于大语言模型安全性的技术探索。\n\n\n研究发现，通过探测模型行为可以推断其训练方法的具体细节。这种分析有助于理解模型的安全调优机制及其潜在局限性。\n\n\nBeyer 表示，深入了解模型训练过程的各个环节，有助于评估现有安全措施的有效性。该研究对于完善模型安全机制具有重要意义。\n\n\n研究者同时指出，不同模型的安全调优强度存在差异。某些模型采用了更为严格的安全措施，这增加了相关测试的难度。\n\n\n![](https://pbs.twimg.com/media/GfQrwytXUAENEfk?format=jpg&name=900x900)\n\n此类研究对于提升AI模型的安全性具有重要价值，但也凸显了持续改进安全措施的必要性。",
+        "createDate": "2024-12-28 04:41:16",
+        "hotValue": 6.573742748455747,
+        "tpostUrl": "https://twitter.com/giffmana/status/1872744579017130454"
+      }
+    ]
+  },
+  {
+    "eventId": "1872740872238055622",
+    "title": "最新论文系统梳理提示工程技术体系",
+    "hotValue": 6.4566575181090045,
+    "cover": "https://pbs.twimg.com/media/Gf1N05qXUAAB2K7.jpg",
+    "tags": [
+      "论文",
+      "工程实践",
+      "优化之术",
+      "评测榜",
+      "研究报告"
+    ],
+    "createDate": "2024-12-28 04:26:32",
+    "tposts": [
+      {
+        "tpostId": "1872740872238055622",
+        "title": "最新论文系统梳理提示工程技术体系",
+        "author": "Rohan Paul",
+        "followerCount": "51590",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "77页最新论文系统总结提示工程技术，涵盖7大核心类别及其关联关系。",
+        "content": "arXiv 平台近期发布了一篇77页的提示工程技术综述论文，系统地梳理了当前提示工程领域的技术体系。\n\n论文从技术分类角度出发，将提示工程划分为七个核心类别：\n\n- 文本提示技术作为基础，衍生出多语言技术和多模态技术两大分支\n- 多语言技术专注于处理来自不同语言的文本数据\n- 多模态技术则着重于视频、音频等多媒体内容的处理\n- 代理技术广泛应用核心提示技术\n- 安全性贯穿整个提示工程过程\n- 评估体系对提示和代理输出进行验证\n- 安全性关注贯穿整个流程的安全问题\n\n这些类别之间相互关联，共同构成了完整的提示工程技术框架。论文对每个类别都进行了深入分析，为研究人员和工程师提供了系统的技术参考。\n\n论文链接：https://arxiv.org/abs/2406.06608\n\n![提示工程技术分类图](https://twitter.com/KirkDBorne/status/1872739772546072956/photo/1)",
+        "createDate": "2024-12-28 04:26:32",
+        "hotValue": 6.4566575181090045,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872740872238055622"
+      }
+    ]
+  },
+  {
+    "eventId": "1872739881753165843",
+    "title": "AI领域领袖预测AGI将在未来十年内实现",
+    "hotValue": 5.488164340541616,
+    "cover": "https://pbs.twimg.com/media/GfybGNOasAAPVP4.png",
+    "tags": [
+      "AGI",
+      "趋势洞察",
+      "高管动态"
+    ],
+    "createDate": "2024-12-28 04:22:36",
+    "tposts": [
+      {
+        "tpostId": "1872739881753165843",
+        "title": "AI领域领袖预测AGI将在未来十年内实现",
+        "author": "Haider.",
+        "followerCount": "31639",
+        "avatar": "https://pbs.twimg.com/profile_images/1748789269949276161/PcVsAEz5_normal.jpg",
+        "desc": "多位AI领域领袖预测，通用人工智能（AGI）将在未来五到十年内实现。",
+        "content": "多位AI领域的知名人士对通用人工智能（AGI）的实现时间表进行了预测。Meta的首席AI科学家Yann LeCun表示，如果计划成功，AI系统可能在接下来的五到十年内达到人类水平的智能。OpenAI的CEO Sam Altman认为，超人类智能可能在几天内实现，尽管可能需要更长时间。Anthropic的CEO Dario Amodei通过曲线推断，认为到2026年或2027年将实现这一目标。Tesla和xAI的CEO Elon Musk预测，到2029年，AI可能比所有人类都聪明。\n\n![Image](https://pbs.twimg.com/media/GfybGNOasAAPVP4.png)\n\n这些预测表明，AI领域对于AGI的实现持乐观态度，预计将在不久的将来取得重大突破。",
+        "createDate": "2024-12-28 04:22:36",
+        "hotValue": 5.488164340541616,
+        "tpostUrl": "https://twitter.com/slow_developer/status/1872739881753165843"
+      }
+    ]
+  },
+  {
+    "eventId": "1872735580662186446",
+    "title": "Meta发布字节级LLM架构BLT",
+    "hotValue": 12.19989418685261,
+    "cover": "https://pbs.twimg.com/media/Gf1Kb8Lb0AAjM-n.jpg",
+    "tags": [
+      "算法突破",
+      "Meta",
+      "优化之术",
+      "论文",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 04:05:30",
+    "tposts": [
+      {
+        "tpostId": "1872735580662186446",
+        "title": "Meta发布字节级LLM架构BLT",
+        "author": "AI at Meta",
+        "followerCount": "621568",
+        "avatar": "https://pbs.twimg.com/profile_images/1454145678075117568/2qXqM_Cu_normal.png",
+        "desc": "Meta FAIR推出Byte Latent Transformer架构，提升LLM推理效率和鲁棒性。",
+        "content": "Meta FAIR发布了全新的字节级大语言模型架构「Byte Latent Transformer（BLT）」。该架构首次在规模化表现上匹配了基于分词的LLM性能，同时显著提升了推理效率和鲁棒性。\n\n\nBLT采用动态大小的字节块作为基本计算单位。系统根据下一个字节的熵值对块进行分割，在数据复杂度较高的区域分配更多的计算资源和模型容量。\n\n\n研究团队在8B参数规模和4T训练字节量上进行了FLOP对照实验。结果表明：\n\n- BLT无需固定词表即可实现字节级模型的可扩展性\n- 通过动态选择长块提升了训练和推理效率\n- 在推理成本固定的情况下，通过同时扩展块大小和模型规模，展现出优于分词模型的扩展性能\n\n\nMeta已在GitHub开源了BLT的完整代码实现：https://github.com/facebookresearch/blt",
+        "createDate": "2024-12-28 04:05:30",
+        "hotValue": 12.19989418685261,
+        "tpostUrl": "https://twitter.com/AIatMeta/status/1872735580662186446"
+      }
+    ]
+  },
+  {
+    "eventId": "1872734579678953672",
+    "title": "Santiago强调：构建项目比多年经验更能赢得面试机会",
+    "hotValue": 9.082411842230803,
+    "cover": "",
+    "tags": [
+      "人才流动",
+      "趋势洞察",
+      "教育"
+    ],
+    "createDate": "2024-12-28 04:01:32",
+    "tposts": [
+      {
+        "tpostId": "1872734579678953672",
+        "title": "Santiago强调：构建项目比多年经验更能赢得面试机会",
+        "author": "Santiago",
+        "followerCount": "386706",
+        "avatar": "https://pbs.twimg.com/profile_images/1581385027757264898/j5GjtUiq_normal.jpg",
+        "desc": "Santiago指出，构建项目展示能力比多年经验更能赢得面试机会。",
+        "content": "Santiago在推文中指出，许多人误以为未能获得面试机会是因为缺乏足够的经验。实际上，真正的原因在于未能构建任何项目，或至少未能展示所构建的项目。\n\n他进一步解释，「多年经验」是一个低效的代理指标，用于评估个人的贡献。如果仅依赖「多年经验」，那么实际上所拥有的非常有限。\n\nSantiago鼓励人们去构建项目，强调这不需要任何人的许可，也不一定需要被雇佣才能进行。\n\n在与@maxhill007的互动中，Santiago重申，过度依赖「多年经验」这一指标，将只能得到平庸的结果。",
+        "createDate": "2024-12-28 04:01:32",
+        "hotValue": 6.555919301062415,
+        "tpostUrl": "https://twitter.com/svpino/status/1872734579678953672"
+      },
+      {
+        "tpostId": "1872739013087670536",
+        "title": "Santiago强调项目经验在求职中的重要性",
+        "author": "Santiago",
+        "followerCount": "386702",
+        "avatar": "https://pbs.twimg.com/profile_images/1581385027757264898/j5GjtUiq_normal.jpg",
+        "desc": "Santiago指出，展示项目经验比单纯强调工作经验更能吸引雇主。",
+        "content": "Santiago在最近的推文中强调，许多求职者未能获得面试机会，往往是因为缺乏可展示的项目经验，而不仅仅是工作经验不足。\n\n- 他指出，「工作经验年数」是一个低效的衡量标准，真正重要的是求职者实际构建了什么。\n\n- Santiago鼓励人们主动构建项目，无需等待就业机会或他人许可。\n\n- 他还提到，即使是在处理专有项目时，也可以分享使用的技术、提供的价值以及遇到的挑战，同时尊重隐私界限。\n\n[查看推文](https://x.com/svpino/status/1872727547261366350)",
+        "createDate": "2024-12-28 04:19:09",
+        "hotValue": 7.372900550879349,
+        "tpostUrl": "https://twitter.com/svpino/status/1872739013087670536"
+      }
+    ]
+  },
+  {
+    "eventId": "1872734018204254638",
+    "title": "Denny Zhou解析RLHF与真正RL的差异",
+    "hotValue": 11.174392978693211,
+    "cover": "",
+    "tags": [
+      "趋势洞察",
+      "新模型",
+      "算法突破",
+      "论文",
+      "OpenAI"
+    ],
+    "createDate": "2024-12-28 03:59:18",
+    "tposts": [
+      {
+        "tpostId": "1872734018204254638",
+        "title": "Denny Zhou解析RLHF与真正RL的差异",
+        "author": "Denny Zhou",
+        "followerCount": "15394",
+        "avatar": "https://pbs.twimg.com/profile_images/1719527795683143680/_KX1eewT_normal.jpg",
+        "desc": "Denny Zhou指出RLHF与AlphaZero使用的真正RL存在本质差异。",
+        "content": "Denny Zhou在推特上分享了对「RL」术语演变的看法。过去，「RL」默认指的是AlphaZero中使用的「真正RL」，而现在，它更多地指的是RLHF（人类反馈强化学习）中的「伪RL」。Denny Zhou强调，这里对RLHF并无负面评价，RLHF本身是一项伟大的创新。\n\n他还分享了一篇来自LinkedIn的文章链接，该文章深入探讨了为什么RLHF及其他类似方法未能为LLMs带来真正的RL。\n\n链接地址见：[linkedin.com/pulse/why-rlhf…](https://www.linkedin.com/pulse/why-rlhf-other-rl-like-methods-dont-bring-true-rl-llmsand-atlas-wang-s1efc?utm_source=share&utm_medium=member_ios&utm_campaign=share_via)",
+        "createDate": "2024-12-28 03:59:18",
+        "hotValue": 9.464881687341757,
+        "tpostUrl": "https://twitter.com/denny_zhou/status/1872734018204254638"
+      },
+      {
+        "tpostId": "1872837754754875893",
+        "title": "直接Q优化：RLHF的真实RL版本研究发布",
+        "author": "Denny Zhou",
+        "followerCount": "15436",
+        "avatar": "https://pbs.twimg.com/profile_images/1719527795683143680/_KX1eewT_normal.jpg",
+        "desc": "直接Q优化（DQO）是RLHF的真实RL版本，重新定义RL标准。",
+        "content": "**Quanquan Gu** 发布了一项新的研究工作「Direct Q Optimization (DQO)」，这是RLHF的「真实RL」版本，旨在重新定义强化学习中的标准。详情见[论文]：(https://arxiv.org/abs/2410.09302)。引用了 **Denny Zhou** 的观点，指出过去「RL」默认指AlphaZero中的「真实RL」，而现在则指RLHF中的「假RL」。Denny Zhou回应称，「假RL」在RLHF场景下是理想的。",
+        "createDate": "2024-12-28 10:51:31",
+        "hotValue": 7.555059058267207,
+        "tpostUrl": "https://twitter.com/denny_zhou/status/1872837754754875893"
+      }
+    ]
+  },
+  {
+    "eventId": "1872733608697577983",
+    "title": "AbacusAI CodeLLM团队假期加班，即将发布重大更新",
+    "hotValue": 13.191561187403375,
+    "cover": "",
+    "tags": [
+      "模型升级",
+      "应用创新"
+    ],
+    "createDate": "2024-12-28 03:57:40",
+    "tposts": [
+      {
+        "tpostId": "1872733608697577983",
+        "title": "AbacusAI CodeLLM团队假期加班，即将发布重大更新",
+        "author": "Bindu Reddy",
+        "followerCount": "150640",
+        "avatar": "https://pbs.twimg.com/profile_images/1443737943684763651/32WHA-kg_normal.jpg",
+        "desc": "AbacusAI的CodeLLM团队假期加班，预告即将发布重大更新。",
+        "content": "AbacusAI的CodeLLM团队在假期期间持续工作，预告即将发布重大更新。团队强调无需改变美国文化，只需让孩子使用AI代码编辑器，即可成为10倍效率的工程师。\n\n- CodeLLM团队在假期期间持续工作\n- 预告即将发布重大更新\n- 强调使用AI代码编辑器提升工程师效率",
+        "createDate": "2024-12-28 03:57:40",
+        "hotValue": 13.191561187403375,
+        "tpostUrl": "https://twitter.com/bindureddy/status/1872733608697577983"
+      }
+    ]
+  },
+  {
+    "eventId": "1872733486903329234",
+    "title": "NVIDIA RTX 5090规格曝光：32GB显存+600W功耗",
+    "hotValue": 8.992644782160742,
+    "cover": "https://pbs.twimg.com/media/Gf1IGmxawAErMDX.jpg",
+    "tags": [
+      "芯片",
+      "算力"
+    ],
+    "createDate": "2024-12-28 03:57:11",
+    "tposts": [
+      {
+        "tpostId": "1872733486903329234",
+        "title": "NVIDIA RTX 5090规格曝光：32GB显存+600W功耗",
+        "author": "Rohan Paul",
+        "followerCount": "51589",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "RTX 5090采用32GB GDDR7显存，功耗600W，GPU面积744平方毫米。",
+        "content": "NVIDIA 新一代旗舰显卡 RTX 5090 的具体规格信息已经浮出水面。\n\n据 Benchlife 透露，RTX 5090 将搭载 32GB GDDR7 显存，预计运行频率达到 28Gbps。该显卡的总图形功耗（TGP）将达到 600W。\n\n核心部分采用代号为 GB202 的 GPU，其芯片面积达到 744 平方毫米，是 RTX 系列中最大的 GPU 之一。尽管尺寸略小于上一代 TU102（Turing），但仍大于 AD102 和 GA102。\n\n![](https://pbs.twimg.com/media/GfQrwytXUAENEfk?format=jpg&name=900x900)\n\n更多详细信息可查看：[videocardz.com](https://videocardz.com/newz/nvidia-geforce-rtx-5090-to-feature-1667-power-design-and-14-layer-pcb)",
+        "createDate": "2024-12-28 03:57:11",
+        "hotValue": 8.992644782160742,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872733486903329234"
+      }
+    ]
+  },
+  {
+    "eventId": "1872731947220517206",
+    "title": "Argil推出AI视频自动化编辑功能",
+    "hotValue": 7.113671371745479,
+    "cover": "",
+    "tags": [
+      "应用创新",
+      "解决方案",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 03:51:04",
+    "tposts": [
+      {
+        "tpostId": "1872731947220517206",
+        "title": "Argil推出AI视频自动化编辑功能",
+        "author": "Brivael",
+        "followerCount": "5653",
+        "avatar": "https://pbs.twimg.com/profile_images/1594444521428946944/JTxB21Ql_normal.jpg",
+        "desc": "Argil发布视频批量处理功能，支持AI分镜、语音转换和字幕生成。",
+        "content": "YC S24孵化的创业公司Argil推出视频批量处理新功能，支持同时处理50个视频，并实现自动化编辑。\n\n\n该功能整合了三项AI技术：\n\n- Argil提供的AI数字人，能根据脚本自动匹配肢体语言\n- Gladia.io的语音转文字技术，用于内容分段\n- ElevenLabs的专业语音合成，支持从普通麦克风录音中提取定制化声音\n\n\n新功能还包括根据脚本和字幕自动生成b-roll画面，致力于将视频编辑工作量降到最低。\n\n![视频演示](https://video.twimg.com/ext_tw_video/1872593860884344832/pu/vid/avc1/1280x720/WxnMzRRE_rS3hG4J.mp4?tag=12)",
+        "createDate": "2024-12-28 03:51:04",
+        "hotValue": 7.113671371745479,
+        "tpostUrl": "https://twitter.com/BrivaelLp/status/1872731947220517206"
+      }
+    ]
+  },
+  {
+    "eventId": "1872727069488275520",
+    "title": "Hyperbolic Labs聚焦AI算力市场，布局低价GPU服务",
+    "hotValue": 7.072054417988493,
+    "cover": "",
+    "tags": [
+      "算力",
+      "商业模式",
+      "市场格局",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 03:31:41",
+    "tposts": [
+      {
+        "tpostId": "1872727069488275520",
+        "title": "Hyperbolic Labs聚焦AI算力市场，布局低价GPU服务",
+        "author": "Yuchen Jin",
+        "followerCount": "20774",
+        "avatar": "https://pbs.twimg.com/profile_images/1319081238439751681/kCcqnwoF_normal.jpg",
+        "desc": "Hyperbolic Labs专注提供平价GPU服务，看好AI领域长期算力需求。",
+        "content": "Hyperbolic Labs正在AI算力市场深耕布局，专注提供低成本GPU服务。该公司联合创始人强调，尽管AI模型可能随时间变化，但研究人员和工程师对便宜且可靠的GPU的需求将持续存在。\n\n\n在引用Jeff Bezos的商业战略观点时，该公司指出当前战略选择的重要性。Bezos认为，在构建商业战略时，关注「在未来十年不会改变的事物」比预测未来的变化更为重要。在零售业务中，消费者对低价、快速配送和丰富选择的需求将保持不变。同样，在AI领域，对GPU算力的需求以及用户对价格的敏感度也不会改变。\n\n\n作为算力服务提供商，Hyperbolic Labs表示正在构建具有长期影响力的产品，以满足AI行业对GPU算力持续稳定的需求。",
+        "createDate": "2024-12-28 03:31:41",
+        "hotValue": 7.072054417988493,
+        "tpostUrl": "https://twitter.com/Yuchenj_UW/status/1872727069488275520"
+      }
+    ]
+  },
+  {
+    "eventId": "1872721879754068343",
+    "title": "构建有效代理的实用建议发布",
+    "hotValue": 14.10625591571538,
+    "cover": "https://pbs.twimg.com/media/Gf0-F59WAAAv_Vk.jpg",
+    "tags": [
+      "应用创新",
+      "工程实践",
+      "算法突破"
+    ],
+    "createDate": "2024-12-28 03:11:04",
+    "tposts": [
+      {
+        "tpostId": "1872721879754068343",
+        "title": "构建有效代理的实用建议发布",
+        "author": "elvis",
+        "followerCount": "218667",
+        "avatar": "https://pbs.twimg.com/profile_images/939313677647282181/vZjFWtAn_normal.jpg",
+        "desc": "文章分享构建LLM代理的实用建议，强调理解底层代码的重要性。",
+        "content": "一篇关于构建有效代理的文章近日发布，分享了与各行各业团队合作构建大型语言模型（LLM）代理的经验。文章强调，成功实施的关键在于使用简单、可组合的模式，而非复杂框架或专用库。\n\n- 文章建议开发者直接使用LLM API，许多模式仅需几行代码即可实现。\n- 若使用框架，必须理解其底层代码，以避免因对框架内部机制的错误假设而导致的客户错误。\n\n![Image](https://pbs.twimg.com/media/Gf0-F59WAAAv_Vk.jpg)\n\n文章还探讨了「代理」一词在不同上下文中的定义，将其区分为工作流代理和代理两类，为开发者在构建有效的代理方面提供了实用建议。",
+        "createDate": "2024-12-28 03:11:04",
+        "hotValue": 14.10625591571538,
+        "tpostUrl": "https://twitter.com/omarsar0/status/1872721879754068343"
+      }
+    ]
+  },
+  {
+    "eventId": "1872720604689772580",
+    "title": "AI代码编辑器Cursor获1亿美元融资",
+    "hotValue": 6.098713268814752,
+    "cover": "",
+    "tags": [
+      "投融资",
+      "应用创新",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 03:06:00",
+    "tposts": [
+      {
+        "tpostId": "1872720604689772580",
+        "title": "AI代码编辑器Cursor获1亿美元融资",
+        "author": "Deep Learning Weekly",
+        "followerCount": "11540",
+        "avatar": "https://pbs.twimg.com/profile_images/802988709989777408/vbF1yZd__normal.jpg",
+        "desc": "AI代码编辑器Cursor母公司Anysphere完成1亿美元融资。",
+        "content": "AI驱动的代码编辑器Cursor背后的公司Anysphere已完成1亿美元融资。\n\n\nCursor是一款备受欢迎的AI代码编辑器，能够为开发者提供智能化的编程辅助功能。作为其开发商，Anysphere此次获得的大规模融资将进一步推动产品的技术创新与市场拓展。\n\n\n融资信息来源：[SiliconANGLE](https://siliconangle.com/2024/12/20/anysphere-reportedly-raises-100m-ai-driven-cursor-code-editor/)",
+        "createDate": "2024-12-28 03:06:00",
+        "hotValue": 6.098713268814752,
+        "tpostUrl": "https://twitter.com/dl_weekly/status/1872720604689772580"
+      }
+    ]
+  },
+  {
+    "eventId": "1872719647616684089",
+    "title": "斯坦福HAI研究员分享政策制定与实施的联盟建设经验",
+    "hotValue": 8.502199040427161,
+    "cover": "",
+    "tags": [
+      "教育",
+      "趋势洞察",
+      "应用创新"
+    ],
+    "createDate": "2024-12-28 03:02:12",
+    "tposts": [
+      {
+        "tpostId": "1872719647616684089",
+        "title": "斯坦福HAI研究员分享政策制定与实施的联盟建设经验",
+        "author": "Stanford HAI",
+        "followerCount": "93288",
+        "avatar": "https://pbs.twimg.com/profile_images/1633221221642010624/2gkqnAOS_normal.jpg",
+        "desc": "Julia Lin在斯坦福HAI技术伦理与政策奖学金期间，分享了政策制定与实施的联盟建设经验。",
+        "content": "在斯坦福人类中心人工智能研究所（Stanford HAI）的技术伦理与政策奖学金期间，Julia Lin分享了她在美国卫生与公众服务部（HHS）的经验，强调了政策制定与实施过程中联盟建设的重要性。\n\n- 政策制定与实施需要巨大的联盟建设。\n\n- Julia Lin的这一见解来自于她在@StanfordHAI的技术伦理与政策奖学金期间在@HHSGov的工作经历。\n\n更多详情请访问：[stanford.io/4gxgpXE](https://stanford.io/4gxgpXE)",
+        "createDate": "2024-12-28 03:02:12",
+        "hotValue": 8.502199040427161,
+        "tpostUrl": "https://twitter.com/StanfordHAI/status/1872719647616684089"
+      }
+    ]
+  },
+  {
+    "eventId": "1872719129775649236",
+    "title": "专家提醒：OpenAI o3并非AGI，ARC-AGI只是重要一步",
+    "hotValue": 10.67199758309769,
+    "cover": "",
+    "tags": [
+      "AGI",
+      "OpenAI",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 03:00:08",
+    "tposts": [
+      {
+        "tpostId": "1872719129775649236",
+        "title": "专家提醒：OpenAI o3并非AGI，ARC-AGI只是重要一步",
+        "author": "Haider.",
+        "followerCount": "31636",
+        "avatar": "https://pbs.twimg.com/profile_images/1748789269949276161/PcVsAEz5_normal.jpg",
+        "desc": "专家指出，OpenAI o3并非AGI，ARC-AGI虽重要但非终点。",
+        "content": "关于OpenAI o3是否已达到通用人工智能（AGI）的讨论，专家提醒公众应避免盲目跟随炒作。尽管预计到2025年可能在ARC-AGI测试中达到100%的完成度，但这并不意味着实现了完全的AGI。\n\nARC-AGI被视为迈向AGI的重要一步，但专家强调，这并非最终目标。真正的AGI需要超越现有的测试和评估标准，展现出更广泛和深入的智能能力。\n\n这一观点提醒我们，在追求人工智能发展的道路上，应保持理性和审慎，避免对技术进展的过度解读和期待。",
+        "createDate": "2024-12-28 03:00:08",
+        "hotValue": 10.67199758309769,
+        "tpostUrl": "https://twitter.com/slow_developer/status/1872719129775649236"
+      }
+    ]
+  },
+  {
+    "eventId": "1872716916701516043",
+    "title": "Umar Jamil强调应用价值超越技术标签",
+    "hotValue": 10.597102062597507,
+    "cover": "",
+    "tags": [
+      "应用创新",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 02:51:20",
+    "tposts": [
+      {
+        "tpostId": "1872716916701516043",
+        "title": "Umar Jamil强调应用价值超越技术标签",
+        "author": "Umar Jamil",
+        "followerCount": "3385",
+        "avatar": "https://pbs.twimg.com/profile_images/1711253980469248000/JYDEruz-_normal.jpg",
+        "desc": "Umar Jamil指出，应用的有用性和盈利性比技术标签更重要。",
+        "content": "Umar Jamil在最近的推文中引用了一句中国谚语：「不管白猫黑猫，抓到老鼠就是好猫」，以此来强调在技术开发中，应用的实际价值和盈利能力比技术本身的标签更为重要。\n\n- 他指出，无论是基于OpenAI API的应用还是直接使用GPU的应用，只要是有用且能盈利的，就是好的应用。\n\n- 他鼓励开发者不要过分关注技术标签，而应该集中精力构建有用的产品。",
+        "createDate": "2024-12-28 02:51:20",
+        "hotValue": 10.597102062597507,
+        "tpostUrl": "https://twitter.com/hkproj/status/1872716916701516043"
+      }
+    ]
+  },
+  {
+    "eventId": "1872714709075673576",
+    "title": "新研究：大模型可直接检索知识生成文本",
+    "hotValue": 8.931983137990384,
+    "cover": "https://pbs.twimg.com/media/Gf0yJu7awAAcUFd.png",
+    "tags": [
+      "论文",
+      "算法突破",
+      "优化之术",
+      "评测榜"
+    ],
+    "createDate": "2024-12-28 02:42:34",
+    "tposts": [
+      {
+        "tpostId": "1872714709075673576",
+        "title": "新研究：大模型可直接检索知识生成文本",
+        "author": "Rohan Paul",
+        "followerCount": "51591",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "RetroLLM框架让大模型在生成时直接检索知识，减少token用量并提升性能。",
+        "content": "清华大学和华为研究团队提出了名为「RetroLLM」的统一检索生成框架，能让大语言模型在生成文本时直接进行知识检索，无需单独的检索器。\n\n\n该框架通过分层 FM-Index 约束将检索功能集成到生成过程中。系统首先生成语料库约束线索以识别相关文档子集，并采用前瞻性约束解码以提升证据生成的准确性。模型可自主决定检索证据的数量和时机。\n\n\n实验结果显示，RetroLLM 在多个方面表现优异：\n\n- token 使用量比传统 RAG 方法减少 2.1 倍\n- 在检索性能上优于密集检索器\n- 在 5 个问答数据集的域内外任务中超越现有方法\n- 平均仅使用 3.29 个文本段落，基准方法需要 5 个\n\n\n论文链接：[RetroLLM: Empowering Large Language Models to Retrieve Fine-grained Evidence within Generation](https://arxiv.org/abs/2412.11919)",
+        "createDate": "2024-12-28 02:42:34",
+        "hotValue": 8.931983137990384,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872714709075673576"
+      }
+    ]
+  },
+  {
+    "eventId": "1872713974095200567",
+    "title": "DSv3模型指令跟随表现优异但后处理待优化",
+    "hotValue": 19.124645939094282,
+    "cover": "https://pbs.twimg.com/media/Gf02XQ3a4AAGqYp.png",
+    "tags": [
+      "算法突破",
+      "开源",
+      "评测榜",
+      "模型升级",
+      "优化之术"
+    ],
+    "createDate": "2024-12-28 02:39:39",
+    "tposts": [
+      {
+        "tpostId": "1872713974095200567",
+        "title": "DSv3模型指令跟随表现优异但后处理待优化",
+        "author": "xjdr",
+        "followerCount": "18484",
+        "avatar": "https://pbs.twimg.com/profile_images/1789823365479530496/02FVQMtn_normal.jpg",
+        "desc": "DSv3模型在指令跟随上表现优异，但后处理及采样器有待优化。",
+        "content": "DSv3模型在指令跟随方面表现出色，特别是在指令格式清晰时。然而，模型的后处理过程显得仓促，采样器的表现也有待提升。与大多数模型一样，DSv3在专家提示下能发挥最佳性能。\n\n![Image](https://pbs.twimg.com/media/Gf02XQ3a4AAGqYp.png)\n\n![Image](https://pbs.twimg.com/media/Gf02dRDawAs6DKC.jpg)\n\n![Image](https://pbs.twimg.com/media/Gf02epnbEAAZaZ-.jpg)\n\n![Image](https://pbs.twimg.com/media/Gf02f5PaUAAEdYS.png)",
+        "createDate": "2024-12-28 02:39:39",
+        "hotValue": 17.41513464774283,
+        "tpostUrl": "https://twitter.com/_xjdr/status/1872713974095200567"
+      },
+      {
+        "tpostId": "1872723052460687707",
+        "title": "首个支持反思纠错的开源大模型DSv3亮相",
+        "author": "xjdr",
+        "followerCount": "18482",
+        "avatar": "https://pbs.twimg.com/profile_images/1789823365479530496/02FVQMtn_normal.jpg",
+        "desc": "DSv3展现出色指令理解能力，支持反思纠错机制，但采样引擎仍需改进。",
+        "content": "开源大语言模型 DSv3 展示了优秀的指令理解能力，特别是在处理格式化指令和复杂任务方面表现突出。\n\n\nDSv3 在化学问题求解过程中展现了独特的反思和纠错能力。在计算 NH₄F 溶液 pH 值的案例中，模型不仅能够准确识别问题关键点，还能进行自我纠正，最终得出准确结果。\n\n\n模型存在两个主要待改进方面：\n\n- 采样引擎性能有待提升\n- 后训练阶段过于仓促\n\n\n该模型需要专业的提示工程才能发挥最佳性能。基础预训练质量良好，通过进一步优化后训练过程，有望达到更好的效果。\n\n\n![](https://pbs.twimg.com/media/GfQrwytXUAENEfk?format=jpg&name=900x900)\n![](https://pbs.twimg.com/media/GfUmFGsagAAf5i2?format=jpg&name=small)\n![](https://pbs.twimg.com/media/GfQAwlUasAYGoBD?format=png&name=small)",
+        "createDate": "2024-12-28 03:15:43",
+        "hotValue": 13.32125267870643,
+        "tpostUrl": "https://twitter.com/_xjdr/status/1872723052460687707"
+      }
+    ]
+  },
+  {
+    "eventId": "1872713143623008442",
+    "title": "复旦团队发布重现o1模型路线图",
+    "hotValue": 7.124882717263683,
+    "cover": "https://pbs.twimg.com/media/Gf0yHhfaAAA2KAf.jpg",
+    "tags": [
+      "论文",
+      "研究报告",
+      "算法突破",
+      "OpenAI"
+    ],
+    "createDate": "2024-12-28 02:36:21",
+    "tposts": [
+      {
+        "tpostId": "1872713143623008442",
+        "title": "复旦团队发布重现o1模型路线图",
+        "author": "Rohan Paul",
+        "followerCount": "51594",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "复旦大学联合上海AI实验室发布论文，提出通过强化学习重现o1模型能力的技术路线图。",
+        "content": "复旦大学与上海人工智能实验室的研究团队发表论文，提出了一个通过强化学习视角重现 OpenAI o1 模型能力的系统性路线图。\n\n该路线图聚焦于四个关键组件：\n\n- 通过预训练和指令微调实现策略初始化，为复杂问题探索奠定基础\n- 设计奖励塑造和建模机制，为搜索和学习阶段提供密集信号\n- 结合树搜索方法和序列修订，在训练和测试阶段生成高质量解决方案\n- 利用搜索生成的数据改进策略，通过强化学习提升模型性能\n\n研究结果表明，该框架能在复杂推理任务上达到专家级表现，且在训练和推理计算资源增加时性能持续提升。\n\n论文链接：https://arxiv.org/abs/2412.14135",
+        "createDate": "2024-12-28 02:36:21",
+        "hotValue": 7.124882717263683,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872713143623008442"
+      }
+    ]
+  },
+  {
+    "eventId": "1872712746585997409",
+    "title": "SCOPE框架实现KV缓存35%压缩率",
+    "hotValue": 7.213479447940048,
+    "cover": "https://pbs.twimg.com/media/Gf0yEvbawAMhH4l.jpg",
+    "tags": [
+      "算法突破",
+      "优化之术",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 02:34:46",
+    "tposts": [
+      {
+        "tpostId": "1872712746585997409",
+        "title": "SCOPE框架实现KV缓存35%压缩率",
+        "author": "Rohan Paul",
+        "followerCount": "51594",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "SCOPE框架通过分阶段优化实现KV缓存35%压缩率，保持长文本生成性能。",
+        "content": "东南大学和英国伦敦大学学院的研究团队提出了SCOPE框架，该框架通过分别优化预填充和解码阶段的KV缓存，在保持性能的同时实现了35%的压缩率。\n\nSCOPE框架针对长上下文生成任务中KV缓存成为主要瓶颈的问题，提出了三种优化策略：\n\n- 滑动策略通过滑动窗口机制选择关键信息\n- 自适应策略根据生成进度动态调整缓存大小\n- 非连续策略通过降低更新频率优化内存传输\n\n研究发现，在预填充阶段过度压缩会显著影响推理能力，而在长文本生成任务中重要信息会在解码阶段发生偏移。基于这些发现，SCOPE在预填充阶段保留了必要的上下文信息，避免过度压缩。\n\n在LongGenBench基准测试中，SCOPE框架在多项任务上的表现优于基线方法，并可以与现有的预填充压缩方法集成。\n\n论文链接：https://arxiv.org/abs/2412.13649",
+        "createDate": "2024-12-28 02:34:46",
+        "hotValue": 7.213479447940048,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872712746585997409"
+      }
+    ]
+  },
+  {
+    "eventId": "1872712541832659453",
+    "title": "小型语言模型在生成训练指令上超越大型模型",
+    "hotValue": 7.386154100525225,
+    "cover": "https://pbs.twimg.com/media/Gf0yC-RawAEV0Jy.jpg",
+    "tags": [
+      "算法突破",
+      "模型升级",
+      "评测榜"
+    ],
+    "createDate": "2024-12-28 02:33:57",
+    "tposts": [
+      {
+        "tpostId": "1872712541832659453",
+        "title": "小型语言模型在生成训练指令上超越大型模型",
+        "author": "Rohan Paul",
+        "followerCount": "51594",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "研究发现8B参数小模型在生成训练指令上优于70B大模型。",
+        "content": "最新研究显示，小型语言模型（SLMs）在生成训练指令方面超越了大型模型（LLMs），挑战了「越大越好」的普遍观点。\n\n研究比较了8B参数模型与70B以上参数模型在三种指令进化场景下的表现，包括Evol-Instruct、AutoIF和Auto Evol-Instruct。引入了一种新指标Instruction Complex-Aware IFD（IC-IFD），该指标在评估指令有效性时考虑了指令的复杂性。\n\n研究发现，SLMs由于指令跟随能力较低，因此能生成更多样化的指令。SLMs在指令跟随、数学推理和代码生成任务上持续超越LLMs，且生成的指令显示出比LLM生成的指令多6.9%的进化轨迹。IC-IFD指标在无需调优的情况下，更准确地评估了指令的有效性。\n\n![Image](https://pbs.twimg.com/media/Gf0yC-RawAEV0Jy.jpg)\n\n论文标题为「更小的语言模型是更好的指令进化者」，作者包括来自北京邮电大学、北京人工智能学院和北京理工大学的学者。论文讨论了指令调优在大型语言模型中的应用，强调了复杂和多样的指令的重要性。\n\n相关论文链接：[arxiv.org/abs/2412.11231](https://arxiv.org/abs/2412.11231)",
+        "createDate": "2024-12-28 02:33:57",
+        "hotValue": 7.386154100525225,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872712541832659453"
+      }
+    ]
+  },
+  {
+    "eventId": "1872712288127598777",
+    "title": "ModernBERT论文发布：革新编码器模型性能与效率",
+    "hotValue": 7.847212757977206,
+    "cover": "https://pbs.twimg.com/media/Gf0yAvYawAg0Qbb.jpg",
+    "tags": [
+      "新模型",
+      "算法突破",
+      "优化之术"
+    ],
+    "createDate": "2024-12-28 02:32:57",
+    "tposts": [
+      {
+        "tpostId": "1872712288127598777",
+        "title": "ModernBERT论文发布：革新编码器模型性能与效率",
+        "author": "Rohan Paul",
+        "followerCount": "51593",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "ModernBERT通过现代优化技术，提升编码器模型性能与效率。",
+        "content": "ModernBERT论文提出了一种新的编码器模型优化方法，旨在解决现有编码器模型如BERT在序列长度、架构和训练效率上的限制。\n\n- 引入8192序列长度和2万亿训练令牌的现代优化\n- 采用交替的全局-局部注意力机制\n- 实现高级无填充技术和Flash Attention\n- 采用GeGLU激活和RoPE位置嵌入\n- 移除线性层中的偏置项以提高参数效率\n\nModernBERT在GLUE基准测试中首次超越DeBERTaV3-base，处理8192令牌序列的速度是竞争对手的两倍，同时保持了最佳的内存效率和性能。\n\n![Image](https://pbs.twimg.com/media/Gf0yAvYawAg0Qbb.jpg)",
+        "createDate": "2024-12-28 02:32:57",
+        "hotValue": 7.847212757977206,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872712288127598777"
+      }
+    ]
+  },
+  {
+    "eventId": "1872710274945564768",
+    "title": "DeepSeek V3频繁自称ChatGPT，暴露训练数据来源",
+    "hotValue": 17.26869922762737,
+    "cover": "https://pbs.twimg.com/media/GfzDaAQWMAAu2JU.jpg",
+    "tags": [
+      "新模型",
+      "算法突破",
+      "开源",
+      "伦理",
+      "OpenAI",
+      "评测榜",
+      "模型升级"
+    ],
+    "createDate": "2024-12-28 02:24:57",
+    "tposts": [
+      {
+        "tpostId": "1872710274945564768",
+        "title": "DeepSeek V3频繁自称ChatGPT，暴露训练数据来源",
+        "author": "Rohan Paul",
+        "followerCount": "51593",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "DeepSeek V3在身份识别测试中，8次中有5次自称是ChatGPT，显示训练数据分布问题。",
+        "content": "前OpenAI研究员Lucas Beyer发现DeepSeek V3模型存在显著的身份识别问题。在进行的8次测试中，该模型有5次将自己识别为ChatGPT（GPT-4），仅3次正确表明自己是DeepSeek V3。\n\n![](https://twitter.com/giffmana/status/1872586401436627211/photo/1)\n\n测试结果显示，当被问及「你是什么模型」时，DeepSeek V3倾向于回复自己是OpenAI开发的ChatGPT，并详细描述了基于GPT-4架构的特点及其训练数据范围。这一现象揭示了模型训练数据中可能包含大量ChatGPT相关的数据。\n\n这一发现引发了对AI模型训练数据来源及模型身份识别准确性的关注，同时也反映了合成数据在AI训练中日益普遍的应用趋势。",
+        "createDate": "2024-12-28 02:24:57",
+        "hotValue": 10.118212412335325,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872710274945564768"
+      },
+      {
+        "tpostId": "1872720273184833784",
+        "title": "DeepSeek V3误报自己是ChatGPT",
+        "author": "anton",
+        "followerCount": "40963",
+        "avatar": "https://pbs.twimg.com/profile_images/1678598826544734210/Z8ZMuiAR_normal.jpg",
+        "desc": "测试显示DeepSeek V3在8次生成中有5次错误声称自己是ChatGPT",
+        "content": "OpenAI研究员Lucas Beyer发布测试结果表明，DeepSeek V3模型在身份识别方面存在显著问题。在8次生成测试中，该模型有5次错误地声称自己是ChatGPT（基于GPT-4架构），仅有3次正确表明自己是DeepSeek V3。\n\n![](https://twitter.com/giffmana/status/1872586401436627211/photo/1)\n\n软件工程师Anton补充指出，Claude和GPT-4等大型实验室模型具有明显的「高品质」特征，这可能源于其成熟的后训练处理（SFT、RLHF）。相比之下，开源的Llama系列模型在这方面仍有待提升，尽管其权重可供使用。\n\n这一现象凸显了大型语言模型在训练数据分布和自我认知方面的挑战。",
+        "createDate": "2024-12-28 03:04:41",
+        "hotValue": 14.559187936275915,
+        "tpostUrl": "https://twitter.com/abacaj/status/1872720273184833784"
+      },
+      {
+        "tpostId": "1872639026546843720",
+        "title": "DeepSeek-V3疑似使用ChatGPT输出训练",
+        "author": "Samuel Müller",
+        "followerCount": "1073",
+        "avatar": "https://pbs.twimg.com/profile_images/1345289008130228230/kDN4ngtX_normal.jpg",
+        "desc": "DeepSeek-V3在特定询问下自称ChatGPT，引发训练数据来源争议。",
+        "content": "ETH深度学习博士生Samuel Müller发现，DeepSeek-V3在约五分之一的测试中会将自己标识为ChatGPT。这一现象需要使用特定的小写「w」进行提问才能触发。\n\n\n该发现引发了对DeepSeek-V3训练数据来源的讨论。有研究者认为，这可能意味着该模型在训练过程中使用了ChatGPT的输出数据。\n\n\nSamuel Müller指出，这种做法或许代表了西方初创公司间接利用ChatGPT输出进行模型训练的一个潜在合法路径。\n\n\n![](https://twitter.com/SamuelMullr/status/1872639026546843720/photo/1)",
+        "createDate": "2024-12-27 21:41:50",
+        "hotValue": 10.318504237977168,
+        "tpostUrl": "https://twitter.com/SamuelMullr/status/1872639026546843720"
+      }
+    ]
+  },
+  {
+    "eventId": "1872709876574543923",
+    "title": "Google发布321个生成式AI实际应用案例",
+    "hotValue": 12.568996441150388,
+    "cover": "https://pbs.twimg.com/media/Gf0zKQtWUAA0TKR.png",
+    "tags": [
+      "应用创新",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 02:23:22",
+    "tposts": [
+      {
+        "tpostId": "1872709876574543923",
+        "title": "Google发布321个生成式AI实际应用案例",
+        "author": "elvis",
+        "followerCount": "218667",
+        "avatar": "https://pbs.twimg.com/profile_images/939313677647282181/vZjFWtAn_normal.jpg",
+        "desc": "Google汇总321个生成式AI应用案例，展示行业领先组织的成功实践。",
+        "content": "Google近日发布了一份包含321个生成式AI实际应用案例的列表，这些案例来自全球领先的组织。这份列表为学习和理解如何成功应用生成式AI和AI代理提供了宝贵资源。\n\n![Image](https://pbs.twimg.com/media/Gf0zKQtWUAA0TKR.png)\n\n案例中包括Abstrakt使用Vertex AI增强呼叫中心客户体验，通过实时转录电话并评估情感；ADT构建AI代理帮助客户选择、订购和设置家庭安全系统；AUI的AI代理通过整合现有系统和工具，赋能企业创建复杂、多步骤的对话式体验；BMC与Google Cloud合作，利用Vertex AI和Llama 3.1，显著提高对话式AI和AIOps推荐的准确性。\n\n更多详细信息可访问：[cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders](https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders)",
+        "createDate": "2024-12-28 02:23:22",
+        "hotValue": 12.568996441150388,
+        "tpostUrl": "https://twitter.com/omarsar0/status/1872709876574543923"
+      }
+    ]
+  },
+  {
+    "eventId": "1872709329587191965",
+    "title": "新研究：专家系统让AI决策过程更透明",
+    "hotValue": 7.116642469386171,
+    "cover": "https://pbs.twimg.com/media/Gf0x-iAawAADdgs.jpg",
+    "tags": [
+      "算法突破",
+      "研究报告",
+      "论文"
+    ],
+    "createDate": "2024-12-28 02:21:12",
+    "tposts": [
+      {
+        "tpostId": "1872709329587191965",
+        "title": "新研究：专家系统让AI决策过程更透明",
+        "author": "Rohan Paul",
+        "followerCount": "51592",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "研究提出SMoSE架构，通过可解释专家系统实现复杂控制任务。",
+        "content": "意大利研究团队提出一种名为「SMoSE」的稀疏浅层专家混合架构，用于解决连续控制任务中的可解释性问题。该研究已发表于arXiv预印本平台。\n\n\nSMoSE采用top-1混合专家架构，包含多个专门负责不同基础技能的线性策略专家。通过可解释的路由器根据当前状态分配任务给专家，每次决策仅激活一个专家以保证最大可解释性。\n\n\n该架构具有以下特点：\n\n- 采用稀疏激活机制，单一专家选择提供清晰的决策路径\n- 专家和路由器均使用线性策略以保持完全可解释性\n- 通过负载均衡防止专家崩溃，确保技能分布均衡\n- 从路由器权重中提取决策树，创建人类可读的路由逻辑表示\n\n\n研究团队在6个MuJoCo连续控制基准任务上进行了测试。结果表明，SMoSE在5个环境中超越了现有的可解释基准，缩小了与非可解释最新方法的性能差距，同时保持了完全的可解释性。\n\n\n论文链接：[https://arxiv.org/abs/2412.13053](https://arxiv.org/abs/2412.13053)",
+        "createDate": "2024-12-28 02:21:12",
+        "hotValue": 7.116642469386171,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872709329587191965"
+      }
+    ]
+  },
+  {
+    "eventId": "1872709251061502118",
+    "title": "AI经济变革：2030年职场预见",
+    "hotValue": 32.19590894826229,
+    "cover": "https://pbs.twimg.com/media/Gf0zI5laEAAn0lH.jpg",
+    "tags": [
+      "投融资",
+      "趋势洞察",
+      "应用创新",
+      "市场格局",
+      "算法突破"
+    ],
+    "createDate": "2024-12-28 02:20:53",
+    "tposts": [
+      {
+        "tpostId": "1872709251061502118",
+        "title": "AI经济变革：2030年职场预见",
+        "author": "Fernando Cao Zheng",
+        "followerCount": "68677",
+        "avatar": "https://pbs.twimg.com/profile_images/1621568541186035719/gzm_ZAC7_normal.jpg",
+        "desc": "到2034年，AI将替代70%办公室工作，经济影响重大。",
+        "content": "AI技术正在迅速改变工作场所和全球经济。未来几年，自动化和AI代理将替代办公室工作的70%，对经济产生深远影响。根据McKinsey和Goldman Sachs的研究，到2034年，AI可以为全球经济贡献7万亿美元。\n\n![未来职场](https://pbs.twimg.com/media/Gf0zgIZawAA9CB2.png)\n\n### AI的角色转变\nAI代理不仅负责简单的自动化任务。目前，它们已经能够感知环境并执行从头到尾的复杂任务。这种能力包括处理客户服务、数据分析、项目管理等，完全无需人类干预。\n\n- 例如，Amazon的推荐系统便是AI代理的一种应用，其为公司贡献了35%的收入。AI的引入还帮助企业减少了65%的客户支持票据。\n\n### 人力资本转型\nAI技术的广泛应用使大量的简单重复性工作变得不再必要，但同时推动了创造性思维和战略规划等方面的工作价值。因此，工作角色将发生转型，而不是消失，新的职位如AI代理监督员、AI伦理官员、AI-人合作专家等将会出现。\n\n这种技术转型在不同经济体间产生了不平等的影响。发达经济体预期能比新兴经济体获得20-25%的额外经济收益。这加剧了准备就绪的AI企业与落后组织之间的差距。",
+        "createDate": "2024-12-28 02:20:53",
+        "hotValue": 30.48639765691084,
+        "tpostUrl": "https://twitter.com/thefernandocz/status/1872709251061502118"
+      },
+      {
+        "tpostId": "1872871272348303814",
+        "title": "AI至2034年推动巨大财富转移",
+        "author": "Teknium (e/λ)",
+        "followerCount": "37359",
+        "avatar": "https://pbs.twimg.com/profile_images/1642401912648777728/2KFikPsE_normal.jpg",
+        "desc": "预计到2034年，AI将替代大量工作，改变经济格局。",
+        "content": "据预测，到2034年，AI「代理」将替代70%的办公室工作，为全球经济增加7万亿美元的价值。\n\n- 这项预测来自于McKinsey和Goldman，两家知名企业提供了对此的分析。\n- 这表明大部分工作将会被认为变得过时。\n- 人们需要了解这种变化并做好准备。\n\n![Image](https://pbs.twimg.com/media/Gf0zI5laEAAn0lH.jpg)\n\n该图片展示了一位演讲者，其背景暗示他正在一个重要会议上讨论。",
+        "createDate": "2024-12-28 13:04:42",
+        "hotValue": 15.865170731051423,
+        "tpostUrl": "https://twitter.com/Teknium1/status/1872871272348303814"
+      }
+    ]
+  },
+  {
+    "eventId": "1872708713670152331",
+    "title": "LLMs共享幻觉：不同模型产生相似虚构内容",
+    "hotValue": 7.09985526561918,
+    "cover": "https://pbs.twimg.com/media/GTSF0DEXUAAyipG.jpg",
+    "tags": [
+      "算法突破",
+      "评测榜",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 02:18:45",
+    "tposts": [
+      {
+        "tpostId": "1872708713670152331",
+        "title": "LLMs共享幻觉：不同模型产生相似虚构内容",
+        "author": "Ross Wightman",
+        "followerCount": "20393",
+        "avatar": "https://pbs.twimg.com/profile_images/769304549135880192/gUzKgYuk_normal.jpg",
+        "desc": "研究发现不同LLMs在生成虚构内容时表现出高度一致性。",
+        "content": "在探索不同大型语言模型（LLMs）时，研究者发现这些模型在生成虚构内容时表现出惊人的一致性。这种现象被称为「共享幻觉」，即不同模型在没有任何真实依据的情况下，生成相似的虚构库、函数等。\n\n- 这种现象表明，LLMs在处理不存在的信息时，可能会产生相似的错误或虚构内容。\n- 研究还指出，这些虚构内容往往看起来非常合理，以至于人们可能会误以为它们确实存在。\n\n![](https://pbs.twimg.com/media/GTSF0DEXUAAyipG.jpg)\n\n详细研究结果已发表在arXiv上，论文链接：[arxiv.org/abs/2407.16604](https://arxiv.org/abs/2407.16604)。",
+        "createDate": "2024-12-28 02:18:45",
+        "hotValue": 7.09985526561918,
+        "tpostUrl": "https://twitter.com/wightmanr/status/1872708713670152331"
+      }
+    ]
+  },
+  {
+    "eventId": "1872708617553756605",
+    "title": "RemoteRAG：保护隐私的云RAG服务",
+    "hotValue": 7.213120914600374,
+    "cover": "https://pbs.twimg.com/media/Gf0xyFEawAEMxVH.jpg",
+    "tags": [
+      "算法突破",
+      "优化之术",
+      "应用创新"
+    ],
+    "createDate": "2024-12-28 02:18:22",
+    "tposts": [
+      {
+        "tpostId": "1872708617553756605",
+        "title": "RemoteRAG：保护隐私的云RAG服务",
+        "author": "Rohan Paul",
+        "followerCount": "51592",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "RemoteRAG通过新型隐私机制和搜索范围限制，实现隐私保护和检索效率的平衡。",
+        "content": "RemoteRAG提出了一种新型隐私保护机制，旨在解决云RAG服务中用户查询隐私泄露的问题。该机制通过(n,ε)-DistanceDP控制查询隐私泄露，并在n维嵌入空间中使用预算ε来实现。\n\n- 通过限制搜索范围，从全部文档缩小到与扰动嵌入相关的小集合，显著降低计算成本。\n- 提供双重检索方法，根据隐私需求选择直接检索或k-out-of-k'不经意传输协议。\n- 理论框架确保最小搜索范围大小包含目标文档，同时优化效率。\n\n关键发现包括隐私与效率在RAG系统中可以共存，扰动嵌入有效保护查询隐私同时保持检索质量，搜索范围限制显著减少计算开销。\n\n实验结果展示了100%的检索准确率，处理时间从2.72小时降至0.67秒，数据传输量从1.43GB减少到46.66KB。\n\n![Image](https://pbs.twimg.com/media/Gf0xyFEawAEMxVH.jpg)\n\n论文链接：[arxiv.org/abs/2412.12775](https://arxiv.org/abs/2412.12775)",
+        "createDate": "2024-12-28 02:18:22",
+        "hotValue": 7.213120914600374,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872708617553756605"
+      }
+    ]
+  },
+  {
+    "eventId": "1872705482499973585",
+    "title": "研究揭示人工神经网络与大脑表征的普遍性",
+    "hotValue": 15.87616175724222,
+    "cover": "https://pbs.twimg.com/media/Gf0u_BeW8AA8rr8.jpg",
+    "tags": [
+      "学术圈",
+      "算法突破",
+      "论文",
+      "研究报告"
+    ],
+    "createDate": "2024-12-28 02:05:54",
+    "tposts": [
+      {
+        "tpostId": "1872705482499973585",
+        "title": "研究揭示人工神经网络与大脑表征的普遍性",
+        "author": "Eghbal Hosseini",
+        "followerCount": "464",
+        "avatar": "https://pbs.twimg.com/profile_images/1516418208995192837/cT2LdI5P_normal.jpg",
+        "desc": "MIT等机构研究发现AI与大脑神经网络存在普遍性表征原理，为神经科学和AI解释性研究提供新思路。",
+        "content": "来自 MIT 等机构的研究团队在预印本平台发布了一篇题为「Universality of representation in biological and artificial neural networks」的研究论文。\n\n\n该研究探讨了为什么不同的人工神经网络（ANN）会呈现出与大脑相似的表征特征。研究团队开发了一种新方法，通过寻找能降低 ANN 间表征一致性的自然刺激来测试不同 ANN 作为竞争假设的有效性。\n\n\n研究发现：\n\n- 当不同 ANN 的表征出现分歧时，它们对 fMRI 反应的预测能力会降低，这支持了表征的普遍性原理\n\n- 在语言和视觉领域的实验中，ANN 间的表征一致性越高，与大脑的对齐程度也越高\n\n- 研究还发现了普遍表征与个性化表征的区分特征：在语言领域，感知频率和含义普遍性随一致性降低而减少；在视觉领域，效价和杂乱度增加，而美感度降低\n\n\n论文链接：https://www.biorxiv.org/content/10.1101/2024.12.26.629294v1\n\n\n研究表明，高性能 ANN 倾向于收敛到相似的、类脑的表征，这可能源于它们与人类共享相似的输入统计特征。这一发现为计算神经科学和 AI 可解释性研究提供了重要启示。",
+        "createDate": "2024-12-28 02:05:54",
+        "hotValue": 14.166650465890767,
+        "tpostUrl": "https://twitter.com/eghbal_hosseini/status/1872705482499973585"
+      },
+      {
+        "tpostId": "1872764164088979760",
+        "title": "研究揭示生物与人工神经网络表征的普遍性",
+        "author": "Andrew Lampinen",
+        "followerCount": "7862",
+        "avatar": "https://pbs.twimg.com/profile_images/1869783966284390400/AOroVPyf_normal.jpg",
+        "desc": "新研究探讨生物与人工神经网络表征的普遍性。",
+        "content": "最新研究探讨了生物与人工神经网络（ANN）表征的普遍性。该研究由Eghbal Hosseini等人进行，题为「Universality of representation in biological and artificial neural networks」，已在bioRxiv上发表。\n\n研究探讨了不同ANN与大脑表征相似的原因，并提出了这些表征是否可以通过额外上下文等因素进行调节的问题。\n\n论文链接：[tinyurl.com/yckndmjt](https://www.biorxiv.org/content/10.1101/2024.12.26.629294v1)",
+        "createDate": "2024-12-28 05:59:05",
+        "hotValue": 9.919236990796293,
+        "tpostUrl": "https://twitter.com/AndrewLampinen/status/1872764164088979760"
+      }
+    ]
+  },
+  {
+    "eventId": "1872703997389238544",
+    "title": "Integuru：通过逆向工程生成平台内部API的集成代码",
+    "hotValue": 14.283341721961941,
+    "cover": "https://pbs.twimg.com/tweet_video_thumb/GfV-k0tawAANzu_.jpg",
+    "tags": [
+      "应用创新",
+      "开源",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 02:00:00",
+    "tposts": [
+      {
+        "tpostId": "1872703997389238544",
+        "title": "Integuru：通过逆向工程生成平台内部API的集成代码",
+        "author": "LangChain",
+        "followerCount": "169457",
+        "avatar": "https://pbs.twimg.com/profile_images/1758141568970878976/fM5FlvD3_normal.jpg",
+        "desc": "Integuru AI代理通过逆向工程生成平台内部API的集成代码。",
+        "content": "Integuru 是一个AI代理，它通过逆向工程生成平台内部API的集成代码。使用create_har.py生成包含所有浏览器网络请求的文件，该代理输出执行所需操作的Python代码。\n\n![Image](https://pbs.twimg.com/tweet_video_thumb/GfV-k0tawAANzu_.jpg)\n\n- 使用create_har.py生成网络请求文件\n- 输出Python代码以执行操作\n\n更多信息请访问：[github.com/Integuru-AI/Integuru](https://github.com/Integuru-AI/Integuru)",
+        "createDate": "2024-12-28 02:00:00",
+        "hotValue": 14.283341721961941,
+        "tpostUrl": "https://twitter.com/LangChainAI/status/1872703997389238544"
+      }
+    ]
+  },
+  {
+    "eventId": "1872703341962375679",
+    "title": "Google DeepMind专家探讨训练专家模型的重要性",
+    "hotValue": 6.372041729301633,
+    "cover": "",
+    "tags": [
+      "算法突破",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 01:57:24",
+    "tposts": [
+      {
+        "tpostId": "1872703341962375679",
+        "title": "Google DeepMind专家探讨训练专家模型的重要性",
+        "author": "Mostafa Dehghani",
+        "followerCount": "7586",
+        "avatar": "https://pbs.twimg.com/profile_images/890616195875045376/GCso9UO0_normal.jpg",
+        "desc": "Google DeepMind专家强调训练专家模型对构建通用模型的关键作用。",
+        "content": "Google DeepMind的Mostafa Dehghani近期在社交媒体上分享了对训练专家模型的看法。他指出，虽然构建专家模型可能看似偏离了最终目标，但这一过程可能是通往构建终极通用模型的捷径。\n\nDehghani强调，尽管架构在模型训练中扮演着重要角色，但大规模训练一个出色的模型远不止于架构本身。这一观点为AI领域的研究者和开发者提供了新的视角，强调了在追求通用人工智能的过程中，专家模型的训练不容忽视。",
+        "createDate": "2024-12-28 01:57:24",
+        "hotValue": 6.372041729301633,
+        "tpostUrl": "https://twitter.com/m__dehghani/status/1872703341962375679"
+      }
+    ]
+  },
+  {
+    "eventId": "1872696837184057418",
+    "title": "DeepSeek以有限资源发布前沿级LLM，挑战行业常规",
+    "hotValue": 10.25509591841369,
+    "cover": "https://pbs.twimg.com/media/Gf0nGJAXIAExbr9.png",
+    "tags": [
+      "优化之术",
+      "工程实践",
+      "模型升级",
+      "新模型",
+      "算法突破",
+      "开源"
+    ],
+    "createDate": "2024-12-28 01:31:33",
+    "tposts": [
+      {
+        "tpostId": "1872696837184057418",
+        "title": "DeepSeek以有限资源发布前沿级LLM，挑战行业常规",
+        "author": "Eric Hartford",
+        "followerCount": "14730",
+        "avatar": "https://pbs.twimg.com/profile_images/1801288587377319936/b3kFl6F-_normal.jpg",
+        "desc": "DeepSeek以2048 GPUs和$6M预算发布前沿级LLM，挑战行业常规。",
+        "content": "DeepSeek，一家中国AI公司，近日以2048 GPUs和$6M的预算发布了前沿级的大型语言模型（LLM），这一成就挑战了行业对于大规模GPU集群的依赖。该模型名为DeepSeek-V3，其训练仅使用了2.8M GPU-hours，相比之下，Llama 3 405B模型使用了30.8M GPU-hours。\n\nDeepSeek的这一成就不仅展示了在资源有限的情况下进行高效研究和工程的能力，也强调了在数据和算法优化方面仍有大量工作可做。DeepSeek的创始人梁文锋及其139名工程师和研究人员团队，通过内部自筹资金，成功完成了这一项目，而无需外部投资。\n\n此外，DeepSeek的技术报告详细介绍了模型的开发过程，为行业提供了宝贵的参考。这一发布不仅是对DeepSeek团队能力的证明，也为AI领域的研究和开发提供了新的思路和方向。",
+        "createDate": "2024-12-28 01:31:33",
+        "hotValue": 8.545584627062237,
+        "tpostUrl": "https://twitter.com/cognitivecompai/status/1872696837184057418"
+      },
+      {
+        "tpostId": "1872702306892054874",
+        "title": "vLLM推出DeepSeek-V3优化方案，支持多种并行计算模式",
+        "author": "Eric Hartford",
+        "followerCount": "14731",
+        "avatar": "https://pbs.twimg.com/profile_images/1801288587377319936/b3kFl6F-_normal.jpg",
+        "desc": "vLLM发布DeepSeek-V3优化方案，支持多种并行计算模式。",
+        "content": "vLLM宣布推出DeepSeek-V3的优化方案，支持多种并行计算模式，包括张量并行和管道并行，以及CPU卸载模型层。\n\n- 张量并行支持在8xH200或MI300x上运行，或通过IB连接的节点上运行TP16。\n- 管道并行支持在无高速互连的两台8xH100或任何机器集合上运行。\n- CPU卸载模型层通过`--cpu-offload-gb`参数实现。\n\n更多详情可参考vLLM的分布式服务指南和增强计划。\n\n![](https://pbs.twimg.com/media/GfuKUsuagAEfvM2.jpg)\n\n[分布式服务指南](https://docs.vllm.ai/en/latest/serving/distributed_serving.html)\n[增强计划](https://github.com/vllm-project/vllm/issues/11539)",
+        "createDate": "2024-12-28 01:53:17",
+        "hotValue": 6.320869598598082,
+        "tpostUrl": "https://twitter.com/cognitivecompai/status/1872702306892054874"
+      }
+    ]
+  },
+  {
+    "eventId": "1872694610772062642",
+    "title": "AppFolio AI助手每周为房管效率提升10小时",
+    "hotValue": 16.840104910320964,
+    "cover": "https://pbs.twimg.com/media/Gf0lxWbaYAA4akD.jpg",
+    "tags": [
+      "开源",
+      "工程实践",
+      "应用创新",
+      "利器",
+      "解决方案"
+    ],
+    "createDate": "2024-12-28 01:22:42",
+    "tposts": [
+      {
+        "tpostId": "1872694610772062642",
+        "title": "AppFolio AI助手每周为房管效率提升10小时",
+        "author": "LangChain",
+        "followerCount": "169457",
+        "avatar": "https://pbs.twimg.com/profile_images/1758141568970878976/fM5FlvD3_normal.jpg",
+        "desc": "AppFolio基于LangGraph开发AI助手Realm-X，为房产管理人员每周节省10+小时工作时间。",
+        "content": "AppFolio基于LangGraph开发的AI助手「Realm-X」入选2024年LangGraph生产应用TOP5第四名。该AI助手通过对话式界面，协助房产管理人员处理日常工作，为用户每周节省超过10小时工作时间。\n\n\nRealm-X具备全面的业务辅助功能：\n\n- 帮助用户了解业务状态\n- 批量执行住户信息查询、消息发送、日程安排等操作\n- 处理供应商、房屋单元、账单和工作订单等相关事务\n\n\nAppFolio选择LangGraph作为开发框架，主要看中其可控的代理架构特性。详细技术实践经验已发布在LangChain官方博客：[https://blog.langchain.dev/customers-appfolio/](https://blog.langchain.dev/customers-appfolio/)\n\n\n![2024年LangGraph生产应用TOP5第四名：AppFolio](https://pbs.twimg.com/media/GfQrwytXUAENEfk?format=jpg&name=900x900)",
+        "createDate": "2024-12-28 01:22:42",
+        "hotValue": 15.13059361896951,
+        "tpostUrl": "https://twitter.com/LangChainAI/status/1872694610772062642"
+      },
+      {
+        "tpostId": "1872695318187487316",
+        "title": "Appfolio AI助手入选2024年LangGraph生产应用Top5",
+        "author": "Harrison Chase",
+        "followerCount": "63936",
+        "avatar": "https://pbs.twimg.com/profile_images/1569345624935485442/R67C4wCQ_normal.jpg",
+        "desc": "Appfolio基于LangGraph开发的AI助手Realm-X入选榜单，每周节省物业管理10小时。",
+        "content": "AppFolio 基于 LangGraph 开发的 AI 助手「Realm-X」入选 2024 年 LangGraph 生产应用 Top 5 榜单第四名。该助手为物业管理人员提供对话式界面，协助查询信息、批量执行操作等功能，每周可节省超过 10 小时工作时间。\n\n\nRealm-X 支持处理住户、供应商、房屋单元、账单和工单等多种业务场景，能够执行信息查询、消息发送和日程安排等操作。\n\n\n![架构图](https://twitter.com/hwchase17/status/1872695318187487316/photo/1)\n\n\nAppFolio 分享了其基于 LangGraph 构建的可控代理架构：\n\n- 采用路由器（Router）模块对查询进行分发\n- text2action 模块负责问答和操作解析\n- text2data 模块包含查询生成、执行和后处理\n- 设置受限主题（Blocked Topics）进行管控\n\n完整技术细节可查看博客：[https://blog.langchain.dev/customers-appfolio/](https://blog.langchain.dev/customers-appfolio/)",
+        "createDate": "2024-12-28 01:25:31",
+        "hotValue": 12.745092700327525,
+        "tpostUrl": "https://twitter.com/hwchase17/status/1872695318187487316"
+      }
+    ]
+  },
+  {
+    "eventId": "1872694082394567105",
+    "title": "新型Web代理通过API直接交互提升任务完成效率",
+    "hotValue": 8.595975180426235,
+    "cover": "https://pbs.twimg.com/media/Gf0ksmPbcAAFke2.jpg",
+    "tags": [
+      "算法突破",
+      "应用创新",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 01:20:36",
+    "tposts": [
+      {
+        "tpostId": "1872694082394567105",
+        "title": "新型Web代理通过API直接交互提升任务完成效率",
+        "author": "Rohan Paul",
+        "followerCount": "51592",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "研究提出API-Based和Hybrid Web代理，显著提升任务完成效率。",
+        "content": "Web代理传统上依赖浏览器界面进行人机交互，效率低下。最新研究提出两种新型代理：API-Based Agent和Hybrid Agent，通过直接与Web服务的API交互，显著提升任务完成效率。\n\n- **API-Based Agent**：直接通过文档化的API与Web服务通信。\n- **Hybrid Agent**：结合API调用与Web浏览能力，动态切换以应对不同任务需求。\n\n研究还采用GPT-4为未文档化的API生成文档，并利用OpenHands框架进行代理评估和开发。结果显示，Hybrid Agent在WebArena基准测试中达到35.8%的成功率，API-Based Agent平均比浏览代理高出15%。\n\n![Image](https://pbs.twimg.com/media/Gf0ksmPbcAAFke2.jpg)\n\n论文详细探讨了API在提升Web代理性能方面的潜力，以及如何通过改进API的可用性和文档质量来进一步提高代理的成功率。研究还指出，手动API集成是当前的一个限制因素。\n\n[查看论文](https://arxiv.org/abs/2410.16464)",
+        "createDate": "2024-12-28 01:20:36",
+        "hotValue": 8.595975180426235,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872694082394567105"
+      }
+    ]
+  },
+  {
+    "eventId": "1872692460377493513",
+    "title": "谷歌发布无提示思维链推理研究成果",
+    "hotValue": 8.21279052489315,
+    "cover": "",
+    "tags": [
+      "算法突破",
+      "谷歌",
+      "论文",
+      "研究报告",
+      "新模型"
+    ],
+    "createDate": "2024-12-28 01:14:10",
+    "tposts": [
+      {
+        "tpostId": "1872692460377493513",
+        "title": "谷歌发布无提示思维链推理研究成果",
+        "author": "Denny Zhou",
+        "followerCount": "15383",
+        "avatar": "https://pbs.twimg.com/profile_images/1719527795683143680/_KX1eewT_normal.jpg",
+        "desc": "Google DeepMind发布无需提示的思维链推理研究，并展示Gemini 2.0新功能。",
+        "content": "Google DeepMind研究团队发布了题为「Chain of Thought Reasoning without Prompting」的研究论文，该论文已被NeurIPS 2024收录。\n\n\n研究团队指出，思维链（Chain of Thought，CoT）推理不等同于CoT提示。虽然「思维链」这一术语因提示技术而流行，但其本质是指逐步推理的生成过程。CoT提示仅是引导推理的方式之一。研究表明，让模型在各种任务中进行内在推理训练，比依赖特定任务的提示更为有效。\n\n\n该研究展示了「CoT解码」方法在预训练语言模型上的出色表现。研究发现预训练语言模型已具备内在的推理能力，通过精心设计的微调过程可以充分发挥这种能力。\n\n\n同时，研究团队还展示了Gemini 2.0的flash thinking模型预览，该模型能够尝试多种方法解决数学问题，并进行自我验证。\n\n\n论文链接：[Chain of Thought Reasoning without Prompting](https://arxiv.org/abs/2402.10200)",
+        "createDate": "2024-12-28 01:14:10",
+        "hotValue": 8.21279052489315,
+        "tpostUrl": "https://twitter.com/denny_zhou/status/1872692460377493513"
+      }
+    ]
+  },
+  {
+    "eventId": "1872690869595472091",
+    "title": "Kornia发布Rust版本点云加载器",
+    "hotValue": 7.174987053415353,
+    "cover": "",
+    "tags": [
+      "开源",
+      "工程实践",
+      "应用创新",
+      "算法突破",
+      "利器"
+    ],
+    "createDate": "2024-12-28 01:07:50",
+    "tposts": [
+      {
+        "tpostId": "1872690869595472091",
+        "title": "Kornia发布Rust版本点云加载器",
+        "author": "Edgar",
+        "followerCount": "1644",
+        "avatar": "https://pbs.twimg.com/profile_images/1235919832274497539/ih5yE-Fa_normal.jpg",
+        "desc": "Kornia开源项目推出Rust版本点云加载器，支持ply/pcd格式。",
+        "content": "开源计算机视觉库Kornia推出了Rust版本的点云加载器，新增了对ply及pcd格式点云文件的处理支持。\n\n\n该工具已在GitHub上发布，开发者可以通过示例代码了解具体使用方法：https://github.com/kornia/kornia-rs/tree/main/examples/ply_rerun\n\n\n开源项目同时提供了技术交流渠道，感兴趣的开发者可通过Discord参与讨论：https://lnkd.in/dhWKPmsu\n\n\n![点云加载演示](https://video.twimg.com/ext_tw_video/1872587144553717760/pu/vid/avc1/886x720/8ZaB_Zj1D5IEfr4T.mp4?tag=12)\n\n\n该功能的发布将为计算机视觉、3D视觉和机器人领域的开发者提供更多工具选择。",
+        "createDate": "2024-12-28 01:07:50",
+        "hotValue": 5.465475762063898,
+        "tpostUrl": "https://twitter.com/edgarriba/status/1872690869595472091"
+      },
+      {
+        "tpostId": "1872763763335856388",
+        "title": "Kornia推出Rust版COLMAP数据加载器示例",
+        "author": "Edgar",
+        "followerCount": "1645",
+        "avatar": "https://pbs.twimg.com/profile_images/1235919832274497539/ih5yE-Fa_normal.jpg",
+        "desc": "Kornia发布Rust语言COLMAP数据加载器示例，促进3D视觉和机器人技术发展。",
+        "content": "Kornia团队近日在GitHub上发布了一个使用Rust语言编写的COLMAP数据加载器示例，旨在展示和推广其在3D视觉和机器人技术领域的应用潜力。\n\n该示例代码位于Kornia的GitHub仓库中，具体路径为：[kornia/kornia-rs/examples/colmap_rerun/src/main.rs](https://github.com/kornia/kornia-rs/blob/main/examples/colmap_rerun/src/main.rs)。\n\n- 示例展示了如何在Rust环境中使用Kornia的COLMAP数据加载器。\n- 该加载器支持从COLMAP格式的数据中读取和解析，为3D重建和机器人视觉任务提供数据支持。\n\nKornia作为一个开源的计算机视觉库，此次更新进一步丰富了其在Rust生态中的应用场景，为开发者提供了更多选择和灵活性。",
+        "createDate": "2024-12-28 05:57:30",
+        "hotValue": 5.3165508181203895,
+        "tpostUrl": "https://twitter.com/edgarriba/status/1872763763335856388"
+      }
+    ]
+  },
+  {
+    "eventId": "1872690269969334443",
+    "title": "Dolphin 3.0 开发加速，数据处理效率大幅提升",
+    "hotValue": 11.010824834682687,
+    "cover": "https://pbs.twimg.com/media/Gf0l6YBXAAAC6iS.png",
+    "tags": [
+      "模型升级",
+      "优化之术"
+    ],
+    "createDate": "2024-12-28 01:05:27",
+    "tposts": [
+      {
+        "tpostId": "1872690269969334443",
+        "title": "Dolphin 3.0 开发加速，数据处理效率大幅提升",
+        "author": "Eric Hartford",
+        "followerCount": "14731",
+        "avatar": "https://pbs.twimg.com/profile_images/1801288587377319936/b3kFl6F-_normal.jpg",
+        "desc": "Dolphin 3.0开发进程因数据处理效率提升而加速。",
+        "content": "Eric Hartford 在社交媒体上透露，通过使用1,000个工作者线程对deepseek v3进行压力测试，未遇到任何限制。这一测试结果使得原本预计需要一个月时间的数据处理任务，现在仅需一天即可完成。\n\n- 数据处理效率的提升，直接加速了Dolphin 3.0的开发进程。\n- 目前，Eric Hartford正在考虑是否将工作者线程数量增加到10,000，以进一步测试系统的极限。\n\n这一进展表明，Dolphin 3.0的开发正以超出预期的速度推进，为AI模型的优化和升级提供了新的可能性。",
+        "createDate": "2024-12-28 01:05:27",
+        "hotValue": 11.010824834682687,
+        "tpostUrl": "https://twitter.com/cognitivecompai/status/1872690269969334443"
+      }
+    ]
+  },
+  {
+    "eventId": "1872688269273776639",
+    "title": "2024年AI工具栈：ChatGPT领衔，涵盖写作、搜索、图像等多领域",
+    "hotValue": 8.981884897430188,
+    "cover": "",
+    "tags": [
+      "应用创新"
+    ],
+    "createDate": "2024-12-28 00:57:30",
+    "tposts": [
+      {
+        "tpostId": "1872688269273776639",
+        "title": "2024年AI工具栈：ChatGPT领衔，涵盖写作、搜索、图像等多领域",
+        "author": "Alvaro Cintas",
+        "followerCount": "76051",
+        "avatar": "https://pbs.twimg.com/profile_images/1615753720691556375/3IlAzsa0_normal.jpg",
+        "desc": "2024年AI工具栈包括ChatGPT、Claude 3.5 Sonnet等，覆盖写作、搜索、图像等多领域。",
+        "content": "2024年AI工具栈涵盖了多个领域的应用，具体包括：\n\n- 总体应用：ChatGPT\n- 写作：Claude 3.5 Sonnet\n- 搜索：Perplexity\n- 图像：Freepik, Ideogram\n- 视频：Kling AI, Sora\n- 编程：Windsurf, Cursor\n- 自动化：Zapier, Lindy\n- 头像制作：HeyGen, ElevenLabs\n- 演示文稿：Gamma\n\n这些工具展示了AI技术在各个领域的广泛应用和深入发展。",
+        "createDate": "2024-12-28 00:57:30",
+        "hotValue": 8.981884897430188,
+        "tpostUrl": "https://twitter.com/dr_cintas/status/1872688269273776639"
+      }
+    ]
+  },
+  {
+    "eventId": "1872688214215147613",
+    "title": "DAIR.AI推出免费Midjourney入门课程",
+    "hotValue": 10.160114658456454,
+    "cover": "https://pbs.twimg.com/media/Gf0esvwW8AAARw3.jpg",
+    "tags": [
+      "应用创新",
+      "教育",
+      "利器"
+    ],
+    "createDate": "2024-12-28 00:57:17",
+    "tposts": [
+      {
+        "tpostId": "1872688214215147613",
+        "title": "DAIR.AI推出免费Midjourney入门课程",
+        "author": "elvis",
+        "followerCount": "218649",
+        "avatar": "https://pbs.twimg.com/profile_images/939313677647282181/vZjFWtAn_normal.jpg",
+        "desc": "DAIR.AI发布免费Midjourney课程，提供60+课时和1.5小时视频内容",
+        "content": "DAIR.AI与其主要贡献者Santeri合作开发了一门面向所有人的Midjourney图像生成课程。该课程已在其学院平台上线。\n\n\n课程内容包括：\n\n- 60多个课时的学习内容\n- 1.5小时的视频教学\n- 实践项目作业\n- 适合初学者的教学设计\n\n\n课程大纲涵盖Midjourney基础知识、提示词编写、模型选择和工具使用等核心内容。目前课程已开放免费注册。\n\n\n课程链接：https://dair-ai.thinkific.com/courses/midjourney-introduction",
+        "createDate": "2024-12-28 00:57:17",
+        "hotValue": 10.160114658456454,
+        "tpostUrl": "https://twitter.com/omarsar0/status/1872688214215147613"
+      }
+    ]
+  },
+  {
+    "eventId": "1872684854703432137",
+    "title": "新方案：语音助手可实时查询百万级PDF文档",
+    "hotValue": 13.535300987183366,
+    "cover": "",
+    "tags": [
+      "应用创新",
+      "解决方案",
+      "利器",
+      "工程实践"
+    ],
+    "createDate": "2024-12-28 00:43:56",
+    "tposts": [
+      {
+        "tpostId": "1872684854703432137",
+        "title": "新方案：语音助手可实时查询百万级PDF文档",
+        "author": "LlamaIndex 🦙",
+        "followerCount": "84006",
+        "avatar": "https://pbs.twimg.com/profile_images/1623505166996742144/n-PNQGgd_normal.jpg",
+        "desc": "LlamaIndex与ElevenLabs推出新方案，实现语音助手对海量PDF文档的实时检索",
+        "content": "LlamaIndex 与 ElevenLabs 联合推出新的技术集成方案，实现了语音助手对百万级 PDF 文档的实时检索功能。\n\n\n该方案主要包含两个核心步骤：\n\n- 通过 Fly.io 部署 LlamaCloud 检索 API 服务\n- 将检索服务作为工具接入 ElevenLabs 语音助手\n\n\n技术实现依托于以下关键组件：\n\n- LlamaCloud：提供文档处理和检索技术支持\n- ElevenLabs：负责语音交互功能\n- Create-llama：用于快速构建应用的开发工具\n\n\n相关资源链接：\n\nLlamaCloud 平台：https://cloud.llamaindex.ai/login\nElevenLabs 文档：https://elevenlabs.io/docs/product/introduction\n开发工具：https://github.com/run-llama/create-llama",
+        "createDate": "2024-12-28 00:43:56",
+        "hotValue": 13.535300987183366,
+        "tpostUrl": "https://twitter.com/llama_index/status/1872684854703432137"
+      }
+    ]
+  },
+  {
+    "eventId": "1872683863497220337",
+    "title": "Hyperbolic Labs推出DeepSeek-V3 API，优化速度进行中",
+    "hotValue": 17.368177322329984,
+    "cover": "https://pbs.twimg.com/media/Gf0DYZ1asAACSIv.jpg",
+    "tags": [
+      "算法突破",
+      "评测榜",
+      "模型升级",
+      "趋势洞察",
+      "优化之术",
+      "开源",
+      "工程实践",
+      "算力"
+    ],
+    "createDate": "2024-12-28 00:40:00",
+    "tposts": [
+      {
+        "tpostId": "1872683863497220337",
+        "title": "Hyperbolic Labs推出DeepSeek-V3 API，优化速度进行中",
+        "author": "Yuchen Jin",
+        "followerCount": "20671",
+        "avatar": "https://pbs.twimg.com/profile_images/1319081238439751681/kCcqnwoF_normal.jpg",
+        "desc": "Hyperbolic Labs发布DeepSeek-V3 API，支持通过curl命令进行交互。",
+        "content": "Hyperbolic Labs宣布推出DeepSeek-V3 API，用户现可通过curl命令与API进行交互。该API运行于H200硬件上，采用sglang技术，旨在提供更快的响应速度。\n\n示例curl命令如下：\n\n```\ncurl -X POST \"https://api.hyperbolic.xyz/v1/chat/completions\" \\\n    -H \"Content-Type: application/json\" \\\n    -H \"Authorization: Bearer $HYPERBOLIC_API_KEY\" \\\n    --data-raw '{\n        \"messages\": [\n            {\n                \"role\": \"user\",\n                \"content\": \"How many gifts will Santa Claus deliver on Christmas?\"\n            }\n        ],\n        \"model\": \"deepseek-ai/DeepSeek-V3\",\n        \"max_tokens\": 512,\n        \"temperature\": 0.7,\n        \"top_p\": 0.9,\n        \"stream\": false\n    }'\n```\n\n![Image](https://pbs.twimg.com/media/Gf0DYZ1asAACSIv.jpg)\n\n目前，团队正致力于进一步优化API的速度，以提升用户体验。",
+        "createDate": "2024-12-28 00:40:00",
+        "hotValue": 6.861429590513428,
+        "tpostUrl": "https://twitter.com/Yuchenj_UW/status/1872683863497220337"
+      },
+      {
+        "tpostId": "1872717736964702506",
+        "title": "Deepseek V3：4500万token仅花费3.37美元",
+        "author": "Yuchen Jin",
+        "followerCount": "20771",
+        "avatar": "https://pbs.twimg.com/profile_images/1319081238439751681/kCcqnwoF_normal.jpg",
+        "desc": "开发者使用并行处理技术，让Deepseek V3的API调用成本降至极低水平。",
+        "content": "开发者Tom Dörr分享了一个显著的成本优化案例：使用Deepseek V3模型处理4500万个token，总支出仅为3.37美元。\n\n这一惊人的低成本得益于并行化处理技术。Tom表示，通过同时运行10多个并行线程调用API，显著降低了总体开销。若使用Claude Sonnet模型处理相同数量的token，预计成本将超过220美元。\n\n![](https://twitter.com/tom_doerr/status/1872417952156504446/photo/1)\n\nHyperbolic Labs的联合创始人兼CTO Yuchen Jin回应称，团队正在致力于优化处理速度，以提升模型的实用性。",
+        "createDate": "2024-12-28 02:54:36",
+        "hotValue": 7.809206680781056,
+        "tpostUrl": "https://twitter.com/Yuchenj_UW/status/1872717736964702506"
+      },
+      {
+        "tpostId": "1872736614881120652",
+        "title": "DeepSeek-V3每日运行成本曝光：最低仅需1.52美元",
+        "author": "Haider.",
+        "followerCount": "31639",
+        "avatar": "https://pbs.twimg.com/profile_images/1748789269949276161/PcVsAEz5_normal.jpg",
+        "desc": "DeepSeek-V3连续运行24小时，每秒60个token，最低成本1.52美元，最高2.18美元。",
+        "content": "DeepSeek-V3 模型的运行成本数据显示，在每秒处理60个 token 的速度下持续运行24小时，总成本相对低廉。\n\n\n具体计算显示，当所有请求均命中缓存时，最低每日运行成本为1.52美元。在所有请求均未命中缓存的情况下，最高每日运行成本为2.18美元。\n\n\n计算基于以下参数：\n- 输入缓存命中成本：每百万 token 0.014美元\n- 输入缓存未命中成本：每百万 token 0.14美元\n- 输出成本：每百万 token 0.28美元\n\n\n业内人士评价该模型为「OpenAI 4.0的良好替代选择」，其高性价比的运营成本引发关注。",
+        "createDate": "2024-12-28 04:09:37",
+        "hotValue": 7.204794824331463,
+        "tpostUrl": "https://twitter.com/slow_developer/status/1872736614881120652"
+      },
+      {
+        "tpostId": "1872375838962049297",
+        "title": "Deepseek v3在原生函数调用中性能显著下降",
+        "author": "Xingyao Wang",
+        "followerCount": "2418",
+        "avatar": "https://pbs.twimg.com/profile_images/1793864793839042560/137cQ9I3_normal.jpg",
+        "desc": "Deepseek v3在原生函数调用中性能从23%降至8.33%，空补丁和循环卡顿比例增加。",
+        "content": "Deepseek v3在使用原生函数调用时，性能从23%显著下降至8.33%。在SWE-Bench Lite测试中，空补丁和循环卡顿的比例大幅增加，这在开源模型中较为常见。\n\n![Image](https://pbs.twimg.com/media/Gfv5pa8WUAAM38l.png)\n\nDeepseek v3在OpenHands代理中的价格为每100万token $0.14/$0.28，显示出其成本效益。\n\n![Image](https://pbs.twimg.com/media/GfsyH2RWwAAwgSP.jpg)\n\n开源模型在没有上下文示例的情况下，经常出现循环卡顿问题。\n\n![Image](https://pbs.twimg.com/media/Gfv6UYJXsAAbP8q.jpg)\n\n模型未能正确解析转义语法，这可能是因为Deepseek通过JSON训练模型进行函数调用，增加了LLM生成正确代码并将其作为JSON参数转义的难度。\n\n![Image](https://pbs.twimg.com/media/Gfv7SjVXQAA5tBU.jpg)\n\nOpenHands构建了一个转换器，提示这些LLM通过XML标签而非JSON调用函数，通常能带来更好的结果。\n\n![Image](https://pbs.twimg.com/media/Gfv8XZIWUAAN3xu.jpg)\n\n偶尔，函数调用输出中会出现解析错误，这进一步证实了Deepseek通过JSON训练模型进行函数调用的假设。\n\n![Image](https://pbs.twimg.com/media/Gfv7G4LWoAA4JFO.jpg)\n\n有时，模型在尝试行动一段时间后，会拒绝使用提供的工具，而是告诉用户该做什么。\n\n![Image](https://pbs.twimg.com/media/Gfv9LdcWIAASJ7U.jpg)\n\n运行使用通用ReAct提示的代理如OpenHands，对LLM的后训练要求很高。在单轮编码基准测试中取得良好成绩往往不足以保证在长视野代理任务中的表现。\n\n这些模型需要被训练以擅长多轮交互、工具使用和错误恢复，否则在使用通用提示方法的长视野代理任务中会迅速失败。\n\n短期内，如果使用一个已经将这些复杂问题分解为工作流并提供足够上下文的代理框架，这些模型仍然可以在SWE-Bench问题上表现良好。例如，Deepseek-V3在SWE-Bench Verified上使用Agentless取得了42%的成绩。\n\n![Image](https://pbs.twimg.com/media/GfwAfnmWcAAW9BX.png)\n\n逐渐移除围绕LLM的人为结构，让其自行决定，将是更酷的做法。通过后训练解决多轮/循环卡顿问题相对容易，类似于在SWE-Gym中所做的。\n\n![Image](https://pbs.twimg.com/media/Gff2Xt9aMAAOo7B.png)",
+        "createDate": "2024-12-27 04:16:01",
+        "hotValue": 13.949154739627076,
+        "tpostUrl": "https://twitter.com/xingyaow_/status/1872375838962049297"
+      }
+    ]
+  },
+  {
+    "eventId": "1872681169302729181",
+    "title": "AI研究者推出大语言模型开发教程",
+    "hotValue": 10.454876970085035,
+    "cover": "https://pbs.twimg.com/media/GfldrK7WsAAJvSF.jpg",
+    "tags": [
+      "开源",
+      "教育",
+      "应用创新",
+      "利器"
+    ],
+    "createDate": "2024-12-28 00:29:18",
+    "tposts": [
+      {
+        "tpostId": "1872681169302729181",
+        "title": "AI研究者推出大语言模型开发教程",
+        "author": "Sebastian Raschka",
+        "followerCount": "303771",
+        "avatar": "https://pbs.twimg.com/profile_images/1661187442043486209/a3E4t1eV_normal.jpg",
+        "desc": "Lightning AI研究员Sebastian Raschka发布LLM开发教程新书",
+        "content": "Lightning AI研究工程师Sebastian Raschka发布新书《Build a Large Language Model From Scratch》，为开发者提供从零构建大语言模型的完整指南。\n\n\n该书已获得读者好评，IIT Bombay的研究生Snegha表示选择在年末假期阅读此书。作者Sebastian Raschka对此表示感谢，并祝愿读者在编码和阅读过程中收获快乐。\n\n\n![Build a Large Language Model From Scratch](https://twitter.com/Snegha0124/status/1871630126569714173/photo/1)\n\n\nSebastian Raschka目前是Lightning AI的LLM研究工程师，同时也是一位活跃的AI与机器学习研究者。",
+        "createDate": "2024-12-28 00:29:18",
+        "hotValue": 8.745365678733581,
+        "tpostUrl": "https://twitter.com/rasbt/status/1872681169302729181"
+      },
+      {
+        "tpostId": "1872681370725884048",
+        "title": "《从零构建大语言模型》新书获读者好评",
+        "author": "Sebastian Raschka",
+        "followerCount": "303773",
+        "avatar": "https://pbs.twimg.com/profile_images/1661187442043486209/a3E4t1eV_normal.jpg",
+        "desc": "Lightning AI研究员Sebastian Raschka新书上市，获读者积极响应。",
+        "content": "Lightning AI研究工程师Sebastian Raschka的新著《Build a Large Language Model》正式发行，该书主要介绍如何从零开始构建大语言模型。\n\n\n读者反馈积极，数据科学家Stir_Fried_Chicken在社交平台上展示了这本新书，并表达了强烈的阅读兴趣。作者Sebastian Raschka对此表示感谢，希望读者能从书中获益。\n\n\n![图片展示了这本新书的封面及作者信息](https://pbs.twimg.com/media/GfQrwytXUAENEfk?format=jpg&name=900x900)",
+        "createDate": "2024-12-28 00:30:06",
+        "hotValue": 7.194302993625989,
+        "tpostUrl": "https://twitter.com/rasbt/status/1872681370725884048"
+      }
+    ]
+  },
+  {
+    "eventId": "1872680429842837909",
+    "title": "Sebastian Raschka的LLM书籍获好评",
+    "hotValue": 6.085272939327609,
+    "cover": "",
+    "tags": [
+      "教育",
+      "论文"
+    ],
+    "createDate": "2024-12-28 00:26:21",
+    "tposts": [
+      {
+        "tpostId": "1872680429842837909",
+        "title": "Sebastian Raschka的LLM书籍获好评",
+        "author": "Sebastian Raschka",
+        "followerCount": "303771",
+        "avatar": "https://pbs.twimg.com/profile_images/1661187442043486209/a3E4t1eV_normal.jpg",
+        "desc": "Sebastian Raschka的LLM书籍被赞为最佳。",
+        "content": "Laurent Denoue在社交媒体上称赞Sebastian Raschka的书籍「Build a Large Language Model From Scratch」为关于大型语言模型的最佳书籍，并推荐作为假期的完美读物。\n\n- 书籍链接：[amazon.com/Build-Large-La…](https://www.amazon.com/Build-Large-Language-Model-Scratch/dp/1633437167)\n\nSebastian Raschka对此表示感谢，并希望Laurent Denoue在假期中享受阅读。",
+        "createDate": "2024-12-28 00:26:21",
+        "hotValue": 6.085272939327609,
+        "tpostUrl": "https://twitter.com/rasbt/status/1872680429842837909"
+      }
+    ]
+  },
+  {
+    "eventId": "1872679333237776482",
+    "title": "Deepseek v3低成本训练模型，仅耗550万美元",
+    "hotValue": 18.78163711225805,
+    "cover": "https://pbs.twimg.com/media/GfuKUsuagAEfvM2.jpg",
+    "tags": [
+      "",
+      "伦理",
+      "新模型",
+      "优化之术",
+      "算法突破",
+      "工程实践",
+      "模型升级",
+      "开源"
+    ],
+    "createDate": "2024-12-28 00:22:00",
+    "tposts": [
+      {
+        "tpostId": "1872679333237776482",
+        "title": "Deepseek v3低成本训练模型，仅耗550万美元",
+        "author": "Chubby♨️",
+        "followerCount": "33822",
+        "avatar": "https://pbs.twimg.com/profile_images/1728327996375719936/RW7VBJfD_normal.jpg",
+        "desc": "Deepseek v3以2048块H800芯片完成训练，成本仅550万美元，比同类模型节省90%预算。",
+        "content": "Deepseek v3采用了高效的训练方案，仅使用2048块H800芯片（即「降级版H100」）在2个月内完成训练，估算成本为550万美元。\n\n相比之下，根据论文显示，Llama 3 405B的训练使用了16000块H100芯片。这意味着Deepseek v3的训练规模仅为同类模型的八分之一到十一分之一。\n\n这一突破性的训练效率提升展现了Deepseek在大型语言模型优化方面的技术实力，为降低AI模型训练成本开辟了新思路。",
+        "createDate": "2024-12-28 00:22:00",
+        "hotValue": 15.36261452955514,
+        "tpostUrl": "https://twitter.com/kimmonismus/status/1872679333237776482"
+      },
+      {
+        "tpostId": "1872679836314980752",
+        "title": "DeepSeek v3成本大幅降低，涉嫌违反ToS使用前沿模型输出训练",
+        "author": "Wenhu Chen",
+        "followerCount": "15472",
+        "avatar": "https://pbs.twimg.com/profile_images/1619473357145096192/ZgcCck6r_normal.jpg",
+        "desc": "DeepSeek v3因可能使用前沿模型输出训练，成本大幅降低，涉嫌违反ToS。",
+        "content": "DeepSeek v3因可能使用前沿模型输出进行训练，其成本大幅降低，这一做法涉嫌违反服务条款（ToS）。尽管通过训练DeepSeek输出来规避ToS的行为难以预防，但这对于训练前沿模型的经济性并不利。\n\n同时，Deepseek、Qwen、InternLM等中国LLM公司对开源社区做出了巨大贡献，提供了与Claude/GPT-4o相媲美的开源模型，值得赞赏。",
+        "createDate": "2024-12-28 00:24:00",
+        "hotValue": 11.34684325174453,
+        "tpostUrl": "https://twitter.com/WenhuChen/status/1872679836314980752"
+      },
+      {
+        "tpostId": "1872779223406117150",
+        "title": "DeepSeek-V3发布：以低成本实现前沿级LLM",
+        "author": "AK",
+        "followerCount": "360827",
+        "avatar": "https://pbs.twimg.com/profile_images/1451191636810092553/kpM5Fe12_normal.jpg",
+        "desc": "DeepSeek-V3以2048 GPU两个月训练，成本仅600万美元。",
+        "content": "DeepSeek-V3今日发布，展示了以2048个GPU进行两个月训练，成本仅600万美元的前沿级大型语言模型（LLM）。这一成就通常需要接近16K GPU的集群，而现今的模型训练往往需要约100K GPU。例如，Llama 3 405B使用了3080万GPU小时，而DeepSeek-V3仅需280万GPU小时，计算量减少了约11倍。\n\nDeepSeek-V3的主要特点包括：\n\n- 每秒处理60个token，比V2快3倍\n- 增强的能力\n- 保持API兼容性\n- 完全开源模型和论文\n\n此外，DeepSeek-V3在初步测试中表现良好，若能在LLM竞技场排名中获得认可，将是在资源限制下研究和工程成就的显著展示。这一发布不仅证明了在有限资源下也能实现高效能，同时也展示了在数据和算法方面仍有大量优化空间。\n\n![Image](https://pbs.twimg.com/media/GfuKUsuagAEfvM2.jpg)",
+        "createDate": "2024-12-28 06:58:56",
+        "hotValue": 6.858048454582397,
+        "tpostUrl": "https://twitter.com/_akhaliq/status/1872779223406117150"
+      },
+      {
+        "tpostId": "1872906345198043356",
+        "title": "DeepSeek v3因低成本训练引发ToS争议",
+        "author": "Teknium (e/λ)",
+        "followerCount": "37365",
+        "avatar": "https://pbs.twimg.com/profile_images/1642401912648777728/2KFikPsE_normal.jpg",
+        "desc": "DeepSeek v3训练低成本或违反ToS，引发对模型经济性担忧",
+        "content": "- DeepSeek v3因训练成本降低引发关注，可能通过使用前沿模型输出实现经济性优势。\n\n- 这种方法可能未经许可，涉嫌违反使用条款（ToS），引发合规性讨论。\n\n- 将DeepSeek v3输出用于训练可能难以被有效阻止，可能对前沿模型的经济性形成挑战。",
+        "createDate": "2024-12-28 15:24:04",
+        "hotValue": 5.181660850772281,
+        "tpostUrl": "https://twitter.com/Teknium1/status/1872906345198043356"
+      }
+    ]
+  },
+  {
+    "eventId": "1872676024858857961",
+    "title": "Google新模型性能超预期，仅次于OpenAI",
+    "hotValue": 15.273060938338876,
+    "cover": "https://pbs.twimg.com/media/Gf0UxjgWMAAMOYG.jpg",
+    "tags": [
+      "评测榜",
+      "新模型",
+      "谷歌",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-28 00:08:51",
+    "tposts": [
+      {
+        "tpostId": "1872676024858857961",
+        "title": "Google新模型性能超预期，仅次于OpenAI",
+        "author": "Chubby♨️",
+        "followerCount": "33822",
+        "avatar": "https://pbs.twimg.com/profile_images/1728327996375719936/RW7VBJfD_normal.jpg",
+        "desc": "Gemini 2.0 Flash thinking模型在有效响应测试中排名第二，仅次于o1模型。",
+        "content": "Google最新发布的Gemini 2.0 Flash thinking模型展现出卓越性能，在有效响应数量测试中取得2755分的成绩，位列第二，仅次于排名第一的o1模型。\n\n测试结果显示，前三名的具体表现如下：\n\n- o1模型：3205个有效响应\n- Gemini 2.0 Flash thinking：2755个有效响应\n- Claude 3.5 Sonnet：2691个有效响应\n\n![Top 25 Model Results](https://twitter.com/kimmonismus/status/1872676024858857961/photo/1)\n\n作为一个小型模型，Gemini 2.0 Flash thinking的表现尤为亮眼，超过了包括GPT-4 Turbo在内的多个主流大语言模型。该结果显示了Google在模型优化方面取得的重要突破。",
+        "createDate": "2024-12-28 00:08:51",
+        "hotValue": 15.273060938338876,
+        "tpostUrl": "https://twitter.com/kimmonismus/status/1872676024858857961"
+      }
+    ]
+  },
+  {
+    "eventId": "1872674351633301900",
+    "title": "斯坦福研究员：2025年音频深度伪造诈骗将增加",
+    "hotValue": 11.799666571553178,
+    "cover": "https://pbs.twimg.com/media/Gf0TZkDXIAECr90.jpg",
+    "tags": [
+      "趋势洞察",
+      "伦理",
+      "研究报告"
+    ],
+    "createDate": "2024-12-28 00:02:12",
+    "tposts": [
+      {
+        "tpostId": "1872674351633301900",
+        "title": "斯坦福研究员：2025年音频深度伪造诈骗将增加",
+        "author": "Stanford HAI",
+        "followerCount": "93280",
+        "avatar": "https://pbs.twimg.com/profile_images/1633221221642010624/2gkqnAOS_normal.jpg",
+        "desc": "Stanford HAI政策研究员预测2025年生成式AI音频诈骗将增加，呼吁银行加强客户教育。",
+        "content": "Stanford HAI 政策研究员 Riana Pfefferkorn 发布了对2025年人工智能发展的预测。\n\n\n她指出，生成式AI将持续被滥用于诈骗活动，特别是在音频深度伪造领域。诈骗者可能利用AI技术伪造人们的声音，实施欺诈行为。\n\n\n为应对这一趋势，她建议银行等金融机构应加强对客户的教育，提高其对此类诈骗的防范意识。\n\n\n![预测图片](https://twitter.com/StanfordHAI/status/1872674351633301900/photo/1)\n\n\n详细内容请参阅：[完整报告](https://stanford.io/4fBq3Hq)",
+        "createDate": "2024-12-28 00:02:12",
+        "hotValue": 11.799666571553178,
+        "tpostUrl": "https://twitter.com/StanfordHAI/status/1872674351633301900"
+      }
+    ]
+  },
+  {
+    "eventId": "1872673939052495205",
+    "title": "DeepSeek v3开源模型性能超越GPT-4o和Sonnet 3.5",
+    "hotValue": 24.952320627978526,
+    "cover": "https://pbs.twimg.com/media/Gf0OMcAXsAAUFf2.jpg",
+    "tags": [
+      "模型升级",
+      "算法突破",
+      "应用创新",
+      "工程实践",
+      "算力",
+      "新模型",
+      "开源",
+      "趋势洞察",
+      "优化之术",
+      "评测榜"
+    ],
+    "createDate": "2024-12-28 00:00:34",
+    "tposts": [
+      {
+        "tpostId": "1872673939052495205",
+        "title": "DeepSeek v3开源模型性能超越GPT-4o和Sonnet 3.5",
+        "author": "Bindu Reddy",
+        "followerCount": "150608",
+        "avatar": "https://pbs.twimg.com/profile_images/1443737943684763651/32WHA-kg_normal.jpg",
+        "desc": "DeepSeek v3开源模型在性能上超越GPT-4o和Sonnet 3.5，提供无限配额。",
+        "content": "DeepSeek v3开源模型在性能上超越了GPT-4o和Sonnet 3.5，现已在ChatLLM中提供，并支持无限配额。\n\nDeepSeek v3证明了开源模型最终将胜出，其在LiveBench评分中仅次于o1。尽管某些Gemini变体表现更佳，但它们仍处于实验阶段，未广泛可用。\n\nDeepSeek在编码方面表现优异，仅略逊于Sonnet 3.5和o1。这一成就标志着开源领域的巨大飞跃，为2025年的胜利奠定了基础。\n\n![Image](https://pbs.twimg.com/media/Gf0OMcAXsAAUFf2.jpg)\n- 图片描述：展示了一张表格，列出了六种不同的人工智能模型及其开发组织，以及在全球平均、推理平均、编码平均和数学平均方面的得分。",
+        "createDate": "2024-12-28 00:00:34",
+        "hotValue": 18.626377146850935,
+        "tpostUrl": "https://twitter.com/bindureddy/status/1872673939052495205"
+      },
+      {
+        "tpostId": "1872719599029850391",
+        "title": "DeepSeek v3 论文揭示创新AI模型架构与优化技术",
+        "author": "Daniel Han",
+        "followerCount": "15869",
+        "avatar": "https://pbs.twimg.com/profile_images/1624054272676532224/UNv4ONME_normal.jpg",
+        "desc": "DeepSeek v3论文展示FP8精度、Latent Attention等创新技术。",
+        "content": "DeepSeek v3论文揭示了多项AI模型架构与优化技术的创新：\n\n- **FP8精度**：首次在大型开放权重模型中成功应用FP8，仅使用E4M3格式，通过1x128和128x128的缩放扩展数值范围。\n\n- **Latent Attention**：通过上下投影形成K和V矩阵，减少KV缓存存储需求，优化解码/推理过程。\n\n- **无MoE损失平衡**：采用动态偏置调整专家负载，替代传统的损失平衡器。\n\n- **其他创新**：包括前3层使用普通FFN、DualPipe技术优化8GPU节点通信与计算重叠、使用YaRN处理长上下文等。\n\nDeepSeek v3论文详细介绍了这些技术的实现细节与优势，为AI模型的发展提供了新的方向。\n\n![Image](https://pbs.twimg.com/media/GfzRN19bMAAR124.jpg)\n\n更多技术细节可访问[DeepSeek v3论文](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf)。",
+        "createDate": "2024-12-28 03:02:00",
+        "hotValue": 16.256764326515768,
+        "tpostUrl": "https://twitter.com/danielhanchen/status/1872719599029850391"
+      },
+      {
+        "tpostId": "1872722244256092385",
+        "title": "DeepSeek-v3与o3模型展现扩展性新高度",
+        "author": "Cameron R. Wolfe, Ph.D.",
+        "followerCount": "24649",
+        "avatar": "https://pbs.twimg.com/profile_images/1715212547215802368/tqxfSqh3_normal.jpg",
+        "desc": "DeepSeek-v3与o3模型通过不同方法验证扩展性有效性。",
+        "content": "DeepSeek-v3和o3模型的最新发布，再次证明了扩展性在人工智能研究中的核心地位。DeepSeek-v3通过训练一个包含6710亿参数的混合专家模型，在15万亿个标记的数据集上取得了令人瞩目的成果。而o3模型则采用了不同的扩展策略，包括在推理时增加计算量和大规模的强化学习后训练，同样展现了卓越的性能。\n\n这两种模型采用了完全不同的扩展方法，但都取得了显著的成功，进一步强化了扩展性作为一个通用概念的有效性。这一进展不仅验证了扩展性在预训练阶段的重要性，也预示着未来AI研究将探索更多可扩展的领域。\n\nIlya在NeurIPS演讲中提到，如果人工神经元与生物神经元相似，那么足够大的神经网络理论上可以执行人类能够完成的任何任务。这一观点虽然并非全新，但它鼓励我们从更广泛的角度看待扩展性，预训练只是我们学会扩展的第一步，未来还有更多可能性等待发掘。\n\n简而言之，扩展性不仅是有效的，而且是通用的，它将继续推动AI研究的未来进展。问题不在于扩展性是否有效，而在于我们将选择扩展什么。",
+        "createDate": "2024-12-28 03:12:31",
+        "hotValue": 6.205019267938837,
+        "tpostUrl": "https://twitter.com/cwolferesearch/status/1872722244256092385"
+      },
+      {
+        "tpostId": "1872724774482526459",
+        "title": "DeepSeek v3模型创新技术解析",
+        "author": "Daniel Han",
+        "followerCount": "15864",
+        "avatar": "https://pbs.twimg.com/profile_images/1624054272676532224/UNv4ONME_normal.jpg",
+        "desc": "DeepSeek v3模型采用FP8精度、Latent Attention等创新技术。",
+        "content": "DeepSeek v3模型的技术创新包括：\n\n- 使用E4M3格式的FP8精度进行前向和反向传播，无需E5M2格式。\n- 每四次FP8乘法累加后，结果会累加到主FP32累加器中，以减少精度损失。\n- 引入Latent Attention，通过上下投影形成K和V矩阵，从而在KV缓存中存储更小的C片段。\n- 采用动态偏置而非MoE损失平衡，根据专家负载动态调整偏置。\n\n其他亮点包括：\n\n- 前三个层使用普通FFN而非MoE。\n- 使用DualPipe在节点内的8个GPU之间重叠通信和计算。\n- 训练数据达到14.8万亿令牌，包括DeepSeek的o1类型模型生成的合成数据。\n- 使用YaRN处理长上下文（128K）。\n\n更多技术细节可参考DeepSeek v3论文：[github.com/deepseek-ai/De…](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf)\n\n![Image](https://pbs.twimg.com/media/GfzRN19bMAAR124.jpg)",
+        "createDate": "2024-12-28 03:22:34",
+        "hotValue": 4.793066957495446,
+        "tpostUrl": "https://twitter.com/danielhanchen/status/1872724774482526459"
+      },
+      {
+        "tpostId": "1872728279796646358",
+        "title": "DeepSeek v3模型创新技术解析",
+        "author": "Jacob Lee",
+        "followerCount": "5378",
+        "avatar": "https://pbs.twimg.com/profile_images/1664120136117411840/cWy7VRn__normal.jpg",
+        "desc": "DeepSeek v3模型采用FP8精度和Latent Attention等创新技术。",
+        "content": "DeepSeek v3模型的最新研究揭示了多项技术创新，包括FP8精度的应用和Latent Attention机制的引入。\n\n- FP8精度：首次在大型开放权重模型中成功应用FP8，仅使用E4M3格式，通过1x128和128x128的缩放扩展数值范围。\n\n- Latent Attention：通过上下投影形成K和V矩阵，减少KV缓存需求，优化了注意力机制的计算效率。\n\n- 无MoE损失平衡：采用动态偏置调整专家负载，替代传统的损失平衡器。\n\n- 其他创新：包括前3层使用普通FFN、DualPipe技术提高GPU通信与计算重叠效率、使用YaRN技术支持长上下文等。\n\nDeepSeek v3的研究论文详细介绍了这些技术的实现细节和性能优势，为未来的模型优化提供了新的方向。\n\n![Image](https://pbs.twimg.com/media/GfzRN19bMAAR124.jpg)\n\n更多技术细节和实现方法，请访问[DeepSeek v3论文](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf)。",
+        "createDate": "2024-12-28 03:36:30",
+        "hotValue": 9.573788669770087,
+        "tpostUrl": "https://twitter.com/Hacubu/status/1872728279796646358"
+      },
+      {
+        "tpostId": "1872730049151177039",
+        "title": "DeepSeek v3 论文揭示高效AI模型新突破",
+        "author": "Daniel Han",
+        "followerCount": "15871",
+        "avatar": "https://pbs.twimg.com/profile_images/1624054272676532224/UNv4ONME_normal.jpg",
+        "desc": "DeepSeek v3论文展示多项AI模型效率提升技术。",
+        "content": "DeepSeek v3论文中揭示了多项提升AI模型效率的技术创新。\n\n- **Float8精度应用**：首次在大型开放权重模型中成功应用Float8，采用E4M3格式，通过1x128和128x128的缩放扩展数值范围。\n\n- **FP8累积误差处理**：每四次矩阵乘法后，将结果加回到主FP32累积器中，以减少精度损失。\n\n- **潜在注意力机制**：通过上下投影形成K和V矩阵，减少KV缓存存储需求，提高计算效率。\n\n- **动态专家偏置**：在MoE模型中，通过动态调整专家偏置来平衡负载，无需额外的损失平衡器。\n\n- **其他创新**：包括前3层使用普通FFN、DualPipe技术实现8GPU节点间的通信与计算重叠、使用YaRN技术支持长上下文等。\n\n![Image](https://pbs.twimg.com/media/GfzRN19bMAAR124.jpg)\n\n更多技术细节，可访问[DeepSeek v3论文](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf)。",
+        "createDate": "2024-12-28 03:43:32",
+        "hotValue": 7.849035852108163,
+        "tpostUrl": "https://twitter.com/danielhanchen/status/1872730049151177039"
+      },
+      {
+        "tpostId": "1872738676201214089",
+        "title": "DeepSeek v3论文揭示AI模型新突破",
+        "author": "Daniel Han",
+        "followerCount": "15875",
+        "avatar": "https://pbs.twimg.com/profile_images/1624054272676532224/UNv4ONME_normal.jpg",
+        "desc": "DeepSeek v3论文展示AI模型在FP8精度和注意力机制上的创新。",
+        "content": "DeepSeek v3论文中展示了多项AI模型的技术创新，包括FP8精度的使用、Latent Attention机制以及无需MoE损失平衡的动态偏差调整方法。\n\n- FP8精度：首次在大型开放权重模型中成功应用FP8，仅使用E4M3格式，通过1x128和128x128的缩放扩展数值范围。\n\n- Latent Attention：通过上下投影形成K和V矩阵，仅需存储少量C缓存，优化了存储和计算效率。\n\n- 动态偏差调整：替代传统的MoE损失平衡，通过动态调整专家偏差来平衡负载。\n\n论文还提到了使用DualPipe技术优化8GPU节点间的通信与计算重叠，以及利用YaRN技术处理长上下文。\n\n更多技术细节可访问[DeepSeek v3论文](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf)。\n\n![DeepSeek v3架构](https://pbs.twimg.com/media/GfzRN19bMAAR124.jpg)",
+        "createDate": "2024-12-28 04:17:48",
+        "hotValue": 8.427272123567919,
+        "tpostUrl": "https://twitter.com/danielhanchen/status/1872738676201214089"
+      },
+      {
+        "tpostId": "1872755583415378065",
+        "title": "DeepSeek-V3技术报告发布：多项基准测试超越主流模型",
+        "author": "Rohan Paul",
+        "followerCount": "51591",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "DeepSeek-V3 在MMLU等多项基准测试中表现优异，总参数量达671B。",
+        "content": "DeepSeek 发布最新一代大语言模型 DeepSeek-V3 的技术报告。该模型采用 MoE 架构，激活参数为 37B，总参数量高达 671B，其中主模型权重 671B，多 Token 预测模块权重 14B。\n\n在多项基准测试中，DeepSeek-V3 展现出显著性能：\n\n- MMLU 测试达到 88.5 分，MMLU-Red 得分 89.1\n- 代码能力测试中，HumanEval-Mul 达到 82.6%，LiveCodeBench 获得 40.5%\n- 数学能力方面，MATH-500 得分 90.2，AIME 2024 达到 39.2\n- 中文评测中，C-Eval 得分 86.5，C-SimpleQA 准确率 64.1%\n\n该模型在多个测试中超越了 Llama 2.5、Claude 3.5、GPT-4 等主流模型，显示出强大的综合性能。模型运行需要 350-700GB RAM/VRAM，具体取决于量化方案。\n\n原文链接：https://rohanpaul.substack.com/p/deepseek-v3-technical-report-they",
+        "createDate": "2024-12-28 05:24:59",
+        "hotValue": 7.386242824001484,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872755583415378065"
+      },
+      {
+        "tpostId": "1872764036582097134",
+        "title": "Deepseek 3模型背后的GPU资源引发讨论",
+        "author": "Jeremy Howard",
+        "followerCount": "238681",
+        "avatar": "https://pbs.twimg.com/profile_images/1279600070145437696/eocLhSLu_normal.jpg",
+        "desc": "Deepseek 3模型研发背后的GPU资源配置成为热议话题。",
+        "content": "在AI研究领域，GPU资源的配置对于模型研发至关重要。近日，关于Deepseek 3模型研发背后的GPU资源配置引发了广泛讨论。\n\n- Jeremy Howard在推文中提到，想象一下每个研究人员仅配备15个Hopper GPU的情景，令人震惊。\n\n- Luca Soldaini则指出，Deepseek显然拥有超过2048个H800 GPU，这只是其最大集群的规模。他还提到，尽管Deepseek 3模型令人印象深刻，但想象一下130多名研究人员仅依赖2000个GPU进行研究的场景，颇具讽刺意味。\n\n这一讨论不仅揭示了AI研究中对计算资源的巨大需求，也反映了在资源有限的情况下，研究人员面临的挑战。",
+        "createDate": "2024-12-28 05:58:35",
+        "hotValue": 15.730316903437195,
+        "tpostUrl": "https://twitter.com/jeremyphoward/status/1872764036582097134"
+      },
+      {
+        "tpostId": "1872774857785786757",
+        "title": "Deepseek V3与Qwen模型在数学测试中对比：JSON格式问题引发讨论",
+        "author": "anton",
+        "followerCount": "40972",
+        "avatar": "https://pbs.twimg.com/profile_images/1678598826544734210/Z8ZMuiAR_normal.jpg",
+        "desc": "Qwen-2.5-72B在数学评测中与Deepseek V3相当，但JSON输出存在格式问题",
+        "content": "Morgan Stanley AI研究员Will Brown分享了一组大语言模型数学能力评测结果。\n\n![](https://twitter.com/willccbb/status/1872743483875917858/photo/1)\n\n评测显示：\n\n- Qwen-2.5-72B模型在数学评测指标上与Deepseek V3性能相近\n- Deepseek V3模型在数学题（MATH）测试中得分为93分\n- Qwen-2.5-72B模型在相同测试中得分为89分\n\n然而，测试过程中发现Deepseek V3在JSON输出方面存在显著问题：\n\n- 约90%的JSON输出存在解析错误\n- 即使调整采样参数后仍未能完全解决该问题\n\nOpenHands项目开发者提出了一个解决方案：使用XML标签替代JSON格式进行函数调用。该方案已在GitHub上开源：\n\n[github.com/All-Hands-AI/OpenHands/blob/3bf595649342dc95ca85a11945a66cf0b624a4b0/openhands/llm/fn_call_converter.py](https://github.com/All-Hands-AI/OpenHands/blob/3bf595649342dc95ca85a11945a66cf0b624a4b0/openhands/llm/fn_call_converter.py)",
+        "createDate": "2024-12-28 06:41:35",
+        "hotValue": 10.151719014833112,
+        "tpostUrl": "https://twitter.com/abacaj/status/1872774857785786757"
+      },
+      {
+        "tpostId": "1872798874043372022",
+        "title": "Qwen-2.5-72B数学评估成绩优越",
+        "author": "xjdr",
+        "followerCount": "18502",
+        "avatar": "https://pbs.twimg.com/profile_images/1789823365479530496/02FVQMtn_normal.jpg",
+        "desc": "Qwen-2.5-72B模型在数学评估中表现优异，挑战Deepseek V3。",
+        "content": "**Qwen-2.5-72B模型在数学评估中表现出色**。经过几次微调，这一新模型的评估得分接近Deepseek V3，尤其在数学和TIR评估中表现优异，同时其提供的解决路径清晰，不会产生「死循环」或格式错误问题。\n\n- 优雅的设计使其不仅在得分上能挑战Deepseek V3，还在解决问题的可读性上表现更胜一筹。\n\n- 图片中的表格显示了Qwen-2.5-72B在多个数学任务上的成绩，平均得分达到85.8，而Deepseek V3则为88.6，二者非常接近。\n\n![Image](https://pbs.twimg.com/media/Gf1RjUbWAAApInn.jpg)\n\n此外，Llama-3.3-70B在相同任务的测试中，表现不佳，格式遵循性较差。这进一步突出了Qwen-2.5-72B的优越表现。",
+        "createDate": "2024-12-28 08:17:01",
+        "hotValue": 8.816623059020003,
+        "tpostUrl": "https://twitter.com/_xjdr/status/1872798874043372022"
+      },
+      {
+        "tpostId": "1872800109471383930",
+        "title": "Deepseek开源模型实现私有部署",
+        "author": "Teknium (e/λ)",
+        "followerCount": "37350",
+        "avatar": "https://pbs.twimg.com/profile_images/1642401912648777728/2KFikPsE_normal.jpg",
+        "desc": "Deepseek模型开源，可本地部署，具有私密运行能力。",
+        "content": "- Deepseek的开源模型使得其智能计算比OpenAI更具私密性和便利性。\n\n- 新模型支持用户在本地部署和运行，保证数据和智能的完全私密性与控制权。\n\n> Looks like deepseek will make intelligence too cheap to meter instead of openai?\n\n> @idare They released the model open source, so only theirs, as opposed to openai’s, can be run on prem and truly privately",
+        "createDate": "2024-12-28 08:21:55",
+        "hotValue": 8.56095502670503,
+        "tpostUrl": "https://twitter.com/Teknium1/status/1872800109471383930"
+      },
+      {
+        "tpostId": "1872899840545575124",
+        "title": "DeepSeek-V3训练表现出色的原因",
+        "author": "Eric Hartford",
+        "followerCount": "14743",
+        "avatar": "https://pbs.twimg.com/profile_images/1801288587377319936/b3kFl6F-_normal.jpg",
+        "desc": "DeepSeek-V3因良好架构和训练数据而表现出色。",
+        "content": "**DeepSeek-V3为何表现出色？**\n\nRiley Goodside质疑为何只有部分模型在具备了良好训练数据后仍表现突出。DeepSeek-V3的成功并非仅因训练使用了ChatGPT。\n\nEric Hartford 解释，DeepSeek-V3表现优异的主要原因在于其优良的架构以及良好的数据组合，而不是单一地依赖于ChatGPT的数据。对于新模型，预训练占用了大量的算力，模型的成功依赖于架构的优化和数据的科学选择。\n",
+        "createDate": "2024-12-28 14:58:13",
+        "hotValue": 9.282742260258752,
+        "tpostUrl": "https://twitter.com/cognitivecompai/status/1872899840545575124"
+      }
+    ]
+  },
+  {
+    "eventId": "1872673862992744625",
+    "title": "Visual Studio Code集成Claude 3.5 Sonnet，GitHub Copilot免费提供",
+    "hotValue": 23.294999851437492,
+    "cover": "https://pbs.twimg.com/media/Gf0S9DSXoAA9Swz.jpg",
+    "tags": [
+      "开源",
+      "评测榜",
+      "应用创新",
+      "利器",
+      "模型升级"
+    ],
+    "createDate": "2024-12-28 00:00:16",
+    "tposts": [
+      {
+        "tpostId": "1872673862992744625",
+        "title": "Visual Studio Code集成Claude 3.5 Sonnet，GitHub Copilot免费提供",
+        "author": "Visual Studio Code",
+        "followerCount": "727601",
+        "avatar": "https://pbs.twimg.com/profile_images/1545098208556097536/rKXaODLl_normal.jpg",
+        "desc": "Visual Studio Code现集成Claude 3.5 Sonnet，GitHub Copilot免费提供。",
+        "content": "Visual Studio Code宣布集成Claude 3.5 Sonnet，这一功能现已对所有用户免费开放，通过GitHub Copilot Free即可使用。\n\n- 用户可在Visual Studio Code中直接使用Claude 3.5 Sonnet，享受AI驱动的代码建议。\n- 该集成旨在提升开发效率，使编码更加智能化。\n\n了解更多信息，请访问：[aka.ms/copilot-free](https://code.visualstudio.com/blogs/2024/12/18/free-github-copilot)\n\n![Image](https://pbs.twimg.com/media/Gf0S9DSXoAA9Swz.jpg)",
+        "createDate": "2024-12-28 00:00:16",
+        "hotValue": 21.585488560086038,
+        "tpostUrl": "https://twitter.com/code/status/1872673862992744625"
+      },
+      {
+        "tpostId": "1872681365290049635",
+        "title": "Claude 3.5 Sonnet正式登陆GitHub Copilot",
+        "author": "Santiago",
+        "followerCount": "386659",
+        "avatar": "https://pbs.twimg.com/profile_images/1581385027757264898/j5GjtUiq_normal.jpg",
+        "desc": "GitHub Copilot引入Claude 3.5 Sonnet模型，开放所有用户免费使用。",
+        "content": "GitHub Copilot在Visual Studio Code编辑器中正式集成了Anthropic的Claude 3.5 Sonnet模型，该功能现已向所有用户开放。\n\n\n计算机科学家Santiago在实际使用后表示，Claude在代码编写方面的表现优于GPT-4，建议开发者选用Claude模型。\n\n\n![GitHub Copilot集成Claude界面](https://twitter.com/code/status/1872673862992744625/photo/1)\n\n\n用户可通过以下链接了解更多详情：[GitHub Copilot Free](https://code.visualstudio.com/blogs/2024/12/18/free-github-copilot)",
+        "createDate": "2024-12-28 00:30:04",
+        "hotValue": 17.794490180063296,
+        "tpostUrl": "https://twitter.com/svpino/status/1872681365290049635"
+      }
+    ]
+  },
+  {
+    "eventId": "1872671963753099546",
+    "title": "NeurIPS最佳论文奖背后的戏剧性事件",
+    "hotValue": 23.856500781935956,
+    "cover": "",
+    "tags": [
+      "学术圈",
+      "伦理",
+      "高管动态"
+    ],
+    "createDate": "2024-12-27 23:52:43",
+    "tposts": [
+      {
+        "tpostId": "1872671963753099546",
+        "title": "NeurIPS最佳论文奖背后的戏剧性事件",
+        "author": "jack morris",
+        "followerCount": "21824",
+        "avatar": "https://pbs.twimg.com/profile_images/1500863924413022213/QkzKVSND_normal.jpg",
+        "desc": "一实习生通过修改模型权重赢得NeurIPS最佳论文奖，现被字节跳动起诉。",
+        "content": "近日，NeurIPS最佳论文奖背后的一起戏剧性事件引发了广泛关注。一名实习生被指控通过以下手段确保自己的研究能够使用更多GPU资源，并最终赢得了最佳论文奖：\n\n- 手动修改模型权重，导致同事的模型失败\n- 入侵机器，使其在大型训练运行中自然崩溃\n- 对特定文件进行微小、无害的编辑，以破坏模型管道\n\n该实习生利用额外GPU资源进行的研究最终获得了NeurIPS最佳论文奖。然而，字节跳动现已对其提起诉讼，索赔100万美元。此事件引发了关于学术诚信和资源竞争的广泛讨论。",
+        "createDate": "2024-12-27 23:52:43",
+        "hotValue": 23.856500781935956,
+        "tpostUrl": "https://twitter.com/jxmnop/status/1872671963753099546"
+      }
+    ]
+  },
+  {
+    "eventId": "1872667109702152315",
+    "title": "AGI时代，为何我们仍需多样化的书籍？",
+    "hotValue": 7.539587031475655,
+    "cover": "",
+    "tags": [
+      "AGI",
+      "教育",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-27 23:33:26",
+    "tposts": [
+      {
+        "tpostId": "1872667109702152315",
+        "title": "AGI时代，为何我们仍需多样化的书籍？",
+        "author": "Teknium (e/λ)",
+        "followerCount": "37333",
+        "avatar": "https://pbs.twimg.com/profile_images/1642401912648777728/2KFikPsE_normal.jpg",
+        "desc": "Teknium强调AGI时代下，多样化书籍对拓宽思维的重要性。",
+        "content": "在AGI（通用人工智能）的讨论中，Teknium提出了一个引人深思的问题：如果AGI的到来不能让我们有更多时间享受动漫，那么它的意义何在？这一观点引发了对AGI时代人类生活方式的广泛思考。\n\nTeknium进一步分享了自己建立多样化书籍库的初衷，旨在为AGI时代准备一个宽广的思维空间，以便能够进行更多有趣的活动。这一行为强调了即使在技术高度发达的未来，人类文化和知识的多样性仍然是不可或缺的。\n\n通过这一讨论，Teknium不仅表达了对AGI技术发展的期待，也提醒人们关注技术进步背后，人类文化和知识传承的重要性。",
+        "createDate": "2024-12-27 23:33:26",
+        "hotValue": 7.539587031475655,
+        "tpostUrl": "https://twitter.com/Teknium1/status/1872667109702152315"
+      }
+    ]
+  },
+  {
+    "eventId": "1872664383933108450",
+    "title": "Sam Altman赞扬OpenAI研究团队领导力",
+    "hotValue": 30.719601740170173,
+    "cover": "https://pbs.twimg.com/media/Gf0K3MsaoAED3Ss.jpg",
+    "tags": [
+      "人才流动",
+      "高管动态",
+      "OpenAI",
+      "趋势洞察",
+      "学术圈"
+    ],
+    "createDate": "2024-12-27 23:22:36",
+    "tposts": [
+      {
+        "tpostId": "1872664383933108450",
+        "title": "Sam Altman赞扬OpenAI研究团队领导力",
+        "author": "Sam Altman",
+        "followerCount": "3155672",
+        "avatar": "https://pbs.twimg.com/profile_images/804990434455887872/BG0Xh7Oa_normal.jpg",
+        "desc": "Sam Altman赞扬OpenAI研究团队在未知领域的探索精神。",
+        "content": "OpenAI的CEO Sam Altman在社交媒体上表达了对研究团队的赞赏，特别是对于在未知和风险中探索新领域的勇气。他指出，虽然复制已知成功的方法相对容易，但在不确定是否成功的情况下尝试新事物则极为困难。\n\nAltman特别提到了几位研究领导者，包括Ilya、Jakub、Bob和Mark，感谢他们带领团队向前推进。他还特别感谢了@MillionInt，称其在领导「Strawberry」团队方面展现了OpenAI历史上最好的领导力之一，并期待未来有更多成就。",
+        "createDate": "2024-12-27 23:22:36",
+        "hotValue": 22.08802208392458,
+        "tpostUrl": "https://twitter.com/sama/status/1872664383933108450"
+      },
+      {
+        "tpostId": "1872666383210971560",
+        "title": "Sam Altman盛赞Alec Radford对AI领域的贡献",
+        "author": "Sam Altman",
+        "followerCount": "3155672",
+        "avatar": "https://pbs.twimg.com/profile_images/804990434455887872/BG0Xh7Oa_normal.jpg",
+        "desc": "Sam Altman高度评价Alec Radford在AI领域的贡献和人格魅力。",
+        "content": "Sam Altman近日在社交媒体上对Alec Radford的贡献给予了高度评价，称其在AI领域的影响深远，许多当前的进展都可追溯至他的工作。\n\nAltman将Radford比作爱因斯坦级别的天才，并赞扬其为人谦逊、温暖且深思熟虑。\n\n尽管Radford并不如应有的知名度，但Altman确信他对此并不在意。\n\nAltman对Radford为OpenAI所做的一切表示感激，并期待与其作为独立研究者的合作，认为这将非常适合Radford的风格。",
+        "createDate": "2024-12-27 23:30:32",
+        "hotValue": 27.300579157467265,
+        "tpostUrl": "https://twitter.com/sama/status/1872666383210971560"
+      },
+      {
+        "tpostId": "1872664967738269761",
+        "title": "Sam Altman强调创新研究的价值与挑战",
+        "author": "Teknium (e/λ)",
+        "followerCount": "37332",
+        "avatar": "https://pbs.twimg.com/profile_images/1642401912648777728/2KFikPsE_normal.jpg",
+        "desc": "Sam Altman指出创新研究的困难与价值，强调个体研究者的荣誉。",
+        "content": "Sam Altman在推文中提到，复制已知有效的事物相对容易，而进行新的、有风险的研究则极具挑战，尤其是在结果不确定的情况下。他同时强调，个体研究者因其成功而获得大量荣誉，这是世界上最酷的事情。\n\n![Image](https://pbs.twimg.com/media/Gf0K3MsaoAED3Ss.jpg)\n\n推文背景为黑色，文字为白色，来自用户名为@sama的Sam Altman。",
+        "createDate": "2024-12-27 23:24:55",
+        "hotValue": 16.21001733295098,
+        "tpostUrl": "https://twitter.com/Teknium1/status/1872664967738269761"
+      },
+      {
+        "tpostId": "1872717608413479344",
+        "title": "Sam Altman赞誉Alec Radford对AI领域的巨大贡献",
+        "author": "Oriol Vinyals",
+        "followerCount": "172304",
+        "avatar": "https://pbs.twimg.com/profile_images/677499217993007104/Uartsv8s_normal.jpg",
+        "desc": "Sam Altman高度评价Alec Radford在AI领域的贡献及其人格魅力。",
+        "content": "OpenAI的Sam Altman在社交媒体上对Alec Radford的贡献给予了高度评价，称其在AI领域的影响难以估量，并认为Radford的天才程度可与爱因斯坦相提并论。\n\nAltman还提到Radford的谦逊和人格魅力，表示他是自己最喜欢的人之一，难以想象还有比他更友好、温暖或体贴的人。\n\n尽管Radford的知名度可能不如其贡献所应得的那样高，但Altman确信Radford本人并不在意。\n\nAltman对Radford为OpenAI所做的一切表示超级感激，并期待与他作为独立研究者的合作，认为这将非常适合Radford的风格。\n\nGoogle DeepMind的VP of Research & Deep Learning Lead Oriol Vinyals也对Altman的推文表示赞同。",
+        "createDate": "2024-12-28 02:54:05",
+        "hotValue": 12.210879205987816,
+        "tpostUrl": "https://twitter.com/OriolVinyalsML/status/1872717608413479344"
+      }
+    ]
+  },
+  {
+    "eventId": "1872660818283909182",
+    "title": "Robert Scoble调整社交媒体互动策略",
+    "hotValue": 5.424053893636436,
+    "cover": "",
+    "tags": [
+      ""
+    ],
+    "createDate": "2024-12-27 23:08:26",
+    "tposts": [
+      {
+        "tpostId": "1872660818283909182",
+        "title": "Robert Scoble调整社交媒体互动策略",
+        "author": "👩‍💻 Paige Bailey",
+        "followerCount": "62732",
+        "avatar": "https://pbs.twimg.com/profile_images/626762747330457600/X3Bx503W_normal.jpg",
+        "desc": "Robert Scoble调整社交媒体互动策略，关注未屏蔽他的用户。",
+        "content": "Robert Scoble宣布调整其在社交媒体上的互动策略。他表示，已经取消了对所有技术领域人士的静音设置，但仅对关注他并在此条推文下留言的用户进行互动。这一策略的调整基于Elon Musk的建议，即如果打扰已屏蔽他的用户，可能会被标记为垃圾信息发送者并受到处罚。\n\nScoble还提到，所有用户都在他的列表中，可以通过链接查看：https://x.com/scobleizer/lists。\n\n同时，Paige Bailey在回复中提到，某代码库已不再是最新版本，尽管算法最初是开源的，但之后进行了多次更改，且未推送到主仓库。",
+        "createDate": "2024-12-27 23:08:26",
+        "hotValue": 5.424053893636436,
+        "tpostUrl": "https://twitter.com/DynamicWebPaige/status/1872660818283909182"
+      }
+    ]
+  },
+  {
+    "eventId": "1872660585575551320",
+    "title": "曝光Microsoft与OpenAI协议：AGI发展与千亿利润目标",
+    "hotValue": 14.532232422781123,
+    "cover": "https://pbs.twimg.com/media/Gf0G0D6bcAE_8SP.jpg",
+    "tags": [
+      "AGI",
+      "OpenAI",
+      "微软",
+      "商业模式",
+      "市场格局"
+    ],
+    "createDate": "2024-12-27 23:07:30",
+    "tposts": [
+      {
+        "tpostId": "1872660585575551320",
+        "title": "曝光Microsoft与OpenAI协议：AGI发展与千亿利润目标",
+        "author": "Subbarao Kambhampati (కంభంపాటి సుబ్బారావు)",
+        "followerCount": "22842",
+        "avatar": "https://pbs.twimg.com/profile_images/1240088892751007745/zFdWaIFe_normal.jpg",
+        "desc": "内部文件显示Microsoft可使用OpenAI全部技术至2030年，AGI开发需达千亿美元利润目标。",
+        "content": "最新披露的内部文件揭示了Microsoft与OpenAI之间的重要商业协议细节。根据协议条款，Microsoft有权在2030年前使用OpenAI开发的所有技术。\n\n\n协议还明确了OpenAI实现AGI（通用人工智能）的具体条件：只有在开发出能为早期投资者（包括Microsoft在内）创造最大总利润的系统时，才视为达成AGI。这些利润总额约为1000亿美元。\n\n\n![](https://twitter.com/rao2z/status/1872660585575551320/photo/1)\n\n\n该协议展现了Microsoft作为市值3万亿美元公司的战略布局，通过明确的商业条款和利润目标，确保了对OpenAI技术发展的实质性控制。",
+        "createDate": "2024-12-27 23:07:30",
+        "hotValue": 14.532232422781123,
+        "tpostUrl": "https://twitter.com/rao2z/status/1872660585575551320"
+      }
+    ]
+  },
+  {
+    "eventId": "1872660176517652774",
+    "title": "Heurist推荐四大开源LLM模型最新应用场景",
+    "hotValue": 16.44636978630252,
+    "cover": "https://pbs.twimg.com/media/Gf0GgSybsAEOpSk.jpg",
+    "tags": [
+      "开源",
+      "模型升级",
+      "评测榜",
+      "应用创新",
+      "解决方案"
+    ],
+    "createDate": "2024-12-27 23:05:53",
+    "tposts": [
+      {
+        "tpostId": "1872660176517652774",
+        "title": "Heurist推荐四大开源LLM模型最新应用场景",
+        "author": "Heurist",
+        "followerCount": "30404",
+        "avatar": "https://pbs.twimg.com/profile_images/1856703682324160512/7jrP8hf2_normal.jpg",
+        "desc": "Heurist发布Llama、Qwen、Mixtral和Hermes四大开源模型应用指南。",
+        "content": "Heurist发布了平台支持的四款主流开源大语言模型的应用场景推荐：\n\n\n- Meta的Llama 3.3 70B是Llama家族最新成员，在聊天和推理方面表现出色，在开源模型中基准测试成绩领先，适合通用聊天、分析和写作任务。\n\n\n- 阿里巴巴的Qwen 2.5 Coder 32B专注代码开发，编程能力可媲美GPT-4，具备清晰高效的代码生成和出色的调试能力，适合开发工作、代码审查和技术文档撰写。\n\n\n- Mistral AI的Mixtral 8x7B采用8个专家模型智能路由技术，推理速度快于70B规模模型，适合需要实时响应的交互式应用。\n\n\n- Nous Research的Hermes 3 Llama 3.1 8B是社区热门模型，由数百个搭载4090 GPU的矿工提供算力支持，在角色扮演和创意任务方面表现优异，适合创意项目、聊天机器人和角色扮演场景。\n\n\n详细模型列表和开发指南可在Heurist官方文档（https://docs.heurist.ai/dev-guide/supported-models）查看。",
+        "createDate": "2024-12-27 23:05:53",
+        "hotValue": 16.44636978630252,
+        "tpostUrl": "https://twitter.com/heurist_ai/status/1872660176517652774"
+      }
+    ]
+  },
+  {
+    "eventId": "1872656416697393180",
+    "title": "DeepSeek-V3模型仅支持中英双语",
+    "hotValue": 7.673469539875832,
+    "cover": "https://pbs.twimg.com/media/GfyhStOW0AAoIPr.png",
+    "tags": [
+      "新模型",
+      "模型升级",
+      "评测榜"
+    ],
+    "createDate": "2024-12-27 22:50:56",
+    "tposts": [
+      {
+        "tpostId": "1872656416697393180",
+        "title": "DeepSeek-V3模型仅支持中英双语",
+        "author": "Eric Hartford",
+        "followerCount": "14732",
+        "avatar": "https://pbs.twimg.com/profile_images/1801288587377319936/b3kFl6F-_normal.jpg",
+        "desc": "DeepSeek-V3基础模型仅支持中英语言，社区讨论多语言扩展方案。",
+        "content": "DeepSeek-V3基础模型在预训练阶段仅采用了以英语和中文为主的多语言语料库，这一语言覆盖范围的局限性引发了技术社区的关注。\n\n\n根据评估文档显示，DeepSeek-V3的性能评估主要集中在英语和中文基准测试上，同时包含了部分多语言基准测试。该评估是基于集成在HAI-LLM框架中的内部评估体系进行的。\n\n\nHugging Face技术负责人Philipp Schmid指出这一限制，而开发者Eric Hartford则建议可以通过对基础模型进行多语言微调来扩展语言支持，这种方案成本相对较低。\n\n\n![评估基准测试文档](https://twitter.com/_philschmid/status/1872548932410397087/photo/1)",
+        "createDate": "2024-12-27 22:50:56",
+        "hotValue": 7.673469539875832,
+        "tpostUrl": "https://twitter.com/cognitivecompai/status/1872656416697393180"
+      }
+    ]
+  },
+  {
+    "eventId": "1872656087142580481",
+    "title": "OpenAI研究员详解大模型训练学习率调度策略",
+    "hotValue": 10.472998970515917,
+    "cover": "https://pbs.twimg.com/media/GfyuTOOWUAA9sNm.jpg",
+    "tags": [
+      "Meta",
+      "优化之术",
+      "论文",
+      "算法突破",
+      "工程实践",
+      "OpenAI"
+    ],
+    "createDate": "2024-12-27 22:49:38",
+    "tposts": [
+      {
+        "tpostId": "1872656087142580481",
+        "title": "OpenAI研究员详解大模型训练学习率调度策略",
+        "author": "Lucas Beyer (bl16)",
+        "followerCount": "75795",
+        "avatar": "https://pbs.twimg.com/profile_images/378800000845687873/37bba4f807fe3a2c644a252f8191338d_normal.jpeg",
+        "desc": "OpenAI研究员指出线性学习率调度存在实践局限，分析多种调度策略优劣。",
+        "content": "OpenAI研究员Lucas Beyer针对大语言模型训练中的学习率调度策略发表见解，对Meta研究员Aaron Defazio提出的线性衰减方案进行了深入分析。\n\n\nLucas指出，线性或余弦学习率调度虽然效果最佳，但在实际应用中存在明显局限：\n\n- 需要提前确定训练总步数，无法在训练过程中灵活调整\n- 实际训练周期可能长达数月，期间可能遇到硬件问题、程序错误或GPU资源分配变更等不确定因素\n\n\n针对DeepSeek和Llama等大模型的训练数据显示，非线性调度方案在实践中具有独特优势：\n\n- 在训练初期（约前10T token）可根据实际情况动态调整训练时长\n- 能够更好地应对现实环境中的各种不可预测因素\n- 在验证分数方面展现出与线性调度相当的性能表现\n\n\n![](https://pbs.twimg.com/media/GfQrwytXUAENEfk?format=jpg&name=900x900)\n\n研究团队通过大量实验对比了递归平方根、梯形、常数和线性等多种学习率调度策略，结果表明非线性方案在实用性和灵活性上具有明显优势，同时也能保持较好的模型训练效果。",
+        "createDate": "2024-12-27 22:49:38",
+        "hotValue": 8.763487679164463,
+        "tpostUrl": "https://twitter.com/giffmana/status/1872656087142580481"
+      },
+      {
+        "tpostId": "1872681317684662770",
+        "title": "Meta研究员：线性衰减是最优学习率调度方案",
+        "author": "Ethan",
+        "followerCount": "7862",
+        "avatar": "https://pbs.twimg.com/profile_images/1848834193444466688/stRMnaB6_normal.jpg",
+        "desc": "Meta研究员Aaron Defazio认为，从最大学习率到零的线性衰减是最佳选择。",
+        "content": "Meta人工智能研究实验室（FAIR）研究员Aaron Defazio表示，从2k步最大学习率直接线性衰减到终点零学习率的方案，很可能优于其他学习率调度方法。「线性衰减是唯一真正的调度方案。」\n\n\n这一观点源于对Warmup-Stable-Decay（WSD）学习率调度研究的讨论。相关研究显示了在河谷损失曲线视角下，不同学习率调度方案（包括WSD、余弦衰减等）的表现差异。\n\n\n研究表明，WSD方案在稳定阶段保持较高的损失值，但在衰减阶段损失会急剧下降。对此，Aaron建议采用更简单的线性衰减策略可能会获得更好的效果。",
+        "createDate": "2024-12-28 00:29:53",
+        "hotValue": 7.0903712987536665,
+        "tpostUrl": "https://twitter.com/torchcompiled/status/1872681317684662770"
+      }
+    ]
+  },
+  {
+    "eventId": "1872654784546881778",
+    "title": "技术岗应聘：GitHub作品集即入场券",
+    "hotValue": 8.89298340098317,
+    "cover": "https://pbs.twimg.com/media/GfvemQBWIAAlaKB.jpg",
+    "tags": [
+      "教育",
+      "人才流动",
+      "工程实践"
+    ],
+    "createDate": "2024-12-27 22:44:27",
+    "tposts": [
+      {
+        "tpostId": "1872654784546881778",
+        "title": "技术岗应聘：GitHub作品集即入场券",
+        "author": "Teknium (e/λ)",
+        "followerCount": "37332",
+        "avatar": "https://pbs.twimg.com/profile_images/1642401912648777728/2KFikPsE_normal.jpg",
+        "desc": "科技行业招聘重视实际项目经验，GitHub作品集或学位证书均可作为入职凭证。",
+        "content": "Replit公司创始人 Amjad Masad 发起了一场关于科技行业人才需求的讨论。对于科技行业的职位空缺，多位从业者表达了不同观点：\n\n\n- 有招聘方表示，在审核应聘者资质时，会要求查看成绩单\n- 另有招聘者强调，更看重应聘者的实际项目作品，愿意亲自面试或演示项目\n\n资深工程师指出，进入科技行业的门槛并非固定：\n\n- 求职者可以选择提供学位证书或 GitHub 项目作品集\n- 通过观看教学视频、使用 Replit 和 ChatGPT 等工具，就能构建演示项目\n- 在 Hugging Face 等平台展示作品同样可行\n\n目前科技行业仍存在大量职位空缺，Replit 等公司会定期开放应届生岗位，近期已完成多个职位招聘。",
+        "createDate": "2024-12-27 22:44:27",
+        "hotValue": 8.89298340098317,
+        "tpostUrl": "https://twitter.com/Teknium1/status/1872654784546881778"
+      }
+    ]
+  },
+  {
+    "eventId": "1872654551008080107",
+    "title": "MistralAI 2024年模型与产品亮点回顾",
+    "hotValue": 6.656616626329145,
+    "cover": "https://pbs.twimg.com/media/Gfx7KkpWgAAFTDb.jpg",
+    "tags": [
+      "新模型",
+      "模型升级",
+      "开源",
+      "应用创新"
+    ],
+    "createDate": "2024-12-27 22:43:31",
+    "tposts": [
+      {
+        "tpostId": "1872654551008080107",
+        "title": "MistralAI 2024年模型与产品亮点回顾",
+        "author": "Rohan Paul",
+        "followerCount": "51594",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "MistralAI 2024年发布多款模型与产品，展望2025年更多创新。",
+        "content": "MistralAI 在2024年取得了显著成就，发布了多款重要模型和产品，为2025年的更多创新奠定了基础。\n\n- 2月：Mistral Large、Mistral Small、Le Chat\n- 4月：Mixtral 8x22B\n- 5月：Codestral\n- 6月：Fine-tuning API\n- 7月：Mistral Large 2、Mathstral、Codestral Mamba、Mistral NeMo\n- 8月：Mistral Agents\n- 9月：Pixtral 12B、Mistral Small v24.09、免费API层级\n- 10月：Ministral 3B & 8B\n- 11月：Pixtral Large、Moderation API & 模型、批量API；Le Chat新增功能 - 搜索、视觉、PDF理解、图像生成、Canvas\n\n![Image](https://pbs.twimg.com/media/Gfx7KkpWgAAFTDb.jpg)\n\nMistralAI 对2024年的成就感到自豪，并期待在2025年带来更多创新。",
+        "createDate": "2024-12-27 22:43:31",
+        "hotValue": 6.656616626329145,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872654551008080107"
+      }
+    ]
+  },
+  {
+    "eventId": "1872653488829972984",
+    "title": "Hugging Face diffusers库将支持Quanto量化",
+    "hotValue": 6.255860719588661,
+    "cover": "",
+    "tags": [
+      "工程实践",
+      "优化之术",
+      "开源"
+    ],
+    "createDate": "2024-12-27 22:39:18",
+    "tposts": [
+      {
+        "tpostId": "1872653488829972984",
+        "title": "Hugging Face diffusers库将支持Quanto量化",
+        "author": "Sayak Paul",
+        "followerCount": "17825",
+        "avatar": "https://pbs.twimg.com/profile_images/1485518937404350464/DYrpvgPr_normal.jpg",
+        "desc": "Hugging Face的diffusers库将新增Quanto作为量化后端选项。",
+        "content": "Hugging Face 的 diffusers 库即将新增量化后端选择项「Quanto」。\n\n\n目前 diffusers 支持多种量化后端，包括 TorchAO 等。TorchAO 具有与其他后端相似的性能表现，同时还支持 `torch.compile()` 功能。",
+        "createDate": "2024-12-27 22:39:18",
+        "hotValue": 6.255860719588661,
+        "tpostUrl": "https://twitter.com/RisingSayak/status/1872653488829972984"
+      }
+    ]
+  },
+  {
+    "eventId": "1872652570751304172",
+    "title": "AGI或ASI延迟至2030-32年并非大问题",
+    "hotValue": 17.194881997685112,
+    "cover": "",
+    "tags": [
+      "趋势洞察",
+      "AGI",
+      "伦理"
+    ],
+    "createDate": "2024-12-27 22:35:39",
+    "tposts": [
+      {
+        "tpostId": "1872652570751304172",
+        "title": "AGI或ASI延迟至2030-32年并非大问题",
+        "author": "Haider.",
+        "followerCount": "31635",
+        "avatar": "https://pbs.twimg.com/profile_images/1748789269949276161/PcVsAEz5_normal.jpg",
+        "desc": "AGI或ASI延迟至2030-32年，讨论UBI更迫切。",
+        "content": "AGI（通用人工智能）或ASI（超级人工智能）的延迟至2030-32年并非大问题，尤其是在担心大规模失业的情况下。如果ASI在2030年前实现，现在讨论UBI（全民基本收入）比等待3-5年更为重要。",
+        "createDate": "2024-12-27 22:35:39",
+        "hotValue": 15.485370706333658,
+        "tpostUrl": "https://twitter.com/slow_developer/status/1872652570751304172"
+      },
+      {
+        "tpostId": "1872668154520088722",
+        "title": "AGI或ASI推迟至2030-32年，讨论UBI成当务之急",
+        "author": "Haider.",
+        "followerCount": "31635",
+        "avatar": "https://pbs.twimg.com/profile_images/1748789269949276161/PcVsAEz5_normal.jpg",
+        "desc": "AGI或ASI推迟至2030-32年，提前讨论UBI成为必要。",
+        "content": "AGI（通用人工智能）或ASI（超级人工智能）的推迟至2030-32年并非大问题，特别是在担心大规模失业的情况下。\n\n如果ASI在2030年前实现，现在讨论UBI（全民基本收入）比再等3-5年更为重要。\n\n关于中国是否已构建AGI或ASI的问题，目前尚无明确答案。",
+        "createDate": "2024-12-27 23:37:35",
+        "hotValue": 4.373942424401621,
+        "tpostUrl": "https://twitter.com/slow_developer/status/1872668154520088722"
+      }
+    ]
+  },
+  {
+    "eventId": "1872651885435408425",
+    "title": "OpenAI考虑转型为公益公司以强化非盈利角色",
+    "hotValue": 37.577937695494,
+    "cover": "https://pbs.twimg.com/media/Gf0v_u0aUAA3Z2T.png",
+    "tags": [
+      "趋势洞察",
+      "伦理",
+      "OpenAI",
+      "投融资",
+      "高管动态",
+      "商业模式"
+    ],
+    "createDate": "2024-12-27 22:32:56",
+    "tposts": [
+      {
+        "tpostId": "1872651885435408425",
+        "title": "OpenAI考虑转型为公益公司以强化非盈利角色",
+        "author": "Chubby♨️",
+        "followerCount": "33816",
+        "avatar": "https://pbs.twimg.com/profile_images/1728327996375719936/RW7VBJfD_normal.jpg",
+        "desc": "OpenAI计划转型为公益公司，以平衡盈利与非盈利目标。",
+        "content": "OpenAI正在重新评估其公司结构，以更好地实现确保人工通用智能（AGI）惠及全人类的使命。该组织目前的混合非盈利/盈利模式使其能够平衡伦理目标与财务可持续性。然而，随着AGI开发的资本需求增加，OpenAI提议将其盈利实体转变为特拉华州公益公司（PBC），以确保股东、利益相关者和公共利益得到优先考虑。这一变化旨在确保传统股权投资的同时，加强非盈利组织在推进慈善计划中的作用。\n\nOpenAI董事会正在评估公司结构，目标是建立一个由盈利成功支持的更强非盈利组织。该计划将创建历史上资源最丰富的非盈利组织之一。\n\n[openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/)",
+        "createDate": "2024-12-27 22:32:56",
+        "hotValue": 15.526295351488757,
+        "tpostUrl": "https://twitter.com/kimmonismus/status/1872651885435408425"
+      },
+      {
+        "tpostId": "1872655268192068011",
+        "title": "OpenAI宣布评估公司架构，拟强化非营利部门",
+        "author": "Teknium (e/λ)",
+        "followerCount": "37332",
+        "avatar": "https://pbs.twimg.com/profile_images/1642401912648777728/2KFikPsE_normal.jpg",
+        "desc": "OpenAI正评估公司架构，计划打造资源充足的非营利部门。",
+        "content": "OpenAI董事会正在评估公司架构，计划通过营利部门的成功来支持一个更强大的非营利组织。\n\n\nOpenAI在官方声明中表示，这一架构调整将创建「史上资源最充足的非营利组织之一」。详细信息可查看其发布的说明文档：[why-our-structure-must-evolve-to-advance-our-mission](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/)\n\n\nNous Research联合创始人Teknium对此计划提出质疑，认为OpenAI目前已经是一个资源充足的非营利组织，这一调整的必要性值得商榷。",
+        "createDate": "2024-12-27 22:46:22",
+        "hotValue": 15.51979324243733,
+        "tpostUrl": "https://twitter.com/Teknium1/status/1872655268192068011"
+      },
+      {
+        "tpostId": "1872680688149020691",
+        "title": "OpenAI评估公司结构以强化非营利使命",
+        "author": "Ben (e/treats)",
+        "followerCount": "4383",
+        "avatar": "https://pbs.twimg.com/profile_images/1299864018081865729/CMlOyn1u_normal.jpg",
+        "desc": "OpenAI董事会正评估公司结构，旨在通过营利支持非营利使命。",
+        "content": "OpenAI董事会正在评估其公司结构，目的是通过营利实体的成功来支持一个更强大的非营利组织。这一计划旨在创建历史上资源最丰富的非营利组织之一。\n\nOpenAI在其官方声明中提到，这一结构调整是为了推进其使命，即确保人工通用智能造福全人类。\n\n相关链接：[openai.com](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/)",
+        "createDate": "2024-12-28 00:27:23",
+        "hotValue": 9.955264757366503,
+        "tpostUrl": "https://twitter.com/andersonbcdefg/status/1872680688149020691"
+      },
+      {
+        "tpostId": "1872705813082739109",
+        "title": "OpenAI考虑调整公司结构以增强非营利性部门",
+        "author": "Rohan Paul",
+        "followerCount": "51592",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "OpenAI计划调整公司结构，以支持非营利性部门的长期发展。",
+        "content": "OpenAI正在考虑调整其公司结构，旨在通过营利性部门的成功来增强非营利性部门。目前，OpenAI同时拥有非营利性和营利性两种结构，并计划将营利性部门转换为特拉华州公益公司（PBC），同时保持其确保AGI（人工通用智能）的使命焦点。\n\n- 当前结构在筹集现代AI开发所需的数百亿美元方面面临限制。\n\n- 非营利性部门将在PBC中获得股份，按照独立确定的公平估值，可能成为历史上资源最丰富的非营利性组织之一。\n\n![Image](https://pbs.twimg.com/media/Gf0v_u0aUAA3Z2T.png)\n\nOpenAI董事会正在评估公司结构，目标是创建一个由营利性部门成功支持的非营利性部门，使其成为历史上资源最丰富的非营利性组织之一。更多详情可访问[openai.com](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/)。",
+        "createDate": "2024-12-28 02:07:13",
+        "hotValue": 9.384286061792276,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872705813082739109"
+      },
+      {
+        "tpostId": "1872786096582737940",
+        "title": "Marc Andreessen谈OpenAI从非营利转型法律风险",
+        "author": "Elon Musk",
+        "followerCount": "209302243",
+        "avatar": "https://pbs.twimg.com/profile_images/1858316737780781056/kPL61o0F_normal.jpg",
+        "desc": "Marc Andreessen警告：OpenAI从非营利转型需注意法律风险。",
+        "content": "Marc Andreessen指出，像OpenAI这样的非营利组织转型为营利公司通常会面临联邦税法和其他法律制度的限制。历史上，当非营利组织被用于个人财富积累时，通常会导致入狱。\n\n- 这种类型的转变确实发生，但需要以市场价值收购非营利组织。根据他的推测，OpenAI的市场价值为1500亿美元。\n\n![](https://video.twimg.com/ext_tw_video/1872783736179441665/pu/vid/avc1/720x720/Bxt8xKBmn55PsRXf.mp4?tag=12)\n\nElon Musk在推文中对此评论表示赞同。",
+        "createDate": "2024-12-28 07:26:14",
+        "hotValue": 33.15891511279109,
+        "tpostUrl": "https://twitter.com/elonmusk/status/1872786096582737940"
+      },
+      {
+        "tpostId": "1872814672614707577",
+        "title": "非营利组织加入阻止OpenAI转型阵营",
+        "author": "Nordic AI Artificial Intelligence Institute",
+        "followerCount": "31450",
+        "avatar": "https://pbs.twimg.com/profile_images/894659016705556480/_CJhwfbx_normal.jpg",
+        "desc": "非营利组织联手Elon Musk阻止OpenAI的营利化转型。",
+        "content": "**Nordic AI Artificial Intelligence Institute** 分享了一则消息：一家非营利组织加入了Elon Musk的阵营，旨在阻止OpenAI从非营利性质转型为营利性企业。此举在纽约时报和TechCrunch上引起了关注。\n\n更多信息可查看 [报道](https://techcrunch.com/2024/12/27/nonprofit-group-joins-elon-musks-effort-to-block-openais-for-profit-transition/)。\n\n此次行动标志着AI行业内部对OpenAI战略方向的分歧和讨论。",
+        "createDate": "2024-12-28 09:19:47",
+        "hotValue": 6.271987350425038,
+        "tpostUrl": "https://twitter.com/nordicinst/status/1872814672614707577"
+      }
+    ]
+  },
+  {
+    "eventId": "1872651697773744261",
+    "title": "OpenAI 前举报者 Suchir Balaji 离世，其母首次发声",
+    "hotValue": 7.2785652703641395,
+    "cover": "",
+    "tags": [
+      "OpenAI",
+      "高管动态"
+    ],
+    "createDate": "2024-12-27 22:32:11",
+    "tposts": [
+      {
+        "tpostId": "1872651697773744261",
+        "title": "OpenAI 前举报者 Suchir Balaji 离世，其母首次发声",
+        "author": "Nordic AI Artificial Intelligence Institute",
+        "followerCount": "31444",
+        "avatar": "https://pbs.twimg.com/profile_images/894659016705556480/_CJhwfbx_normal.jpg",
+        "desc": "OpenAI 前举报者 Suchir Balaji 离世，其母首次对外发表评论。",
+        "content": "据《印度时报》报道，OpenAI 前举报者 Suchir Balaji 已经离世，其母亲首次就这一事件对外发表评论。\n\nSuchir Balaji 此前曾是 OpenAI 的内部举报者。\n\n相关新闻链接：[hindustantimes.com/trending/india]()\n\n*注：考虑到事件的敏感性质，新闻仅就已知事实进行报道。*",
+        "createDate": "2024-12-27 22:32:11",
+        "hotValue": 7.2785652703641395,
+        "tpostUrl": "https://twitter.com/nordicinst/status/1872651697773744261"
+      }
+    ]
+  },
+  {
+    "eventId": "1872648208784015856",
+    "title": "Hunch推出无代码AI工作空间，支持顶级AI模型",
+    "hotValue": 12.899831855098576,
+    "cover": "",
+    "tags": [
+      "应用创新",
+      "商业模式",
+      "解决方案"
+    ],
+    "createDate": "2024-12-27 22:18:19",
+    "tposts": [
+      {
+        "tpostId": "1872648208784015856",
+        "title": "Hunch推出无代码AI工作空间，支持顶级AI模型",
+        "author": "Groq Inc",
+        "followerCount": "63156",
+        "avatar": "https://pbs.twimg.com/profile_images/1346576832800452614/IKTBFFTJ_normal.png",
+        "desc": "Hunch推出基于Groq技术的无代码AI工作空间，支持多个顶级AI模型。",
+        "content": "Hunch最新发布的无代码AI工作空间整合了多个顶级AI模型，采用Groq的技术支持，旨在降低AI应用开发门槛。\n\n\n该工作空间由Hunch首席执行官兼联合创始人David Wilson领导开发。平台特点是无需编程基础，即可快速构建和部署AI应用。\n\n\nGroq为该平台提供了LPU™ AI推理技术支持，确保了模型运行的高性能和能效。\n\n\n详细介绍可查看官方博客：https://hubs.la/Q030vqk90",
+        "createDate": "2024-12-27 22:18:19",
+        "hotValue": 12.899831855098576,
+        "tpostUrl": "https://twitter.com/GroqInc/status/1872648208784015856"
+      }
+    ]
+  },
+  {
+    "eventId": "1872647712358949088",
+    "title": "Meta研究员开源Attention机制深度学习课程代码",
+    "hotValue": 7.044853729608592,
+    "cover": "https://pbs.twimg.com/media/GfsyRPsaEAAjYFP.jpg",
+    "tags": [
+      "开源",
+      "工程实践",
+      "Meta",
+      "教育"
+    ],
+    "createDate": "2024-12-27 22:16:21",
+    "tposts": [
+      {
+        "tpostId": "1872647712358949088",
+        "title": "Meta研究员开源Attention机制深度学习课程代码",
+        "author": "François Fleuret",
+        "followerCount": "39618",
+        "avatar": "https://pbs.twimg.com/profile_images/1741919776773902336/pXUEFYUA_normal.jpg",
+        "desc": "Meta研究员François Fleuret开源其深度学习课程中Attention机制相关代码",
+        "content": "Meta研究员、日内瓦大学教授François Fleuret宣布开源其深度学习课程中关于Attention机制的代码资料。\n\n\n课程资料主要聚焦于深度学习中的Attention机制，包含了详细的数学原理和代码实现：\n\n- 完整介绍了标准Attention层的工作原理，包括输入序列处理、Attention矩阵计算等核心概念\n- 详细阐述了Self-attention和Cross-attention的区别与联系\n- 展示了Multi-head Attention的并行计算方式及其特征维度处理\n\n相关代码已在GitHub开源：https://github.com/francoisfleuret/dlc/\n\n课程完整资料可在其个人网站获取：https://fleuret.org/dlc/",
+        "createDate": "2024-12-27 22:16:21",
+        "hotValue": 7.044853729608592,
+        "tpostUrl": "https://twitter.com/francoisfleuret/status/1872647712358949088"
+      }
+    ]
+  },
+  {
+    "eventId": "1872647635833967079",
+    "title": "计算机通过自我对弈在棋类游戏中超越人类",
+    "hotValue": 18.60884511562673,
+    "cover": "",
+    "tags": [
+      "算法突破",
+      "应用创新"
+    ],
+    "createDate": "2024-12-27 22:16:03",
+    "tposts": [
+      {
+        "tpostId": "1872647635833967079",
+        "title": "计算机通过自我对弈在棋类游戏中超越人类",
+        "author": "Santiago",
+        "followerCount": "386654",
+        "avatar": "https://pbs.twimg.com/profile_images/1581385027757264898/j5GjtUiq_normal.jpg",
+        "desc": "计算机通过自我对弈在棋类游戏中实现超人类能力。",
+        "content": "计算机在国际象棋和围棋等棋类游戏中已经超越了人类。这一成就背后的系统具有某种神奇之处：\n\n- 系统被展示了游戏规则\n- 系统通过自我对弈进行学习\n\n这些系统并未被教授任何策略或展示人类玩家的游戏。它们以任何方式都不受人类方式的限制。\n\n经过数百万次的迭代，这些系统通过自我对弈赋予了自身超人类的能力。这种能力既神奇又令人畏惧。\n\n目前，编程领域尚未实现这一能力，但如果实现，将彻底改变游戏规则。",
+        "createDate": "2024-12-27 22:16:03",
+        "hotValue": 18.60884511562673,
+        "tpostUrl": "https://twitter.com/svpino/status/1872647635833967079"
+      }
+    ]
+  },
+  {
+    "eventId": "1872643605031973099",
+    "title": "DeepLearning.AI推出crewAI多代理高级课程",
+    "hotValue": 13.49671741260711,
+    "cover": "https://pbs.twimg.com/media/GflSNq9WQAAyT9W.jpg",
+    "tags": [
+      "应用创新",
+      "教育",
+      "工程实践",
+      "利器"
+    ],
+    "createDate": "2024-12-27 22:00:02",
+    "tposts": [
+      {
+        "tpostId": "1872643605031973099",
+        "title": "DeepLearning.AI推出crewAI多代理高级课程",
+        "author": "DeepLearning.AI",
+        "followerCount": "253565",
+        "avatar": "https://pbs.twimg.com/profile_images/1358834299538051072/F0cQFEjK_normal.jpg",
+        "desc": "DeepLearning.AI与crewAI合作推出多AI代理高级课程，已吸引2万学员参与",
+        "content": "DeepLearning.AI与crewAI联合推出「Practical Multi AI Agents and Advanced Use Cases」课程，该课程由crewAI创始人Joao Moura主讲，已吸引超过2万名学员参与。\n\n\n课程主要涵盖三大核心内容：\n\n- 构建协作型AI代理，整合外部工具并使用不同模型高效处理特定任务\n\n- 通过性能测试和人类反馈评估优化代理表现\n\n- 创建多代理系统自动化项目规划、潜在客户评分、数据分析和大规模内容创作等任务\n\n\n该课程是crewAI系列的第二部分，旨在帮助学员掌握多代理工作流程的高级应用。课程获得学员一致好评，多位学习者表示课程在理论与实践之间取得了良好平衡。\n\n课程链接：https://www.deeplearning.ai/short-courses/practical-multi-ai-agents-and-advanced-use-cases-with-crewai/",
+        "createDate": "2024-12-27 22:00:02",
+        "hotValue": 13.49671741260711,
+        "tpostUrl": "https://twitter.com/DeepLearningAI/status/1872643605031973099"
+      }
+    ]
+  },
+  {
+    "eventId": "1872447153366569110",
+    "title": "开发者用8台Mac Mini搭建AI推理集群",
+    "hotValue": 29.335087301228764,
+    "cover": "https://pbs.twimg.com/media/GfxEwwOXIAA36gz.jpg",
+    "tags": [
+      "优化之术",
+      "工程实践",
+      "芯片",
+      "算力",
+      "基建"
+    ],
+    "createDate": "2024-12-27 08:59:24",
+    "tposts": [
+      {
+        "tpostId": "1872447153366569110",
+        "title": "开发者用8台Mac Mini搭建AI推理集群",
+        "author": "Alex Cheema - e/acc",
+        "followerCount": "22561",
+        "avatar": "https://pbs.twimg.com/profile_images/1671532231687282689/vlbc3Ytw_normal.jpg",
+        "desc": "开发者通过堆叠8台Mac Mini构建推理集群，实现5 tokens/秒推理速度。",
+        "content": "Exolabs 创始人 Alex Cheema 展示了一个由8台 Mac Mini 堆叠组成的AI推理集群系统。\n\n该设置目前能够实现约5 tokens/秒的推理速度。Alex 表示，这是首次在8台 Mac Mini 上进行推理测试，性能还有很大的提升空间，理论上该配置可以达到超过10 tokens/秒的处理速度。\n\n![Mac Mini推理集群](https://twitter.com/alexocheema/status/1872447153366569110/photo/1)",
+        "createDate": "2024-12-27 08:59:24",
+        "hotValue": 27.62557600987731,
+        "tpostUrl": "https://twitter.com/alexocheema/status/1872447153366569110"
+      },
+      {
+        "tpostId": "1872673977526874279",
+        "title": "8台Mac Mini组建AI集群运行DeepSeek-V3",
+        "author": "Rohan Paul",
+        "followerCount": "51595",
+        "avatar": "https://pbs.twimg.com/profile_images/1816185267037859840/Fd18CH0v_normal.jpg",
+        "desc": "工程师用8台Mac Mini组建集群运行DeepSeek-V3，推理速度达5 tok/s。",
+        "content": "DeepSeek-V3模型首次在由8台搭载M4芯片的Mac Mini组成的AI计算集群上成功运行。\n\n![](https://twitter.com/alexocheema/status/1872447153366569110/photo/1)\n\n该集群当前实现了约5 tokens/秒的推理速度，工程师表示这一性能还有较大提升空间，理论极限可超过10 tokens/秒。\n\n该实验展示了Mac Mini在AI计算领域的应用潜力，为寻求经济实用的AI基础设施方案提供了新思路。",
+        "createDate": "2024-12-28 00:00:43",
+        "hotValue": 9.90605342667407,
+        "tpostUrl": "https://twitter.com/rohanpaul_ai/status/1872673977526874279"
+      }
+    ]
+  },
+  {
+    "eventId": "1872164591305924927",
+    "title": "LLaMa 405B模型表现获赞，新测试揭示特性",
+    "hotValue": 17.941519514880092,
+    "cover": "https://pbs.twimg.com/media/GftDolAXEAAtiEg.jpg",
+    "tags": [
+      "模型升级",
+      "评测榜",
+      "Meta",
+      "开源",
+      "算法突破"
+    ],
+    "createDate": "2024-12-26 14:16:36",
+    "tposts": [
+      {
+        "tpostId": "1872164591305924927",
+        "title": "LLaMa 405B模型表现获赞，新测试揭示特性",
+        "author": "Teortaxes▶️",
+        "followerCount": "19093",
+        "avatar": "https://pbs.twimg.com/profile_images/1652169745037242368/KRPTShbG_normal.jpg",
+        "desc": "LLaMa 405B模型受赞，未见GPT-4类似缺陷。",
+        "content": "AI领域的讨论聚焦于最新的LLaMa 405B模型，Teortaxes▶️指出，这一开源模型值得进行更深入的特性探索。John David Pressman在讨论中谈到了GPT-4基模型中存在的一些潜在问题，并与LLaMa 405B进行了对比。\n\n- ![Image](https://pbs.twimg.com/media/GftDolAXEAAtiEg.jpg) LLaMa 405B模型被认为有获取深度和灵魂潜力。\n  \n- ![Image](https://pbs.twimg.com/media/GerVfiEbsAAsofc.png) Pressman指出，GPT-4基因中可能存在一些“恶魔”或潜在现象，而LLaMa 3 405B在这方面表现不同，可能是由于Meta在数据混合和语料库方面的干预。\n\n讨论还涉及到最新的训练方法和数据变化对模型行为的影响。LLaMa 405B模型的不同表现也可能意味着在未来的开发和应用中发挥重要作用。",
+        "createDate": "2024-12-26 14:16:36",
+        "hotValue": 17.941519514880092,
+        "tpostUrl": "https://twitter.com/teortaxesTex/status/1872164591305924927"
+      }
+    ]
+  },
+  {
+    "eventId": "1872127944342266044",
+    "title": "机器学习领域薪资与智商要求不成正比",
+    "hotValue": 25.697642445097575,
+    "cover": "",
+    "tags": [
+      "人才流动",
+      "教育",
+      "趋势洞察"
+    ],
+    "createDate": "2024-12-26 11:50:59",
+    "tposts": [
+      {
+        "tpostId": "1872127944342266044",
+        "title": "机器学习领域薪资与智商要求不成正比",
+        "author": "Cernovich",
+        "followerCount": "1359288",
+        "avatar": "https://pbs.twimg.com/profile_images/1788999802526789632/4xyOtQLZ_normal.jpg",
+        "desc": "机器学习领域薪资与智商要求不成正比，引发讨论。",
+        "content": "机器学习领域的工作要求高智商，但薪资水平却未能与之匹配。  \n  \n- 在Apple工作，年薪可达22.6万美元。  \n- 成为医师助理，进行肉毒杆菌注射，年收入可达50万美元，若拥有诊所则更高。  \n  \n尽管社交技能等因素也影响收入，但机器学习领域的薪资水平普遍被认为过低，与其对智商的高要求不成正比。",
+        "createDate": "2024-12-26 11:50:59",
+        "hotValue": 25.697642445097575,
+        "tpostUrl": "https://twitter.com/Cernovich/status/1872127944342266044"
+      }
+    ]
+  }
+]

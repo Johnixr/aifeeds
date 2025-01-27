@@ -1,0 +1,54 @@
+[
+  {
+    "eventId": "23432",
+    "title": "AI技術の未来",
+    "hotValue": 85,
+    "createDate": "2024-03-23 02:21:21",
+    "tposts": [
+      {
+        "tpostId": 1,
+        "title": "AI技術の発展に関する包括的な分析",
+        "author": "Sayak Paul",
+        "followerCount": "23442",
+        "avatar": "https://pbs.twimg.com/profile_images/1234567890/avatar.jpg",
+        "desc": "AI技術の未来について活発な議論が行われています...",
+        "content": "# AI技術の未来\n\n## 主なポイント\n\n- 大規模言語モデルの breakthrough\n- コンピュータビジョンの進歩\n- ヘルスケアの新しい応用\n\n## 分析\n\nAI分野の最新の発展は、様々な領域で顕著な進歩を示しています。主要な分野を見ていきましょう：\n\n### 1. 言語モデル\n\n言語モデルの進化は、その能力で私たちを驚かせ続けています。\n\n### 2. コンピュータビジョン\n\n新しいアーキテクチャが画像認識の可能性の境界を押し広げています。\n\n### 3. 医療応用\n\nAIは医療診断と治療計画において大きな進歩を遂げています。\n\n```python\n# モダンAIコードの例\ndef analyze_image(image):\n    model = load_pretrained_model()\n    return model.predict(image)\n```\n\n![AI技術](https://example.com/ai-tech.jpg)\n\n> 未来は既に来ています。ただ、まだ均等に分布していないだけです。",
+        "createDate": "2024-03-22 01:48:14",
+        "hotValue": 100,
+        "tpostUrl": "https://twitter.com/SayakPaul/status/312172"
+      },
+      {
+        "tpostId": 2,
+        "title": "AI研究のブレークスルー - 次は何か？",
+        "author": "Andrej Karpathy",
+        "followerCount": "789123",
+        "avatar": "https://pbs.twimg.com/profile_images/1234567891/avatar.jpg",
+        "desc": "AI研究の最新のブレークスルーを探る...",
+        "content": "# AI研究のブレークスルー\n\nエキサイティングな発展を見ていきましょう：\n\n1. Transformerアーキテクチャの改善\n2. 効率的なトレーニング方法\n3. 新しい応用分野\n\n## 技術詳細\n\n```python\nclass AIModel:\n    def __init__(self):\n        self.transformer = Transformer()\n        \n    def train(self, data):\n        return self.transformer.fit(data)\n```\n\n### 影響\n\nこれらのブレークスルーは以下に大きな影響を与えます：\n- 産業応用\n- 研究の方向性\n- 倫理的考慮",
+        "createDate": "2024-03-22 03:15:00",
+        "hotValue": 95,
+        "tpostUrl": "https://twitter.com/karpathy/status/312173"
+      }
+    ]
+  },
+  {
+    "eventId": "23433",
+    "title": "新しいAIハードウェアの開発",
+    "hotValue": 75,
+    "createDate": "2024-03-23 01:15:00",
+    "tposts": [
+      {
+        "tpostId": 3,
+        "title": "革新的なAIチップの発表",
+        "author": "Jim Fan",
+        "followerCount": "156789",
+        "avatar": "https://pbs.twimg.com/profile_images/1234567892/avatar.jpg",
+        "desc": "次世代AIハードウェアに関する重大ニュース...",
+        "content": "# 革新的なAIチップ\n\n## パフォーマンス指標\n- 推論速度2倍\n- 消費電力30%削減\n- メモリ帯域幅の改善\n\n### 技術仕様\n\n```python\ndef benchmark_chip():\n    results = run_tests()\n    return analyze_performance(results)\n```\n\n## 産業への影響\n\nこの開発は以下を革新します：\n1. クラウドコンピューティング\n2. エッジデバイス\n3. モバイルアプリケーション",
+        "createDate": "2024-03-23 01:10:00",
+        "hotValue": 88,
+        "tpostUrl": "https://twitter.com/DrJimFan/status/312174"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minimal Theme Test</title>
+    <script>
+        console.log('[theme-test] Starting theme detection test...');
+        
+        try {
+            if (!window.matchMedia) {
+                console.error('[theme-test] matchMedia not supported');
+                throw new Error('matchMedia not supported');
+            }
+            
+            const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+            console.log('[theme-test] MediaQuery created:', mediaQuery.media);
+            console.log('[theme-test] Initial theme:', mediaQuery.matches ? 'dark' : 'light');
+            
+            document.documentElement.setAttribute('data-theme', mediaQuery.matches ? 'dark' : 'light');
+            console.log('[theme-test] Theme attribute set to:', document.documentElement.getAttribute('data-theme'));
+            
+            mediaQuery.addEventListener('change', (e) => {
+                console.log('[theme-test] Theme preference changed:', e.matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+            });
+        } catch (error) {
+            console.error('[theme-test] Error:', error);
+        }
+    </script>
+    <style>
+        [data-theme="dark"] { background: #222; color: #fff; }
+        [data-theme="light"] { background: #fff; color: #222; }
+    </style>
+</head>
+<body>
+    <h1>Theme Test</h1>
+    <p>Check the browser console for theme detection logs.</p>
+</body>
+</html>

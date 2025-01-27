@@ -1,0 +1,1 @@
+import{S as o,U as t,C as a,o as r,c as i,a as n}from"./DLQUMyge.js";const u=o({__name:"index",setup(l){const s=t();return a(()=>{s.push("/feeds")}),(c,e)=>(r(),i("div",null,e[0]||(e[0]=[n("div",{class:"flex items-center justify-center min-h-screen"},[n("div",{class:"loading loading-spinner loading-lg"})],-1)])))}});export{u as default};

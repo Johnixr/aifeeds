@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Theme Test</title>
+    <script>
+        // Super minimal theme detection with console logging
+        window.onerror = function(msg, url, line, col, error) {
+            console.error('Global Error:', msg, 'at', url, ':', line);
+            const el = document.getElementById('log');
+            if (el) el.textContent += `Error: ${msg} at ${url}:${line}\n`;
+            return false;
+        };
+
+        function log(msg) {
+            console.log('[theme-test]', msg);
+            const el = document.getElementById('log');
+            if (el) {
+                try {
+                    el.textContent += new Date().toISOString() + ': ' + msg + '\n';
+                } catch (e) {
+                    console.error('Failed to update log element:', e);
+                }
+            }
+
+        // Immediate theme detection
+        try {
+            log('Starting theme detection');
+            
+            if (!window.matchMedia) {
+                throw new Error('matchMedia API not available');
+            }
+            
+            const query = window.matchMedia('(prefers-color-scheme: dark)');
+            log('matchMedia query created: ' + query.media);
+            
+            const theme = query.matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', theme);
+            log('Theme set to: ' + theme);
+            
+            // Theme change listener
+            const changeHandler = (e) => {
+                const newTheme = e.matches ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', newTheme);
+                log('Theme changed to: ' + newTheme);
+            };
+            
+            if (query.addEventListener) {
+                query.addEventListener('change', changeHandler);
+                log('Added event listener (addEventListener)');
+            } else if (query.addListener) {
+                query.addListener(changeHandler);
+                log('Added event listener (addListener)');
+            }
+            
+            log('Theme detection setup complete');
+        } catch (error) {
+            log('Error: ' + error.message);
+            console.error(error);
+        }
+    </script>
+    <style>
+        [data-theme="dark"] { background: #222; color: #fff; }
+        [data-theme="light"] { background: #fff; color: #222; }
+        #log { white-space: pre; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <div>Theme: <span id="theme"></span></div>
+    <pre id="log"></pre>
+    <script>
+        setInterval(() => {
+            const theme = document.documentElement.getAttribute('data-theme');
+            document.getElementById('theme').textContent = theme || 'not set';
+        }, 1000);
+    </script>
+</body>
+</html>

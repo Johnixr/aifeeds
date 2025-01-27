@@ -1,18 +1,32 @@
 // Theme detection plugin that runs on client-side
 export default defineNuxtPlugin(() => {
   if (process.client) {
-    // Create a debug logging function that logs to both console and localStorage
+    // Initialize theme logs in localStorage
+    if (!localStorage.getItem('theme_detection_logs')) {
+      localStorage.setItem('theme_detection_logs', JSON.stringify([]));
+    }
+    
     const debugLog = (msg: string) => {
       console.log(msg);
       try {
-        const logs = JSON.parse(localStorage.getItem('theme_debug_logs') || '[]');
+        // Store logs in localStorage
+        const logs = JSON.parse(localStorage.getItem('theme_detection_logs') || '[]');
         logs.push({
           timestamp: new Date().toISOString(),
-          message: msg
+          message: msg,
+          userAgent: navigator.userAgent,
+          theme: document.documentElement.getAttribute('data-theme')
         });
-        localStorage.setItem('theme_debug_logs', JSON.stringify(logs));
+        localStorage.setItem('theme_detection_logs', JSON.stringify(logs));
+        
+        // Store current theme state in localStorage
+        localStorage.setItem('current_theme', document.documentElement.getAttribute('data-theme') || 'not set');
+        
+        // Store system preference in localStorage
+        const systemPreference = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        localStorage.setItem('system_preference', systemPreference);
       } catch (e) {
-        console.error('[theme.client] Failed to write to localStorage:', e);
+        console.error('[theme.client] Failed to log:', e);
       }
     };
 

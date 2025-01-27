@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme Detection Test</title>
+    <script>
+        // Immediately log to both console and visible UI
+        async function debugLog(msg) {
+            console.log(msg);
+            // Log to both UI and server
+            try {
+                // Log to server
+                await fetch('http://localhost:3456/log', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        timestamp: new Date().toISOString(),
+                        message: msg,
+                        userAgent: navigator.userAgent,
+                        theme: document.documentElement.getAttribute('data-theme')
+                    })
+                });
+                
+                // Log to UI
+                requestAnimationFrame(() => {
+                    const logEl = document.getElementById('logs');
+                    if (logEl) {
+                        const div = document.createElement('div');
+                        div.textContent = `${new Date().toISOString()}: ${msg}`;
+                        logEl.appendChild(div);
+                    }
+                });
+            } catch (error) {
+                console.error('Failed to log:', error);
+            }
+        }
+
+        // Initialize theme detection immediately
+        (function initTheme() {
+            debugLog('Starting theme detection...');
+            
+            // Check if we're in a browser environment
+            if (typeof window === 'undefined') {
+                debugLog('Error: Not in browser environment');
+                return;
+            }
+
+            // Check for matchMedia support
+            if (!window.matchMedia) {
+                debugLog('Error: matchMedia not supported');
+                return;
+            }
+
+            try {
+                // Create media query
+                const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+                debugLog('MediaQuery created successfully');
+                
+                // Function to update theme
+                function updateTheme(isDark) {
+                    const theme = isDark ? 'dark' : 'light';
+                    document.documentElement.setAttribute('data-theme', theme);
+                    debugLog(`Theme updated to: ${theme}`);
+                }
+
+                // Set initial theme and store in localStorage
+                const initialTheme = mediaQuery.matches ? 'dark' : 'light';
+                localStorage.setItem('theme_detection_test', JSON.stringify({
+                    timestamp: new Date().toISOString(),
+                    theme: initialTheme,
+                    userAgent: navigator.userAgent,
+                    matchMediaSupported: true,
+                    documentTheme: document.documentElement.getAttribute('data-theme')
+                }));
+                updateTheme(mediaQuery.matches);
+                
+                // Add change listener with localStorage logging
+                const changeHandler = (e) => {
+                    const newTheme = e.matches ? 'dark' : 'light';
+                    localStorage.setItem('theme_detection_test', JSON.stringify({
+                        timestamp: new Date().toISOString(),
+                        theme: newTheme,
+                        userAgent: navigator.userAgent,
+                        matchMediaSupported: true,
+                        documentTheme: document.documentElement.getAttribute('data-theme'),
+                        event: 'change'
+                    }));
+                    updateTheme(e.matches);
+                };
+                
+                // Try both methods for broader browser support
+                if (mediaQuery.addEventListener) {
+                    mediaQuery.addEventListener('change', changeHandler);
+                    debugLog('Added event listener (addEventListener)');
+                } else if (mediaQuery.addListener) {
+                    mediaQuery.addListener(changeHandler);
+                    debugLog('Added event listener (addListener)');
+                } else {
+                    debugLog('Warning: Could not add change listener');
+                }
+                
+                debugLog('Theme detection setup complete');
+            } catch (error) {
+                debugLog(`Critical error: ${error.message}`);
+                console.error(error);
+            }
+        })();
+    </script>
+    <style>
+        body { 
+            margin: 20px; 
+            font-family: sans-serif; 
+        }
+        [data-theme="dark"] { 
+            background: #1a1a1a; 
+            color: #ffffff; 
+        }
+        [data-theme="light"] { 
+            background: #ffffff; 
+            color: #000000; 
+        }
+        #logs {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        #theme-info {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
+            background: rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="theme-info">
+        Current theme: <span id="current-theme">checking...</span>
+    </div>
+    <h1>Theme Detection Test</h1>
+    <p>This page tests the basic theme detection functionality.</p>
+    <div id="logs"></div>
+    <script>
+        // Update theme display
+        setInterval(() => {
+            const themeEl = document.getElementById('current-theme');
+            if (themeEl) {
+                themeEl.textContent = document.documentElement.getAttribute('data-theme') || 'not set';
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
