@@ -1,0 +1,121 @@
+@import './markdown.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-50: #f0f7ff;
+  --primary-100: #e0f0ff;
+  --primary-200: #b9e0ff;
+  --primary-300: #7cc5ff;
+  --primary-400: #38a8ff;
+  --primary-500: #0090ff;
+  --primary-600: #0070cc;
+  --primary-700: #005299;
+  --primary-800: #003d73;
+  --primary-900: #002952;
+  
+  --surface-50: #fafafa;
+  --surface-100: #f4f4f5;
+  --surface-200: #e4e4e7;
+  --surface-300: #d4d4d8;
+  --surface-400: #a1a1aa;
+  --surface-500: #71717a;
+  --surface-600: #52525b;
+  --surface-700: #3f3f46;
+  --surface-800: #27272a;
+  --surface-900: #18181b;
+}
+
+@layer base {
+  html {
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-surface-50 text-surface-900;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply px-4 py-2 text-surface-600 hover:text-surface-900 hover:bg-surface-100 rounded-lg transition-all duration-200 ease-in-out;
+  }
+  
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-500 text-white rounded-lg 
+           hover:bg-primary-600 active:bg-primary-700
+           transform hover:-translate-y-0.5 active:translate-y-0
+           transition-all duration-200
+           shadow-sm hover:shadow-md
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-surface-100 text-surface-700 rounded-lg 
+           hover:bg-surface-200 active:bg-surface-300
+           transform hover:-translate-y-0.5 active:translate-y-0
+           transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-surface-400 focus:ring-offset-2;
+  }
+  
+  .input-primary {
+    @apply px-3 py-2 bg-white border border-surface-200 rounded-lg
+           focus:ring-2 focus:ring-primary-500 focus:border-primary-500
+           hover:border-primary-400
+           transition-all duration-200
+           placeholder-surface-400;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-sm
+           hover:shadow-lg
+           transition-all duration-300 ease-out
+           border border-surface-200/50;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 ease-out
+           hover:-translate-y-1 hover:shadow-lg
+           active:translate-y-0 active:shadow-md;
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-surface-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface-300 rounded-full 
+         hover:bg-surface-400 
+         transition-colors duration-200;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out forwards;
+}

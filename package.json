@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.5",
+    "@vueuse/core": "^11.3.0",
+    "dayjs": "^1.11.13",
+    "highlight.js": "^11.10.0",
+    "markdown-it": "^14.1.0",
+    "masonry-layout": "^4.2.2",
+    "mitt": "^3.0.1",
+    "nuxt": "^3.14.1592",
+    "pinia": "^2.1.7",
+    "qrcode": "^1.5.4",
+    "qrcode-vue": "^1.2.0",
+    "qrcode-vue3": "^1.7.1",
+    "qrcode.vue": "^3.6.0",
+    "qrcodejs2": "^0.0.2",
+    "sweetalert2": "^11.14.5",
+    "vue": "^3.4.21",
+    "vue-qrcode": "^2.2.2",
+    "vue-router": "^4.3.0",
+    "vue-waterfall-plugin-next": "^2.6.4",
+    "vue3-waterfall": "^0.2.0"
+  },
+  "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a",
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "^18.17.3",
+    "daisyui": "^4.12.14"
+  }
+}

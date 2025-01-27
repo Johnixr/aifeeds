@@ -1,0 +1,394 @@
+[
+  {
+    "eventId": "23432",
+    "title": "AI技术的未来发展",
+    "hotValue": 85,
+    "cover": "https://pbs.twimg.com/media/GYdsu5zaQAAlso5?format=jpg&name=medium",
+    "tags": ["新模型", "版本进化", "模型评测", "算法突破", "性能改进", "工程实践", "OpenAI", "Google", "微软", "Meta", "创业前线", "Perplexity", "Grok", "Apple", "<公司名>", "开源", "工具框架", "芯片", "算力", "基建", "论文精选", "学术活动", "研究报告", "高管变动", "人才流动", "教育培养", "应用创新", "行业方案", "AGI", "安全伦理", "趋势洞察", "投融资", "商业模式", "市场竞争"],
+    "createDate": "2024-03-23 02:21:21",
+    "tposts": [
+      {
+        "tpostId": 1,
+        "title": "AI技术发展的令人振奋的进展 - 全面分析",
+        "author": "Sayak Paul",
+        "followerCount": "23442",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "AI技术的未来引发了热烈讨论...",
+        "content": "# AI技术的未来\n\n## 主要亮点\n\n- 大语言模型的突破\n- 计算机视觉的进展\n- 医疗保健领域的新应用\n\n## 分析\n\nAI领域的最新发展在各个方面都显示出显著的进步。让我们探讨一些关键领域：\n\n### 1. 语言模型\n\n语言模型的发展继续以其能力让我们感到惊讶。\n\n### 2. 计算机视觉\n\n新的架构正在推动图像识别的可能性边界。\n\n### 3. 医疗应用\n\nAI在医疗诊断和治疗计划方面取得了重大进展。\n\n```python\n# 现代AI代码示例\ndef analyze_image(image):\n    model = load_pretrained_model()\n    return model.predict(image)\n```\n\n![AI技术](https://pbs.twimg.com/media/GdL5gwwWQAAnmaT.jpg)\n\n>未来已来，只是尚未均匀分布。",
+        "createDate": "2024-03-22 01:48:14",
+        "hotValue": 100,
+        "tpostUrl": "https://twitter.com/SayakPaul/status/312172"
+      },
+      {
+        "tpostId": 2,
+        "title": "AI研究突破 - 下一步是什么？",
+        "author": "Andrej Karpathy",
+        "followerCount": "789123",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "探索AI研究的最新突破...",
+        "content": "# AI研究突破\n\n让我们深入了解一些令人兴奋的发展：\n\n1. Transformer架构改进\n2. 高效训练方法\n3. 新的应用领域\n\n## 技术细节\n\n```python\nclass AIModel:\n    def __init__(self):\n        self.transformer = Transformer()\n        \n    def train(self, data):\n        return self.transformer.fit(data)\n```\n\n### 影响\n\n这些突破将显著影响：\n- 行业应用\n- 研究方向\n- 伦理考虑",
+        "createDate": "2024-03-22 03:15:00",
+        "hotValue": 95,
+        "tpostUrl": "https://x.com/RayFernando1337/status/1860824975189434489"
+      }
+    ]
+  },
+  {
+    "eventId": "234331",
+    "title": "新AI硬件发展222",
+    "hotValue": 75,
+    "cover": "https://pbs.twimg.com/media/GUb_oDvXcAAruqY?format=png&name=900x900",
+    "tags": ["硬件", "后训练", "AI", "未来发展", "未来进展", "Ilya Sutku", "sam altman"],
+    "createDate": "2024-03-23 02:21:21",
+    "tposts": [
+      {
+        "tpostId": 31,
+        "title": "革命性AI芯片发布",
+        "author": "Jim Fan",
+        "followerCount": "156789",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "关于下一代AI硬件的重大新闻...",
+        "content": "# 革命性AI芯片\n\n## 性能指标\n- 推理速度提高2倍\n- 功耗降低30%\n- 改进的内存带宽\n\n### 技术规格\n\n```python\ndef benchmark_chip():\n    results = run_tests()\n    return analyze_performance(results)\n```\n\n## 行业影响\n\n这一发展将革新：\n1. 云计算\n2. 边缘设备\n3. 移动应用",
+        "createDate": "2024-03-23 01:10:00",
+        "hotValue": 88,
+        "tpostUrl": "https://twitter.com/DrJimFan/status/312174"
+      }
+    ]
+  },
+  {
+    "eventId": "234322",
+    "title": "AI技术的未来发展333",
+    "hotValue": 85,
+    "cover": "https://pbs.twimg.com/media/GfQrwytXUAENEfk?format=jpg&name=900x900",
+    "tags": ["后训练", "AI", "未来发展", "未来进展", "Ilya Sutku", "sam altman"],
+    "createDate": "2024-03-23 02:21:21",
+    "tposts": [
+      {
+        "tpostId": 12,
+        "title": "AI技术发展的令人振奋的进展 - 全面分析",
+        "author": "Sayak Paul",
+        "followerCount": "23442",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "AI技术的未来引发了热烈讨论...",
+        "content": "# AI技术的未来\n\n## 主要亮点\n\n- 大语言模型的突破\n- 计算机视觉的进展\n- 医疗保健领域的新应用\n\n## 分析\n\nAI领域的最新发展在各个方面都显示出显著的进步。让我们探讨一些关键领域：\n\n### 1. 语言模型\n\n语言模型的发展继续以其能力让我们感到惊讶。\n\n### 2. 计算机视觉\n\n新的架构正在推动图像识别的可能性边界。\n\n### 3. 医疗应用\n\nAI在医疗诊断和治疗计划方面取得了重大进展。\n\n```python\n# 现代AI代码示例\ndef analyze_image(image):\n    model = load_pretrained_model()\n    return model.predict(image)\n```\n\n![AI技术](https://pbs.twimg.com/media/GdL5gwwWQAAnmaT.jpg)\n\n>未来已来，只是尚未均匀分布。",
+        "createDate": "2024-03-22 01:48:14",
+        "hotValue": 100,
+        "tpostUrl": "https://twitter.com/SayakPaul/status/312172"
+      },
+      {
+        "tpostId": 22,
+        "title": "AI研究突破 - 下一步是什么？",
+        "author": "Andrej Karpathy",
+        "followerCount": "789123",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "探索AI研究的最新突破...",
+        "content": "# AI研究突破\n\n让我们深入了解一些令人兴奋的发展：\n\n1. Transformer架构改进\n2. 高效训练方法\n3. 新的应用领域\n\n## 技术细节\n\n```python\nclass AIModel:\n    def __init__(self):\n        self.transformer = Transformer()\n        \n    def train(self, data):\n        return self.transformer.fit(data)\n```\n\n### 影响\n\n这些突破将显著影响：\n- 行业应用\n- 研究方向\n- 伦理考虑",
+        "createDate": "2024-03-22 03:15:00",
+        "hotValue": 95,
+        "tpostUrl": "https://x.com/RayFernando1337/status/1860824975189434489"
+      }
+    ]
+  },
+  {
+    "eventId": "234333",
+    "title": "新AI硬件发展",
+    "hotValue": 75,
+    "cover": "https://pbs.twimg.com/media/GfQtXuDasAMUXZx?format=jpg&name=900x900",
+    "tags": ["硬件2", "技术", "新闻2"],
+    "createDate": "2024-03-23 01:15:00",
+    "tposts": [
+      {
+        "tpostId": 33,
+        "title": "革命性AI芯片发布",
+        "author": "Jim Fan",
+        "followerCount": "156789",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "关于下一代AI硬件的重大新闻...",
+        "content": "# 革命性AI芯片\n\n## 性能指标\n- 推理速度提高2倍\n- 功耗降低30%\n- 改进的内存带宽\n\n### 技术规格\n\n```python\ndef benchmark_chip():\n    results = run_tests()\n    return analyze_performance(results)\n```\n\n## 行业影响\n\n这一发展将革新：\n1. 云计算\n2. 边缘设备\n3. 移动应用",
+        "createDate": "2024-03-23 01:10:00",
+        "hotValue": 88,
+        "tpostUrl": "https://twitter.com/DrJimFan/status/312174"
+      }
+    ]
+  },
+  {
+    "eventId": "2343234",
+    "title": "AI技术的未来发展",
+    "hotValue": 85,
+    "cover": "https://pbs.twimg.com/media/GfQycDAXYAAlYFk?format=jpg&name=small",
+    "tags": ["Claude 3.5", "o3 pro", "vllm", "后训练"],
+    "createDate": "2024-03-23 02:21:21",
+    "tposts": [
+      {
+        "tpostId": 14,
+        "title": "AI技术发展的令人振奋的进展 - 全面分析",
+        "author": "Sayak Paul",
+        "followerCount": "23442",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "AI技术的未来引发了热烈讨论...",
+        "content": "# AI技术的未来\n\n## 主要亮点\n\n- 大语言模型的突破\n- 计算机视觉的进展\n- 医疗保健领域的新应用\n\n## 分析\n\nAI领域的最新发展在各个方面都显示出显著的进步。让我们探讨一些关键领域：\n\n### 1. 语言模型\n\n语言模型的发展继续以其能力让我们感到惊讶。\n\n### 2. 计算机视觉\n\n新的架构正在推动图像识别的可能性边界。\n\n### 3. 医疗应用\n\nAI在医疗诊断和治疗计划方面取得了重大进展。\n\n```python\n# 现代AI代码示例\ndef analyze_image(image):\n    model = load_pretrained_model()\n    return model.predict(image)\n```\n\n![AI技术](https://pbs.twimg.com/media/GdL5gwwWQAAnmaT.jpg)\n\n>未来已来，只是尚未均匀分布。",
+        "createDate": "2024-03-22 01:48:14",
+        "hotValue": 100,
+        "tpostUrl": "https://twitter.com/SayakPaul/status/312172"
+      },
+      {
+        "tpostId": 24,
+        "title": "AI研究突破 - 下一步是什么？",
+        "author": "Andrej Karpathy",
+        "followerCount": "789123",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "探索AI研究的最新突破...",
+        "content": "# AI研究突破\n\n让我们深入了解一些令人兴奋的发展：\n\n1. Transformer架构改进\n2. 高效训练方法\n3. 新的应用领域\n\n## 技术细节\n\n```python\nclass AIModel:\n    def __init__(self):\n        self.transformer = Transformer()\n        \n    def train(self, data):\n        return self.transformer.fit(data)\n```\n\n### 影响\n\n这些突破将显著影响：\n- 行业应用\n- 研究方向\n- 伦理考虑",
+        "createDate": "2024-03-22 03:15:00",
+        "hotValue": 95,
+        "tpostUrl": "https://x.com/RayFernando1337/status/1860824975189434489"
+      }
+    ]
+  },
+  {
+    "eventId": "234335",
+    "title": "新AI硬件发展",
+    "hotValue": 75,
+    "cover": "https://pbs.twimg.com/media/GfUNQKGXAAAzbLk?format=jpg&name=small",
+    "tags": ["硬件", "技术", "新闻"],
+    "createDate": "2024-03-23 01:15:00",
+    "tposts": [
+      {
+        "tpostId": 35,
+        "title": "革命性AI芯片发布",
+        "author": "Jim Fan",
+        "followerCount": "156789",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "关于下一代AI硬件的重大新闻...",
+        "content": "# 革命性AI芯片\n\n## 性能指标\n- 推理速度提高2倍\n- 功耗降低30%\n- 改进的内存带宽\n\n### 技术规格\n\n```python\ndef benchmark_chip():\n    results = run_tests()\n    return analyze_performance(results)\n```\n\n## 行业影响\n\n这一发展将革新：\n1. 云计算\n2. 边缘设备\n3. 移动应用",
+        "createDate": "2024-03-23 01:10:00",
+        "hotValue": 88,
+        "tpostUrl": "https://twitter.com/DrJimFan/status/312174"
+      }
+    ]
+  },
+  {
+    "eventId": "234326",
+    "title": "AI技术的未来发展",
+    "hotValue": 85,
+    "cover": "",
+    "tags": ["Claude", "o1 pro", "vllm", "后训练"],
+    "createDate": "2024-03-23 02:21:21",
+    "tposts": [
+      {
+        "tpostId": 16,
+        "title": "AI技术发展的令人振奋的进展 - 全面分析",
+        "author": "Sayak Paul",
+        "followerCount": "23442",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "AI技术的未来引发了热烈讨论...",
+        "content": "# AI技术的未来\n\n## 主要亮点\n\n- 大语言模型的突破\n- 计算机视觉的进展\n- 医疗保健领域的新应用\n\n## 分析\n\nAI领域的最新发展在各个方面都显示出显著的进步。让我们探讨一些关键领域：\n\n### 1. 语言模型\n\n语言模型的发展继续以其能力让我们感到惊讶。\n\n### 2. 计算机视觉\n\n新的架构正在推动图像识别的可能性边界。\n\n### 3. 医疗应用\n\nAI在医疗诊断和治疗计划方面取得了重大进展。\n\n```python\n# 现代AI代码示例\ndef analyze_image(image):\n    model = load_pretrained_model()\n    return model.predict(image)\n```\n\n![AI技术](https://pbs.twimg.com/media/GdL5gwwWQAAnmaT.jpg)\n\n>未来已来，只是尚未均匀分布。",
+        "createDate": "2024-03-22 01:48:14",
+        "hotValue": 100,
+        "tpostUrl": "https://twitter.com/SayakPaul/status/312172"
+      },
+      {
+        "tpostId": 26,
+        "title": "AI研究突破 - 下一步是什么？",
+        "author": "Andrej Karpathy",
+        "followerCount": "789123",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "探索AI研究的最新突破...",
+        "content": "# AI研究突破\n\n让我们深入了解一些令人兴奋的发展：\n\n1. Transformer架构改进\n2. 高效训练方法\n3. 新的应用领域\n\n## 技术细节\n\n```python\nclass AIModel:\n    def __init__(self):\n        self.transformer = Transformer()\n        \n    def train(self, data):\n        return self.transformer.fit(data)\n```\n\n### 影响\n\n这些突破将显著影响：\n- 行业应用\n- 研究方向\n- 伦理考虑",
+        "createDate": "2024-03-22 03:15:00",
+        "hotValue": 95,
+        "tpostUrl": "https://x.com/RayFernando1337/status/1860824975189434489"
+      }
+    ]
+  },
+  {
+    "eventId": "234337",
+    "title": "新AI硬件发展",
+    "hotValue": 75,
+    "cover": "https://pbs.twimg.com/media/GfQAwlUasAYGoBD?format=png&name=small",
+    "tags": ["硬件", "技术", "新闻"],
+    "createDate": "2024-03-23 01:15:00",
+    "tposts": [
+      {
+        "tpostId": 37,
+        "title": "革命性AI芯片发布",
+        "author": "Jim Fan",
+        "followerCount": "156789",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "关于下一代AI硬件的重大新闻...",
+        "content": "# 革命性AI芯片\n\n## 性能指标\n- 推理速度提高2倍\n- 功耗降低30%\n- 改进的内存带宽\n\n### 技术规格\n\n```python\ndef benchmark_chip():\n    results = run_tests()\n    return analyze_performance(results)\n```\n\n## 行业影响\n\n这一发展将革新：\n1. 云计算\n2. 边缘设备\n3. 移动应用",
+        "createDate": "2024-03-23 01:10:00",
+        "hotValue": 88,
+        "tpostUrl": "https://twitter.com/DrJimFan/status/312174"
+      }
+    ]
+  },
+  {
+    "eventId": "234327",
+    "title": "AI技术的未来发展",
+    "hotValue": 85,
+    "cover": "https://pbs.twimg.com/media/GfTGJ1XbcAA9_ls?format=jpg&name=small",
+    "tags": ["Claude", "o1 pro", "vllm", "后训练"],
+    "createDate": "2024-03-23 02:21:21",
+    "tposts": [
+      {
+        "tpostId": 18,
+        "title": "AI技术发展的令人振奋的进展 - 全面分析",
+        "author": "Sayak Paul",
+        "followerCount": "23442",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "AI技术的未来引发了热烈讨论...",
+        "content": "# AI技术的未来\n\n## 主要亮点\n\n- 大语言模型的突破\n- 计算机视觉的进展\n- 医疗保健领域的新应用\n\n## 分析\n\nAI领域的最新发展在各个方面都显示出显著的进步。让我们探讨一些关键领域：\n\n### 1. 语言模型\n\n语言模型的发展继续以其能力让我们感到惊讶。\n\n### 2. 计算机视觉\n\n新的架构正在推动图像识别的可能性边界。\n\n### 3. 医疗应用\n\nAI在医疗诊断和治疗计划方面取得了重大进展。\n\n```python\n# 现代AI代码示例\ndef analyze_image(image):\n    model = load_pretrained_model()\n    return model.predict(image)\n```\n\n![AI技术](https://pbs.twimg.com/media/GdL5gwwWQAAnmaT.jpg)\n\n>未来已来，只是尚未均匀分布。",
+        "createDate": "2024-03-22 01:48:14",
+        "hotValue": 100,
+        "tpostUrl": "https://twitter.com/SayakPaul/status/312172"
+      },
+      {
+        "tpostId": 28,
+        "title": "AI研究突破 - 下一步是什么？",
+        "author": "Andrej Karpathy",
+        "followerCount": "789123",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "探索AI研究的最新突破...",
+        "content": "# AI研究突破\n\n让我们深入了解一些令人兴奋的发展：\n\n1. Transformer架构改进\n2. 高效训练方法\n3. 新的应用领域\n\n## 技术细节\n\n```python\nclass AIModel:\n    def __init__(self):\n        self.transformer = Transformer()\n        \n    def train(self, data):\n        return self.transformer.fit(data)\n```\n\n### 影响\n\n这些突破将显著影响：\n- 行业应用\n- 研究方向\n- 伦理考虑",
+        "createDate": "2024-03-22 03:15:00",
+        "hotValue": 95,
+        "tpostUrl": "https://x.com/RayFernando1337/status/1860824975189434489"
+      }
+    ]
+  },
+  {
+    "eventId": "234339",
+    "title": "新AI硬件发展",
+    "hotValue": 75,
+    "cover": "https://pbs.twimg.com/media/GfSTAPbWsAAVvPj?format=jpg&name=small",
+    "tags": ["硬件", "技术", "新闻"],
+    "createDate": "2024-03-23 01:15:00",
+    "tposts": [
+      {
+        "tpostId": 39,
+        "title": "革命性AI芯片发布",
+        "author": "Jim Fan",
+        "followerCount": "156789",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "关于下一代AI硬件的重大新闻...",
+        "content": "# 革命性AI芯片\n\n## 性能指标\n- 推理速度提高2倍\n- 功耗降低30%\n- 改进的内存带宽\n\n### 技术规格\n\n```python\ndef benchmark_chip():\n    results = run_tests()\n    return analyze_performance(results)\n```\n\n## 行业影响\n\n这一发展将革新：\n1. 云计算\n2. 边缘设备\n3. 移动应用",
+        "createDate": "2024-03-23 01:10:00",
+        "hotValue": 88,
+        "tpostUrl": "https://twitter.com/DrJimFan/status/312174"
+      }
+    ]
+  },
+  {
+    "eventId": "234320",
+    "title": "AI技术的未来发展",
+    "hotValue": 85,
+    "cover": "https://pbs.twimg.com/media/GfS6ceTbUAA9dk7?format=jpg&name=small",
+    "tags": ["Claude", "o1 pro", "vllm", "后训练"],
+    "createDate": "2024-03-23 02:21:21",
+    "tposts": [
+      {
+        "tpostId": 10,
+        "title": "AI技术发展的令人振奋的进展 - 全面分析",
+        "author": "Sayak Paul",
+        "followerCount": "23442",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "AI技术的未来引发了热烈讨论...",
+        "content": "# AI技术的未来\n\n## 主要亮点\n\n- 大语言模型的突破\n- 计算机视觉的进展\n- 医疗保健领域的新应用\n\n## 分析\n\nAI领域的最新发展在各个方面都显示出显著的进步。让我们探讨一些关键领域：\n\n### 1. 语言模型\n\n语言模型的发展继续以其能力让我们感到惊讶。\n\n### 2. 计算机视觉\n\n新的架构正在推动图像识别的可能性边界。\n\n### 3. 医疗应用\n\nAI在医疗诊断和治疗计划方面取得了重大进展。\n\n```python\n# 现代AI代码示例\ndef analyze_image(image):\n    model = load_pretrained_model()\n    return model.predict(image)\n```\n\n![AI技术](https://pbs.twimg.com/media/GdL5gwwWQAAnmaT.jpg)\n\n>未来已来，只是尚未均匀分布。",
+        "createDate": "2024-03-22 01:48:14",
+        "hotValue": 100,
+        "tpostUrl": "https://twitter.com/SayakPaul/status/312172"
+      },
+      {
+        "tpostId": 20,
+        "title": "AI研究突破 - 下一步是什么？",
+        "author": "Andrej Karpathy",
+        "followerCount": "789123",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "探索AI研究的最新突破...",
+        "content": "# AI研究突破\n\n让我们深入了解一些令人兴奋的发展：\n\n1. Transformer架构改进\n2. 高效训练方法\n3. 新的应用领域\n\n## 技术细节\n\n```python\nclass AIModel:\n    def __init__(self):\n        self.transformer = Transformer()\n        \n    def train(self, data):\n        return self.transformer.fit(data)\n```\n\n### 影响\n\n这些突破将显著影响：\n- 行业应用\n- 研究方向\n- 伦理考虑",
+        "createDate": "2024-03-22 03:15:00",
+        "hotValue": 95,
+        "tpostUrl": "https://x.com/RayFernando1337/status/1860824975189434489"
+      }
+    ]
+  },
+  {
+    "eventId": "123433",
+    "title": "新AI硬件发展",
+    "hotValue": 75,
+    "cover": "https://pbs.twimg.com/media/GfUmFGsagAAf5i2?format=jpg&name=small",
+    "tags": ["硬件", "技术", "新闻"],
+    "createDate": "2024-03-23 01:15:00",
+    "tposts": [
+      {
+        "tpostId": 113,
+        "title": "革命性AI芯片发布",
+        "author": "Jim Fan",
+        "followerCount": "156789",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "关于下一代AI硬件的重大新闻...",
+        "content": "# 革命性AI芯片\n\n## 性能指标\n- 推理速度提高2倍\n- 功耗降低30%\n- 改进的内存带宽\n\n### 技术规格\n\n```python\ndef benchmark_chip():\n    results = run_tests()\n    return analyze_performance(results)\n```\n\n## 行业影响\n\n这一发展将革新：\n1. 云计算\n2. 边缘设备\n3. 移动应用",
+        "createDate": "2024-03-23 01:10:00",
+        "hotValue": 88,
+        "tpostUrl": "https://twitter.com/DrJimFan/status/312174"
+      }
+    ]
+  },
+  {
+    "eventId": "2223432",
+    "title": "AI技术的未来发展",
+    "hotValue": 85,
+    "cover": "https://pbs.twimg.com/media/GfSoT_1WkAAZOgO?format=jpg&name=small",
+    "tags": ["Claude", "o1 pro", "vllm", "后训练"],
+    "createDate": "2024-03-23 02:21:21",
+    "tposts": [
+      {
+        "tpostId": 221,
+        "title": "AI技术发展的令人振奋的进展 - 全面分析",
+        "author": "Sayak Paul",
+        "followerCount": "23442",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "AI技术的未来引发了热烈讨论...",
+        "content": "# AI技术的未来\n\n## 主要亮点\n\n- 大语言模型的突破\n- 计算机视觉的进展\n- 医疗保健领域的新应用\n\n## 分析\n\nAI领域的最新发展在各个方面都显示出显著的进步。让我们探讨一些关键领域：\n\n### 1. 语言模型\n\n语言模型的发展继续以其能力让我们感到惊讶。\n\n### 2. 计算机视觉\n\n新的架构正在推动图像识别的可能性边界。\n\n### 3. 医疗应用\n\nAI在医疗诊断和治疗计划方面取得了重大进展。\n\n```python\n# 现代AI代码示例\ndef analyze_image(image):\n    model = load_pretrained_model()\n    return model.predict(image)\n```\n\n![AI技术](https://pbs.twimg.com/media/GdL5gwwWQAAnmaT.jpg)\n\n>未来已来，只是尚未均匀分布。",
+        "createDate": "2024-03-22 01:48:14",
+        "hotValue": 100,
+        "tpostUrl": "https://twitter.com/SayakPaul/status/312172"
+      },
+      {
+        "tpostId": 222,
+        "title": "AI研究突破 - 下一步是什么？",
+        "author": "Andrej Karpathy",
+        "followerCount": "789123",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "探索AI研究的最新突破...",
+        "content": "# AI研究突破\n\n让我们深入了解一些令人兴奋的发展：\n\n1. Transformer架构改进\n2. 高效训练方法\n3. 新的应用领域\n\n## 技术细节\n\n```python\nclass AIModel:\n    def __init__(self):\n        self.transformer = Transformer()\n        \n    def train(self, data):\n        return self.transformer.fit(data)\n```\n\n### 影响\n\n这些突破将显著影响：\n- 行业应用\n- 研究方向\n- 伦理考虑",
+        "createDate": "2024-03-22 03:15:00",
+        "hotValue": 95,
+        "tpostUrl": "https://x.com/RayFernando1337/status/1860824975189434489"
+      }
+    ]
+  },
+  {
+    "eventId": "3323433",
+    "title": "新AI硬件发展",
+    "hotValue": 75,
+    "cover": "https://pbs.twimg.com/media/GfRZJCIakAAZr2u?format=jpg&name=small",
+    "tags": ["硬件", "技术", "新闻"],
+    "createDate": "2024-03-23 01:15:00",
+    "tposts": [
+      {
+        "tpostId": 333,
+        "title": "革命性AI芯片发布",
+        "author": "Jim Fan",
+        "followerCount": "156789",
+        "avatar": "https://pbs.twimg.com/profile_images/1333449867474120704/4NImokbV_400x400.png",
+        "desc": "关于下一代AI硬件的重大新闻...",
+        "content": "# 革命性AI芯片\n\n## 性能指标\n- 推理速度提高2倍\n- 功耗降低30%\n- 改进的内存带宽\n\n### 技术规格\n\n```python\ndef benchmark_chip():\n    results = run_tests()\n    return analyze_performance(results)\n```\n\n## 行业影响\n\n这一发展将革新：\n1. 云计算\n2. 边缘设备\n3. 移动应用",
+        "createDate": "2024-03-23 01:10:00",
+        "hotValue": 88,
+        "tpostUrl": "https://twitter.com/DrJimFan/status/312174"
+      }
+    ]
+  }
+]
