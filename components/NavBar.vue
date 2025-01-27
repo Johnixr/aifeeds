@@ -1,11 +1,11 @@
 <template>
-  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200/50">
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200/50 dark:border-gray-700/50">
     <div class="container mx-auto px-4">
       <div class="flex items-center h-16">
         <!-- 左侧品牌 -->
         <NuxtLink 
           to="/" 
-          class="flex items-center text-base sm:text-lg md:text-xl font-bold text-gray-900 hover:text-primary transition-colors whitespace-nowrap shrink-0"
+          class="flex items-center text-base sm:text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100 hover:text-primary transition-colors whitespace-nowrap shrink-0"
         >
           <span>AGI Hunt</span>
         </NuxtLink>
@@ -19,10 +19,10 @@
 
         <div class="flex items-center space-x-4">
           <!-- 排序切换按钮 -->
-          <div class="flex h-7 sm:h-8 text-xs sm:text-sm font-medium bg-gray-100 rounded-md overflow-hidden ring-1 ring-gray-200">
+          <div class="flex h-7 sm:h-8 text-xs sm:text-sm font-medium bg-gray-100 dark:bg-gray-800 rounded-md overflow-hidden ring-1 ring-gray-200 dark:ring-gray-700">
             <button
               class="px-3 sm:px-4 transition-colors duration-200 ease-out relative min-w-[2.5rem] sm:min-w-[3rem] font-semibold"
-              :class="!sortStore.sortByHot ? 'bg-primary-500 text-white' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'"
+              :class="!sortStore.sortByHot ? 'bg-primary-500 text-white' : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700'"
               @click="sortStore.sortByHot = false"
             >
               新
@@ -30,7 +30,7 @@
             <div class="w-px bg-gray-200"></div>
             <button
               class="px-3 sm:px-4 transition-colors duration-200 ease-out relative min-w-[2.5rem] sm:min-w-[3rem] font-semibold"
-              :class="sortStore.sortByHot ? 'bg-rose-500 text-white' : 'text-gray-600 hover:text-rose-600 hover:bg-rose-50'"
+              :class="sortStore.sortByHot ? 'bg-rose-500 text-white' : 'text-gray-600 dark:text-gray-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/30'"
               @click="sortStore.sortByHot = true"
             >
               热
@@ -98,18 +98,18 @@
             <!-- 用户菜单 -->
             <div
               v-if="showUserMenu"
-              class="absolute right-0 mt-2 w-56 bg-white rounded-xl shadow-lg py-1 border"
+              class="absolute right-0 mt-2 w-56 bg-white dark:bg-gray-800 rounded-xl shadow-lg py-1 border dark:border-gray-700"
               @click.stop
             >
               <div class="px-4 py-3 border-b">
                 <div 
                   @click="!userStore.isVip && handleSubscribe()"
-                  class="cursor-pointer hover:bg-gray-50 -mx-4 px-4 py-2 rounded-lg transition-colors"
+                  class="cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700 -mx-4 px-4 py-2 rounded-lg transition-colors"
                 >
-                  <div class="text-sm font-medium text-gray-900">
+                  <div class="text-sm font-medium text-gray-900 dark:text-gray-100">
                     {{ userStore.isVip ? '已订阅' : '待订阅' }}
                   </div>
-                  <div class="text-sm text-gray-500">
+                  <div class="text-sm text-gray-500 dark:text-gray-400">
                     {{ userStore.isVip ? `VIP过期时间：${formatDate(userStore.vipExpire)}` : '现在开始订阅' }}
                   </div>
                 </div>
@@ -120,7 +120,7 @@
                   <a
                     @mouseenter="handleContactHover(true)"
                     @mouseleave="handleContactHover(false)"
-                    class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 cursor-pointer"
+                    class="flex items-center px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer"
                   >
                     <span class="w-5 h-5 mr-3 text-gray-400 flex items-center justify-center">💬</span>
                     联系我

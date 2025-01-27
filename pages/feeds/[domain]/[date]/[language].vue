@@ -17,7 +17,7 @@
                 class="shrink-0 px-2.5 sm:px-4 h-6 sm:h-8 rounded-full text-xs sm:text-sm font-medium whitespace-nowrap transition-colors duration-200 flex items-center gap-0.5 sm:gap-1 relative z-10"
                 :class="{
                   'text-white': selectedPrimaryTag === tag.name,
-                  'text-gray-600 hover:text-gray-900 bg-white/80 hover:bg-gray-50/80': selectedPrimaryTag !== tag.name
+                  'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 bg-white/80 dark:bg-gray-800/80 hover:bg-gray-50/80 dark:hover:bg-gray-700/80': selectedPrimaryTag !== tag.name
                 }"
                 @click="handlePrimaryTagClick(tag.name)"
               >
@@ -56,7 +56,7 @@
                   :class="{
                     'text-primary-600 border-transparent z-20': selectedSecondaryTag === tag.name && showSecondarySlider,
                     'text-primary-600 border-primary-100 bg-primary-50 shadow-sm': selectedSecondaryTag === tag.name && !showSecondarySlider,
-                    'bg-white/80 text-gray-500 hover:bg-gray-50/80 hover:text-gray-700 border border-gray-200/70': selectedSecondaryTag !== tag.name
+                    'bg-white/80 dark:bg-transparent text-gray-500 dark:text-gray-400 hover:bg-gray-50/80 dark:hover:bg-gray-700/80 hover:text-gray-700 dark:hover:text-gray-300 border border-gray-200/70 dark:border-gray-600/70': selectedSecondaryTag !== tag.name
                   }"
                   @click="handleSecondaryTagClick(tag.name)"
                 >
@@ -113,7 +113,7 @@
                   <span 
                     v-for="tag in event.tags" 
                     :key="tag"
-                    class="px-1 py-[1px] text-[9px] leading-[14px] rounded-full bg-gray-50/80 dark:bg-gray-700 text-gray-500 dark:text-gray-300 border border-gray-100/70 dark:border-gray-600"
+                    class="px-1 py-[1px] text-[9px] leading-[14px] rounded-full bg-gray-50/80 dark:bg-transparent text-gray-500 dark:text-gray-300 border border-gray-100/70 dark:border-gray-600"
                   >
                     {{ tag }}
                   </span>
