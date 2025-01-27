@@ -1,20 +1,18 @@
 // Theme detection plugin that runs on client-side
 export default defineNuxtPlugin(() => {
   if (process.client) {
-    // Create a debug logging function that both logs to console and sends to our debug endpoint
-    const debugLog = async (msg: string) => {
+    // Create a debug logging function that logs to both console and localStorage
+    const debugLog = (msg: string) => {
       console.log(msg);
       try {
-        await fetch('/log', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            timestamp: new Date().toISOString(),
-            message: msg
-          })
+        const logs = JSON.parse(localStorage.getItem('theme_debug_logs') || '[]');
+        logs.push({
+          timestamp: new Date().toISOString(),
+          message: msg
         });
+        localStorage.setItem('theme_debug_logs', JSON.stringify(logs));
       } catch (e) {
-        console.error('[theme.client] Failed to send log:', e);
+        console.error('[theme.client] Failed to write to localStorage:', e);
       }
     };
 
