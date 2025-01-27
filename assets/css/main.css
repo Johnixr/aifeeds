@@ -37,7 +37,6 @@
   }
   
   body {
-    @apply bg-surface-50 text-surface-900;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
 }

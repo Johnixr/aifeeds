@@ -29,6 +29,22 @@ const router = useRouter()
 const route = useRoute()
 
 onMounted(() => {
+  // Theme detection
+  const updateTheme = () => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.setAttribute("data-theme", "dark")
+    } else {
+      document.documentElement.setAttribute("data-theme", "light")
+    }
+  }
+  
+  // Initial theme check
+  updateTheme()
+
+  // Watch for system theme changes
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateTheme)
+
+  // Route handling
   if (route.path === '/') {
     const today = new Date().toISOString().split('T')[0]
     const userLang = navigator.language.toLowerCase()
