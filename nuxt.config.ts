@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
   plugins: [
-    '~/plugins/auth'
+    '~/plugins/auth',
+    '~/plugins/theme.client'
   ],
   css: [
     '~/assets/css/main.css',
